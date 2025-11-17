@@ -4,4 +4,4 @@ https://www.kaggle.com/datasets/marcogtt/italian-gastronomich-recipes-dataset
 papers:
 https://dl.acm.org/doi/pdf/10.1145/3626772.3657834
 https://arxiv.org/pdf/2410.05983
-
+https://dl.acm.org/doi/pdf/10.1145/3726302.3731690
