@@ -1,5 +1,7 @@
 data:
 https://www.kaggle.com/datasets/marcogtt/italian-gastronomich-recipes-dataset
+https://www.kaggle.com/datasets/wafaaelhusseini/extended-recipes-dataset-64k-dishes
+
 
 papers:
 https://dl.acm.org/doi/pdf/10.1145/3626772.3657834
