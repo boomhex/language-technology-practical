@@ -1,0 +1,4 @@
+{
+    name: Easter Bavarian Cream with Pistachio and Raspberries
+    url: https://www.giallozafferano.com/recipes/easter-bavarian-cream-with-pistachio-and-raspberries.html
+}

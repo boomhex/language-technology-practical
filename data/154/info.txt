@@ -1,0 +1,4 @@
+{
+    name: Fusilloni with black cabbage cream
+    url: https://www.giallozafferano.com/recipes/fusilloni-with-black-cabbage-cream.html
+}

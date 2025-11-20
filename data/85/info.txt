@@ -1,0 +1,4 @@
+{
+    name: Smash burger
+    url: https://www.giallozafferano.com/recipes/smash-burger.html
+}

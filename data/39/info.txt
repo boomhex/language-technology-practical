@@ -1,0 +1,4 @@
+{
+    name: Sichuan Pepper Beef
+    url: https://www.giallozafferano.com/recipes/sichuan-pepper-beef.html
+}

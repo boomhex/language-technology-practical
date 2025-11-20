@@ -1,0 +1,4 @@
+{
+    name: Vareniki with cherries
+    url: https://www.giallozafferano.com/recipes/vareniki-with-cherries.html
+}

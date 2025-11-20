@@ -1,0 +1,4 @@
+{
+    name: Scallop carpaccio with citrus
+    url: https://www.giallozafferano.com/recipes/scallop-carpaccio-with-citrus.html
+}

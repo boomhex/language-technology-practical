@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 import requests
-from pageinfo import PageInfo
+from .pageinfo import PageInfo
 from bs4 import BeautifulSoup
 
 class Scraper(ABC):
@@ -10,7 +10,7 @@ class Scraper(ABC):
         response.raise_for_status()
         return response
 
-    def scrape(self, url: str) -> str:
+    def scrape(self, url: str) -> PageInfo:
         response = Scraper.get(url)             # retrieve page request
         page_info = self.order(response.text)   # format info
         page_info.url = url                     # add url to info

@@ -1,0 +1,4 @@
+{
+    name: Green bean, potato, and stracchino bake
+    url: https://www.giallozafferano.com/recipes/green-bean-potato-and-stracchino-bake.html
+}

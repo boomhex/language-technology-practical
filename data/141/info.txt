@@ -1,0 +1,4 @@
+{
+    name: Wild boar stew
+    url: https://www.giallozafferano.com/recipes/wild-boar-stew.html
+}

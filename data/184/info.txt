@@ -1,0 +1,4 @@
+{
+    name: Breaded chicken breast with breadsticks
+    url: https://www.giallozafferano.com/recipes/breaded-chicken-breast-with-breadsticks.html
+}

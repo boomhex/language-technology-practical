@@ -1,0 +1,4 @@
+{
+    name: Vegan dove cake
+    url: https://www.giallozafferano.com/recipes/vegan-dove-cake.html
+}

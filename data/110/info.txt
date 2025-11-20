@@ -1,0 +1,4 @@
+{
+    name: Pumpkin cream with curry and coconut milk
+    url: https://www.giallozafferano.com/recipes/pumpkin-cream-with-curry-and-coconut-milk.html
+}

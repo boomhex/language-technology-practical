@@ -1,0 +1,4 @@
+{
+    name: Cauliflower Fritters
+    url: https://www.giallozafferano.com/recipes/cauliflower-fritters.html
+}

@@ -1,35 +1,83 @@
-from scraper.scraper import RecipeScraper
-
+from scraper.recipeScraper import RecipeScraper
+from scraper.scraperABC import Scraper
+from scraper.pageinfo import PageInfo
 from pathlib import Path
 
-def remove_ws(string: str):
-    return string.replace(' ', '')
+def remove_newline(line: str):
+    return line.replace("\n", "")
 
-class Bot:
-    def __init__(self, scraper: RecipeScraper) -> None:
+def line(text: str):
+    return text + '\n'
+
+def tab():
+    return "    "
+
+class CrawlBot:
+    def __init__(self, scraper: Scraper, url_file: Path, dest_folder: Path) -> None:
         self.scraper = scraper
+        self.url_file = url_file
+        self.dest_dir = dest_folder
 
-    def scrape(self,
-               links: list[str],
-               output_dir: Path,
-               log: Path) -> None:
-        # visit and scrape links
-        for url in links:
-            try:
-                info = self.scraper.scrape(url)
-                self.save_info(info, output_dir)
-            except Exception as exception:
-                self.write_error_log(exception, log)
+    def crawl(self) -> None:
+        url_list = CrawlBot.urls(self.url_file)     # convert file to list
+        self.visit(url_list)
 
-    def write_error_log(error: Exception, log: Path):
-        with open(log, 'w') as file:
-            file.write(f"[ERROR] : {error}")
+    @staticmethod
+    def urls(fp: Path) -> list:
+        urls = []
+        with open(fp, 'r') as file:
+            lines = file.readlines()
+            for line in lines:
+                line = remove_newline(line)
+                urls.append(line)
+        return urls
 
-    def save_info(info: str, dest: Path):
-        if not Path.exists(dest):   # create path if not existing
-            Path.mkdir(dest)
-        
-        dest_recipe = dest + "/" + info.name
-        if not Path.exists(dest_recipe):
-            pass
-    
+    def visit(self, urls: list[str]) -> None:
+        for url in urls:        # scrape and save
+            page_info = self.scraper.scrape(url)
+            self.save_page(page_info)
+
+    def save_page(self, page: PageInfo) -> None:
+        dest = CrawlBot.make_dirs(self.dest_dir)    # make new directory
+        CrawlBot.create_info_file(page, dest)
+        CrawlBot.create_datafile(page, dest)
+
+    def create_info_file(page: PageInfo, dest: Path) -> None:
+        dest = dest.joinpath("info.txt")
+        dest.touch()
+        with open(dest, 'w') as file:
+            text = line("{") + \
+            tab() + line(f"name: {page.ident}") + \
+            tab() + line(f"url: {page.url}") + \
+            line("}")
+
+            file.write(text)
+
+    @staticmethod
+    def create_datafile(page: PageInfo, dest: Path) -> None:
+        dest = dest.joinpath("data.txt")
+        dest.touch()
+        with open(dest, 'w') as file:
+            text = str(page)
+            file.write(text)
+
+    @staticmethod
+    def make_dirs(dest_dir) -> Path:
+        if not Path.exists(dest_dir):
+            Path.mkdir(dest_dir)
+
+        max_dest = CrawlBot.n_thfolder(dest_dir)
+        print(max_dest)
+        dest = Path(dest_dir, max_dest)
+        Path.mkdir(dest)
+        return dest
+
+    @staticmethod
+    def n_thfolder(dir: Path) -> str:
+        return str(len([f.name for f in dir.iterdir()]))
+
+scraper = RecipeScraper()
+path = Path("getRecipes/recipes.txt")
+dest = Path("data/")
+bot = CrawlBot(scraper, path, dest)
+bot.crawl()

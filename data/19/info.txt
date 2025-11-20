@@ -1,0 +1,4 @@
+{
+    name: Vegetable Burger
+    url: https://www.giallozafferano.com/recipes/vegetable-burger.html
+}

@@ -1,0 +1,4 @@
+{
+    name: Tofu with peppers
+    url: https://www.giallozafferano.com/recipes/tofu-with-peppers.html
+}

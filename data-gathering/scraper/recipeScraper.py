@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
-from scraperABC import Scraper
-from pageinfo import PageInfo
+from .scraperABC import Scraper
+from .pageinfo import PageInfo
 
 def normalize_ws(string: str):
     string = string.replace('\n', '')
@@ -60,8 +60,10 @@ class RecipeScraper(Scraper):
     def remove_dup(self, some_list: list):
         return list(dict.fromkeys(some_list))
 
-scraper = RecipeScraper()
 
-sc = scraper.scrape("https://www.giallozafferano.com/recipes/baked-pasta-with-zucchini-cream.html")
+if __name__ == "__main__":
+    scraper = RecipeScraper()
 
-print(sc)
+    sc = scraper.scrape("https://www.giallozafferano.com/recipes/baked-pasta-with-zucchini-cream.html")
+
+    print(sc)

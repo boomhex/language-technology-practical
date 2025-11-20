@@ -1,0 +1,4 @@
+{
+    name: Chicken Salad
+    url: https://www.giallozafferano.com/recipes/chicken-salad.html
+}

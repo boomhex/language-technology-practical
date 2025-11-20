@@ -1,0 +1,4 @@
+{
+    name: Fregola with seafood
+    url: https://www.giallozafferano.com/recipes/fregola-with-seafood.html
+}

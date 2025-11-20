@@ -1,0 +1,4 @@
+{
+    name: Baked Squid
+    url: https://www.giallozafferano.com/recipes/baked-squid.html
+}

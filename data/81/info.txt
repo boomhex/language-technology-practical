@@ -1,0 +1,4 @@
+{
+    name: Banana waffles
+    url: https://www.giallozafferano.com/recipes/banana-waffles.html
+}

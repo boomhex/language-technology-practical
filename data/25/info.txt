@@ -1,0 +1,4 @@
+{
+    name: Vatrushka
+    url: https://www.giallozafferano.com/recipes/vatrushka.html
+}

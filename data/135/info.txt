@@ -1,0 +1,4 @@
+{
+    name: Canned pasta and beans
+    url: https://www.giallozafferano.com/recipes/canned-pasta-and-beans.html
+}

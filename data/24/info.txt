@@ -1,0 +1,4 @@
+{
+    name: Gratinated Sea Bass Fillets
+    url: https://www.giallozafferano.com/recipes/gratinated-sea-bass-fillets.html
+}

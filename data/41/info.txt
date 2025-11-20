@@ -1,0 +1,4 @@
+{
+    name: Stockfish and potatoes stew
+    url: https://www.giallozafferano.com/recipes/stockfish-and-potatoes-stew.html
+}

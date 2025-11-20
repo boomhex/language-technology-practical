@@ -1,0 +1,4 @@
+{
+    name: Farinata of Agretti
+    url: https://www.giallozafferano.com/recipes/farinata-of-agretti.html
+}
