@@ -1,6 +1,6 @@
 name:
 Crostino with Marinated Anchovies
-text:
+ingredients:
 Anchovies: 8.8oz(250 g)- already cleaned and frozen
 Burrata cheese: 1cup(300 g)
 Baguette: 1

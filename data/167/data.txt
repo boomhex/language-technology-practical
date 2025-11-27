@@ -1,6 +1,6 @@
 name:
 Sarmale
-text:
+ingredients:
 Verza (savoy cabbage): 1- large
 Tomato purée: 1 ½cup(350 g)
 Smoked pancetta: 6.7oz(190 g)

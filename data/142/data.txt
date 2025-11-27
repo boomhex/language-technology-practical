@@ -1,6 +1,6 @@
 name:
 Salmon Canapés
-text:
+ingredients:
 Smoked Salmon: 8.8oz(250 g)- sliced
 Sandwich bread: 2slices- (140 g)
 Cream cheese: 1 ½cup(350 g)

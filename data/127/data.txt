@@ -1,6 +1,6 @@
 name:
 Baked Squid
-text:
+ingredients:
 Squid: 14.1oz(400 g)- already cleaned
 Breadcrumbs: ¾cup(100 g)
 Panko: 2cups(100 g)

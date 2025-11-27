@@ -1,6 +1,6 @@
 name:
 Fried Corn on the Cob
-text:
+ingredients:
 Precooked corn on the cob: 4
 Type 00 flour: 0.8cup(100 g)
 Eggs: 7.8oz(220 g)- (4 medium)

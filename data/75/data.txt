@@ -1,6 +1,6 @@
 name:
 Beetroot Culurgiones with Potatoes and Blue Cheese Sauce
-text:
+ingredients:
 Remilled durum wheat semolina: 1 ½cup(320 g)
 Precooked beets: ½cup(120 g)
 Water: 5tbsp(80 g)

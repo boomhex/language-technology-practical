@@ -1,6 +1,6 @@
 name:
 Vegan dove cake
-text:
+ingredients:
 Type 00 flour: 2.3cups(300 g)
 Potato starch: ½cup(75 g)
 Sugar: ⅓cup(75 g)

@@ -1,6 +1,6 @@
 name:
 Sea bass fillet with cherry tomatoes
-text:
+ingredients:
 Sea bass (sea bass): 1.8lbs(800 g)- (to clean)
 Datterino tomatoes: 1.7cups(300 g)
 Garlic: 2cloves

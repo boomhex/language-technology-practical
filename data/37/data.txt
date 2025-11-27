@@ -1,6 +1,6 @@
 name:
 Carrots in Air Fryer
-text:
+ingredients:
 Carrots: 2.1cups(500 g)
 Rosemary: 1sprig
 Sage: 2leaves

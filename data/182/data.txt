@@ -1,6 +1,6 @@
 name:
 Lemon pie
-text:
+ingredients:
 Type 00 flour: 1.6cups(200 g)
 Butter: 7tbsp(100 g)
 Sugar: ½cup(100 g)

@@ -1,6 +1,6 @@
 name:
 Blue Crab Risotto
-text:
+ingredients:
 Carnaroli rice: 1cup(180 g)
 Blue crab: 2- large
 Citron: 1- grated zest

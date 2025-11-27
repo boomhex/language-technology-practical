@@ -1,6 +1,6 @@
 name:
 Braised Fennel on Cannellini Bean Cream
-text:
+ingredients:
 Fennel: 1.75lbs(800 g)- (to be cleaned)
 Precooked Cannellini beans: 2 ½cups(500 g)- (drained weight)
 Orange juice: 4

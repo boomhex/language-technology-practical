@@ -1,6 +1,6 @@
 name:
 Sichuan Pepper Beef
-text:
+ingredients:
 Beef filet: 1.25lbs(600 g)
 White onions: 1
 Green peppers: 1

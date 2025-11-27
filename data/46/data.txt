@@ -1,6 +1,6 @@
 name:
 Easter Bavarian Cream with Pistachio and Raspberries
-text:
+ingredients:
 Milk: 1cup(250 g)
 Pistachio paste: ⅓cup(75 g)
 Egg yolks: 4 ¼tbsp(60 g)- (about 3 medium)

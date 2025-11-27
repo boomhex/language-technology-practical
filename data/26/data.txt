@@ -1,6 +1,6 @@
 name:
 Black Forest Zuccotto
-text:
+ingredients:
 Egg whites: 1.3cups(300 g)- (about 8 large)
 Egg yolks: 5.3oz(150 g)- (approximately 8 large)
 Sugar: 1cup(200 g)

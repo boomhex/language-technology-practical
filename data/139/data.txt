@@ -1,6 +1,6 @@
 name:
 Risotto with turnip tops, anchovies, and garlic sauce
-text:
+ingredients:
 Rice: 1 ½cup(320 g)
 Broccoli rabe: 1lb(450 g)
 Butter: 3 ½tbsp(50 g)

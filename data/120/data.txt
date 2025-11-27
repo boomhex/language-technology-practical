@@ -1,6 +1,6 @@
 name:
 Christmas savory pie
-text:
+ingredients:
 Puff pastry: 1lb(460 g)- round
 Spinach: 3 ½cups(100 g)
 Cow's milk ricotta cheese: 2spoonfuls

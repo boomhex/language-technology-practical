@@ -1,6 +1,6 @@
 name:
 Apple Puff Pastry Squares
-text:
+ingredients:
 Rennet apple: 4
 Sugar: ¾cup(150 g)
 Lime: 1- zest and juice

@@ -1,6 +1,6 @@
 name:
 Spaghetti with lemon pesto and clams
-text:
+ingredients:
 Spaghetti: 11.3oz(320 g)
 Clams: 2.2lbs(1 kg)
 Extra virgin olive oil: to taste

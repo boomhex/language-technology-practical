@@ -1,6 +1,6 @@
 name:
 Chicken rolls in a pan
-text:
+ingredients:
 Chicken breast: 1.1lbs(500 g)- 8 slices
 Prosciutto cotto: 4.25oz(120 g)- 8 slices
 Scamorza (provola) cheese: 4.25oz(120 g)

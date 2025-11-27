@@ -1,6 +1,6 @@
 name:
 Ciaramicola
-text:
+ingredients:
 Type 00 flour: 4 ¼cups(500 g)
 Eggs: 7.8oz(220 g)- at room temperature (about 4 medium)
 Sugar: 1 ¼cup(250 g)

@@ -1,6 +1,6 @@
 name:
 Orange and lemon marmalade
-text:
+ingredients:
 Oranges: 2.2lbs(1 kg)- organic
 Lemons: 2.2lbs(1 kg)- organic
 Sugar: 2 ½cups(500 g)

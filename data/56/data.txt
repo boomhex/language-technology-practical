@@ -1,6 +1,6 @@
 name:
 White Vegetarian Lasagna
-text:
+ingredients:
 Type 00 flour: 1.6cups(200 g)
 Eggs: 2- medium
 Whole milk: 4 ¼cups(1 l)

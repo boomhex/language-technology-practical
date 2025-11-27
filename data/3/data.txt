@@ -1,6 +1,6 @@
 name:
 Cake with Greek Yogurt
-text:
+ingredients:
 Greek yogurt: 0.8cup(200 g)
 Eggs: 3
 Type 00 flour: 1.8cups(225 g)

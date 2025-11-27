@@ -1,6 +1,6 @@
 name:
 Steamed Bao with Wagyu Ribs
-text:
+ingredients:
 Beef: 2.2lbs(1 kg)- wagyu ribs
 White onions: 1
 Carrots: 1

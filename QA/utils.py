@@ -2,6 +2,7 @@ from pathlib import Path
 import re
 import string
 from collections import Counter
+import json
 
 def read_file(fp: Path) -> str:
     text = ""
@@ -9,6 +10,12 @@ def read_file(fp: Path) -> str:
         text = file.read()
     return text
 
+def max_over_ground_truths(metric_fn, prediction: str, ground_truths):
+    """
+    If there are multiple ground truth answers,
+    we take the maximum score over them.
+    """
+    return max(metric_fn(prediction, gt) for gt in ground_truths)
 
 def normalize_answer(s: str) -> str:
     """
@@ -58,9 +65,15 @@ def compute_f1(prediction: str, ground_truth: str) -> float:
     recall = num_same / len(truth_tokens)
     return 2 * precision * recall / (precision + recall)
 
+def load_questions(fp: Path):
+    with open(fp, 'r') as file:
+        questions = json.load(file)
+    return questions
 
 
 if __name__ == "__main__":
     fp = Path("./../data/0/data.txt")
     text = read_file(fp)
     print(text)
+
+

@@ -1,6 +1,6 @@
 name:
 Savory Pastiera
-text:
+ingredients:
 Type 00 flour: 3.67cups(450 g)
 Butter: 1cup(220 g)
 Sugar: 0.3cup(60 g)

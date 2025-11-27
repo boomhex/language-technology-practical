@@ -1,6 +1,6 @@
 name:
 Seafood Panzanella
-text:
+ingredients:
 Stale bread: 5cups(300 g)
 Calamari (squid): 7.1oz(200 g)- (to clean)
 Shrimps: 7oz(200 g)- (to clean)

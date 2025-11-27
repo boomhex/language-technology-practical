@@ -1,6 +1,6 @@
 name:
 Crostini with Creamed Salt Cod
-text:
+ingredients:
 Desalted cod: 10.6oz(300 g)
 Extra virgin olive oil: 6.9tbsp(100 g)
 Salt: to taste

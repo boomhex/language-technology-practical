@@ -1,6 +1,6 @@
 name:
 Quick chocolate cake
-text:
+ingredients:
 Type 00 flour: 1 ¾cup(220 g)
 Unsweetened cocoa powder: 8 ½tbsp(50 g)
 Sugar: 0.8cup(160 g)

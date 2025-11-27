@@ -1,6 +1,6 @@
 name:
 Pistachio Semifreddo
-text:
+ingredients:
 Whole milk: ½cup(120 g)
 Fresh liquid cream: 2tbsp(30 g)
 Sugar: 3tbsp(35 g)

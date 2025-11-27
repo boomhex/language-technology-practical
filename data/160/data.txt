@@ -1,6 +1,6 @@
 name:
 Sautéed Champignon Mushrooms
-text:
+ingredients:
 Champignon mushrooms: 2.2lbs(1 kg)
 Garlic: 1clove
 Parsley: to taste

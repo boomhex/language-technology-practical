@@ -1,6 +1,6 @@
 name:
 Marinated croaker
-text:
+ingredients:
 Croaker: 1fillet- chilled
 Lemons: 1
 Lime peel: 1

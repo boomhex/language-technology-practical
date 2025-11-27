@@ -1,6 +1,6 @@
 name:
 Neapolitan savory zeppole
-text:
+ingredients:
 Type 00 flour: 1.6cups(200 g)
 Seaweed: 1.4oz(40 g)- sea lettuce
 Sparkling water: 200- cold

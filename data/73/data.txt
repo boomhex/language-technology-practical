@@ -1,6 +1,6 @@
 name:
 Farinata of Agretti
-text:
+ingredients:
 Chickpea flour: ¾cup(100 g)
 Water: 1 ¼cup(300 g)
 Friar's beard (agretti): 0.7lb(300 g)- to clean

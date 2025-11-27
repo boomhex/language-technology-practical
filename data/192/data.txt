@@ -1,6 +1,6 @@
 name:
 Calabrian Stroncatura with Cherry Tomatoes and Anchovies
-text:
+ingredients:
 Stroncatura: 11.3oz(320 g)
 Cherry tomatoes: 4cups(600 g)
 Anchovies: 10- in oil

@@ -1,6 +1,6 @@
 name:
 Sole roulade with cauliflower cream
-text:
+ingredients:
 Sole: 1.3lbs(600 g)- fillets
 Fine salt: to taste
 Cauliflower: 1.1lbs(500 g)- (to clean)

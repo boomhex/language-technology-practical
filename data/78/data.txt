@@ -1,6 +1,6 @@
 name:
 Pasta with sausage and black cabbage
-text:
+ingredients:
 Mezze Maniche Rigate pasta: 11.3oz(320 g)
 Sausage: 10.6oz(300 g)
 Italian kale (cavolo nero): 7.1oz(200 g)- (to clean)

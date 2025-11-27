@@ -1,6 +1,6 @@
 name:
 Mayonnaise with Hard-Boiled Eggs
-text:
+ingredients:
 Eggs: 2
 Vegetable oil: 6tbsp(80 g)
 Lemon juice: 1.3tbsp(20 g)

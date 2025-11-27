@@ -1,6 +1,6 @@
 name:
 Baked Sole Rolls
-text:
+ingredients:
 Sole: 1.8lbs(800 g)- (in fillets)
 Marjoram: to taste
 Breadcrumbs: 1cup(100 g)

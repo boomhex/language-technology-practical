@@ -1,6 +1,6 @@
 name:
 Father's Day Cake
-text:
+ingredients:
 Sugar: 1 ⅛cup(225 g)
 Eggs: 4
 Egg yolks: 4

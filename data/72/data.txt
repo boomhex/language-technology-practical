@@ -1,6 +1,6 @@
 name:
 Neapolitan Babà
-text:
+ingredients:
 Manitoba flour: 2 ½cups(300 g)
 Butter: 3.2oz(90 g)- (cold from the fridge)
 Sugar: 6tsp(25 g)

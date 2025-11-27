@@ -1,6 +1,6 @@
 name:
 Banana waffles
-text:
+ingredients:
 Bananas: 2- ripe
 Greek yogurt 0% fat: ¾cup(160 g)
 Rice flour: ¾cup(120 g)

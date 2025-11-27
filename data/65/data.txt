@@ -1,6 +1,6 @@
 name:
 Vegetarian Stuffed Artichokes
-text:
+ingredients:
 Artichokes: 8
 Cottage cheese: ¾cup(200 g)
 White bread loaf: 2.8oz(80 g)

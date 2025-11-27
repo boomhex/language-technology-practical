@@ -1,6 +1,6 @@
 name:
 Tofu with peppers
-text:
+ingredients:
 Tofu: 1.3lbs(600 g)
 Bell peppers: 3.5lbs(1.6 kg)- yellow and red (to clean)
 White onions: 6.25oz(175 g)

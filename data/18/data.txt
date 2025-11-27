@@ -1,6 +1,6 @@
 name:
 Savory Pie with Potatoes and Bacon
-text:
+ingredients:
 Puff pastry: 8.1oz(230 g)- (1 round sheet)
 Potatoes: 1.3lbs(600 g)
 Pancetta: 3.5oz(100 g)

@@ -1,6 +1,6 @@
 name:
 Breaded chicken breast with breadsticks
-text:
+ingredients:
 Chicken breast: 1.1lbs(500 g)
 Breadsticks: 7oz(200 g)- water-based
 Rice flour: 1 ¼cup(200 g)

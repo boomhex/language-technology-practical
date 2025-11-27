@@ -1,6 +1,6 @@
 name:
 Gratinated Prawns
-text:
+ingredients:
 Prawns: 12
 Bread: 1 ½cup(150 g)- durum wheat, crumb
 Parsley: 3sprigs

@@ -1,6 +1,6 @@
 name:
 Lemon pesto
-text:
+ingredients:
 Lemon juice: 2tbsp(30 g)
 Lemon peel: 1
 Peeled almonds: ⅓cup(60 g)

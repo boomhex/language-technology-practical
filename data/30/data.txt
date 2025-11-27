@@ -1,6 +1,6 @@
 name:
 Stuffed pickled cucumbers
-text:
+ingredients:
 Cucumbers: 2
 Red peppers: 1
 Fresh ginger: 0.4oz(10 g)

@@ -1,6 +1,6 @@
 name:
 Fondant Egg Yolk Raviolone with Ricotta and Asparagus
-text:
+ingredients:
 Type 00 flour: 1.6cups(200 g)
 Eggs: 2
 Cow's milk ricotta cheese: 2 ½cups(600 g)

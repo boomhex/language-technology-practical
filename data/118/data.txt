@@ -1,6 +1,6 @@
 name:
 Baked Sea Bass Fillets
-text:
+ingredients:
 Seabass fillets: 1.3lbs(600 g)- (4 of 5.3 oz each)
 Cauliflower: 3cups(300 g)- white
 Cauliflower: 10.5oz(300 g)- purple

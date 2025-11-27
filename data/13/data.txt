@@ -1,6 +1,6 @@
 name:
 Cuzzetiello alla parmigiana
-text:
+ingredients:
 Eggplant: 2.2lbs(1 kg)- to clean
 Bread: 2- country bread
 Fior di latte mozzarella cheese: 7oz(200 g)

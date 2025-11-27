@@ -1,6 +1,6 @@
 name:
 Cauliflower and Saffron Pasta
-text:
+ingredients:
 Spaghetti: 11.3oz(320 g)
 Cauliflower: 2.2lbs(1 kg)- to clean
 Saffron: 0.03tsp(0.15 g)- (1 packet)

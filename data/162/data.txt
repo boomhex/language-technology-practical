@@ -1,6 +1,6 @@
 name:
 Chicken and Vegetable Spring Rolls
-text:
+ingredients:
 Edible rice paper: 16- sheets
 Ground chicken: 7oz(200 g)
 Zucchini: 2

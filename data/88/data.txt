@@ -1,6 +1,6 @@
 name:
 Air Fryer Salt Cod
-text:
+ingredients:
 Desalted cod: 1.3lbs(600 g)
 Eggs: 2
 Breadcrumbs: to taste

@@ -1,6 +1,6 @@
 name:
 Zucchini and Cherry Tomatoes Pasta
-text:
+ingredients:
 Bow tie pasta: 11.3oz(320 g)
 Zucchini: 2 ½cups(300 g)
 Datterino tomatoes: 1 ¼cup(240 g)

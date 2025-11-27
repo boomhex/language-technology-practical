@@ -1,6 +1,6 @@
 name:
 Gratinated Sea Bass Fillets
-text:
+ingredients:
 Seabass fillets: 1.7lbs(750 g)- (4, with skin)
 Potatoes: 0.9lb(400 g)
 Breadcrumbs: 1 ¼cup(150 g)

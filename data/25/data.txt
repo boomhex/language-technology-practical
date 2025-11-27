@@ -1,6 +1,6 @@
 name:
 Vatrushka
-text:
+ingredients:
 Milk: ½cup(100 g)
 Type 00 flour: ½cup(60 g)
 Sugar: 2 ¾tbsp(35 g)

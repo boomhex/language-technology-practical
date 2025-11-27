@@ -1,6 +1,6 @@
 name:
 Mushrooms in Oil
-text:
+ingredients:
 Champignon mushrooms: 28.2oz(800 g)- to clean
 Water: 1.3cups(300 g)
 White wine vinegar: 1.3cups(300 g)

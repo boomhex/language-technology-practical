@@ -1,6 +1,6 @@
 name:
 Kale and Chickpea Burger
-text:
+ingredients:
 Italian kale (cavolo nero): 7.1oz(200 g)- (to clean)
 Precooked chickpeas: 0.67cup(150 g)- (drained weight)
 Breadcrumbs: 1 ½cup(180 g)

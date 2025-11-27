@@ -1,6 +1,6 @@
 name:
 Savory ham and cheese pie
-text:
+ingredients:
 Type 00 flour: 2 ½cups(300 g)
 Butter: 10 ½tbsp(150 g)- cold
 Water: ⅓cup(80 g)- cold

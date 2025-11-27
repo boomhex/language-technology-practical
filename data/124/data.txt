@@ -1,6 +1,6 @@
 name:
 Risotto with red lentils and shrimp
-text:
+ingredients:
 Carnaroli rice: 1 ½cup(320 g)- ideal for risottos
 Salt: to taste
 Black pepper: to taste

@@ -1,6 +1,6 @@
 name:
 Fregola with seafood
-text:
+ingredients:
 Fregola pasta: 11.3oz(320 g)
 Extra virgin olive oil: to taste
 Tomato paste: 1tbsp(15 g)

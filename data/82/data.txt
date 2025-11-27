@@ -1,6 +1,6 @@
 name:
 Savory pie with leeks and brie
-text:
+ingredients:
 Type 00 flour: 2cups(250 g)
 Butter: ½cup(125 g)- cold
 Eggs: 1

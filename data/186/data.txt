@@ -1,6 +1,6 @@
 name:
 Lime and Mint Chicken
-text:
+ingredients:
 Chicken: 4lbs(1.8 kg)- cut into pieces
 Lime: 2
 Garlic: 2cloves

@@ -1,6 +1,6 @@
 name:
 Crepe Lasagna with Vegetables
-text:
+ingredients:
 Spinach: 3 ½cups(100 g)
 Milk: 2cups(500 g)
 Type 00 flour: 1 ¼cup(160 g)

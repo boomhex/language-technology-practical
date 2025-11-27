@@ -1,6 +1,6 @@
 name:
 Brown rice with black cabbage and savoy cabbage
-text:
+ingredients:
 Whole rice: 1 ¼cup(240 g)
 Italian kale (cavolo nero): 1.1lbs(500 g)- (to clean)
 Verza (savoy cabbage): 1.1lbs(500 g)- (to be cleaned)

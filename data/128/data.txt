@@ -1,6 +1,6 @@
 name:
 Penne alla vodka
-text:
+ingredients:
 Penne Rigate pasta: 11.3oz(320 g)
 Tomato purée: 1cup(250 g)
 Smoked pancetta: 7oz(200 g)

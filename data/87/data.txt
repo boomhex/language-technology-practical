@@ -1,6 +1,6 @@
 name:
 Baked Anchovies
-text:
+ingredients:
 Anchovies: 350- (to clean)
 Breadcrumbs: 1.1cups(130 g)
 Corn flour: ⅓cup(50 g)

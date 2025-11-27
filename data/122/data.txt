@@ -1,6 +1,6 @@
 name:
 Capon with Citrus Fruits
-text:
+ingredients:
 Capon: 4.4lbs(2 kg)- (eviscerated and plucked)
 Oranges: 2
 Lemons: 2

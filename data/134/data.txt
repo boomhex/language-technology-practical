@@ -1,6 +1,6 @@
 name:
 Soft meatloaf
-text:
+ingredients:
 Ground meat blend: 1.1lbs(500 g)- beef and pork
 Provola cheese: 3.5oz(100 g)
 Stale bread: 3.5oz(100 g)

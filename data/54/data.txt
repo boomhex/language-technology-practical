@@ -1,6 +1,6 @@
 name:
 Baked Scampi
-text:
+ingredients:
 Scampi: 1.8lbs(800 g)- to clean (approximately 12-16 scampi)
 Cherry tomatoes: 1 ⅓cup(200 g)
 Garlic: 2cloves- poached

@@ -1,6 +1,6 @@
 name:
 Peas in a pan
-text:
+ingredients:
 Peas: 2 ¾cups(400 g)
 Onions: 1
 Extra virgin olive oil: 1filo

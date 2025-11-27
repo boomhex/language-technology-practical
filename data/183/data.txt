@@ -1,6 +1,6 @@
 name:
 Spaghetti with meat sauce and meatballs
-text:
+ingredients:
 Spaghettoni: 1.1lbs(500 g)
 Ground beef: 1.4lbs(650 g)
 Tomato purée: 3cups(700 g)- rustic

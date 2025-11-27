@@ -1,6 +1,6 @@
 name:
 Roasted Guinea Fowl
-text:
+ingredients:
 Guinea fowl: 1
 Potatoes: 4- medium
 Delica pumpkin: 1 ⅓cup(300 g)

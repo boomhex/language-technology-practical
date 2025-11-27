@@ -1,6 +1,6 @@
 name:
 Smash burger
-text:
+ingredients:
 Ground beef: 10.5oz(300 g)
 Ground pork: 3.5oz(100 g)
 Black pepper: to taste

@@ -1,6 +1,6 @@
 name:
 Pasta with bacon
-text:
+ingredients:
 Egg Tagliatelle pasta: 9oz(250 g)
 Pancetta tesa: 7oz(200 g)
 Cherry tomatoes: 1 ½cup(200 g)

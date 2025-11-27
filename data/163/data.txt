@@ -1,6 +1,6 @@
 name:
 Five-grain focaccia with figs and lard
-text:
+ingredients:
 Wheat flour: 1.67cups(200 g)
 Rye flour: 1cup(100 g)
 Oat flour: 1.1cups(100 g)

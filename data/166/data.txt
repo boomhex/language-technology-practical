@@ -1,6 +1,6 @@
 name:
 Pasta with cauliflower
-text:
+ingredients:
 Conchiglie pasta: 2cups(320 g)
 Cauliflower: 1.5lbs(700 g)- to clean
 Garlic: 2cloves

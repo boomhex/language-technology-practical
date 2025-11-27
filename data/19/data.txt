@@ -1,6 +1,6 @@
 name:
 Vegetable Burger
-text:
+ingredients:
 Carrots: 6oz(170 g)- to clean
 Broccoli: 7.1oz(200 g)- to be cleaned
 Spinach: 3 ½cups(100 g)

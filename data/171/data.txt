@@ -1,6 +1,6 @@
 name:
 Chickpea Cream with Shrimp, Clams, and Parsnip
-text:
+ingredients:
 Dried chickpeas: 2 ½cups(500 g)
 Tahini: 1spoonful
 Salt: to taste

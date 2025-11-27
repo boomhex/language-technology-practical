@@ -1,6 +1,6 @@
 name:
 Capon stuffed ravioli
-text:
+ingredients:
 Type 00 flour: 2 ½cups(300 g)
 Eggs: 3
 Fine salt: 1pinch

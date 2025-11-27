@@ -1,6 +1,6 @@
 name:
 Wild boar stew
-text:
+ingredients:
 Boar: 2.2lbs(1 kg)- meat
 Yellow onions: 3
 Red wine: 4 ¼glasses(1 l)- full-bodied

@@ -1,6 +1,6 @@
 name:
 Tea Cake without Lactose
-text:
+ingredients:
 Type 00 flour: 2cups(250 g)
 Sugar: ¾cup(150 g)
 Black tea: 5.3oz(150 g)

@@ -1,6 +1,6 @@
 name:
 Capon broth
-text:
+ingredients:
 Capon: 4.4lbs(2 kg)- cut into pieces
 Celery: 1 ½cup(150 g)
 White onions: 1.3cups(200 g)

@@ -1,6 +1,6 @@
 name:
 Pumpkin and Goat Cheese Velouté
-text:
+ingredients:
 Delica pumpkin: 3.3lbs(1.5 kg)- to clean
 Goat: 1.1lbs(500 g)
 Shallot: 2

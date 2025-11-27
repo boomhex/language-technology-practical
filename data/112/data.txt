@@ -1,6 +1,6 @@
 name:
 Scrippelle mbusse
-text:
+ingredients:
 Hen: 1.1lbs(500 g)
 Beef steak: 0.9lb(400 g)
 Pork: 0.9lb(400 g)- bones

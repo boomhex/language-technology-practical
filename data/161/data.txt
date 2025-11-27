@@ -1,6 +1,6 @@
 name:
 Baked saffron rice with speck and brie
-text:
+ingredients:
 Arborio rice: 2 ½cups(500 g)
 Brie cheese: 10.5oz(300 g)
 Speck: 7oz(200 g)

@@ -1,6 +1,6 @@
 name:
 Lasagna with Swiss Chard
-text:
+ingredients:
 Green Lasagna: 0.5lb(200 g)
 Chard: 7oz(200 g)- (to clean)
 Mozzarella cheese: 1 ¾cup(200 g)

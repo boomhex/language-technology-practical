@@ -1,6 +1,6 @@
 name:
 Chestnuts in the pan
-text:
+ingredients:
 Chestnuts: 2.1cups(300 g)
 Water: to taste
 

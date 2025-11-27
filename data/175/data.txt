@@ -1,6 +1,6 @@
 name:
 Risotto with pecorino and puntarelle
-text:
+ingredients:
 Rice: 1.67cups(320 g)
 Pecorino Romano PDO cheese: 7oz(200 g)
 Butter: 4tbsp(60 g)

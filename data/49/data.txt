@@ -1,6 +1,6 @@
 name:
 Cream of asparagus and zucchini with quinoa
-text:
+ingredients:
 Asparagus: 10.6oz(300 g)- to clean
 Zucchini: 3 ¼cups(400 g)- to clean
 Water: 1.8oz(50 g)

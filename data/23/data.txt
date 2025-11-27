@@ -1,6 +1,6 @@
 name:
 Baked cheesecake with tvorog
-text:
+ingredients:
 Quark: 3 ¼cups(750 g)
 Sour cream: ½cup(100 g)
 Sugar: ½cup(100 g)

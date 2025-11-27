@@ -1,6 +1,6 @@
 name:
 Pancotto with turnip tops
-text:
+ingredients:
 Homemade bread: 7.1oz(200 g)- 4 slices
 Broccoli rabe: 4.4lbs(2 kg)- to clean
 Leeks: 1

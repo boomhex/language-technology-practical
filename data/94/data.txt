@@ -1,6 +1,6 @@
 name:
 Mimosa tart
-text:
+ingredients:
 Type 00 flour: 2 ½cups(300 g)
 Butter: 0.8cup(180 g)
 Sugar: 0.7cup(130 g)

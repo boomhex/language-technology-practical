@@ -1,6 +1,6 @@
 name:
 Squid Risotto
-text:
+ingredients:
 Carnaroli rice: 1.6cups(320 g)
 Calamari (squid): 8.8oz(250 g)- (already cleaned and whole)
 Shallot: 1

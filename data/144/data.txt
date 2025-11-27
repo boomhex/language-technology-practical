@@ -1,6 +1,6 @@
 name:
 Duchess potatoes with spinach
-text:
+ingredients:
 Red potatoes: 1lb(450 g)
 Spinach: 5cups(150 g)
 White onions: ¼

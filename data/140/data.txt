@@ -1,6 +1,6 @@
 name:
 Farfalle with Smoked Salmon
-text:
+ingredients:
 Bow tie pasta: 11.3oz(320 g)
 Smoked Salmon: 7.1oz(200 g)
 Fresh liquid cream: ¾cup(200 g)

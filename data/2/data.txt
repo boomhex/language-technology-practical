@@ -1,6 +1,6 @@
 name:
 Egg White Pancakes
-text:
+ingredients:
 Egg whites: 3
 Type 00 flour: 1 ¼cup(150 g)
 Milk: 0.6cup(140 g)

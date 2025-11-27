@@ -1,6 +1,6 @@
 name:
 Tagliatelle with squid ink with pecorino, mussels, and lard
-text:
+ingredients:
 Type 00 flour: 2cups(250 g)
 Remilled durum wheat semolina: 1 ½cup(250 g)
 Eggs: 5

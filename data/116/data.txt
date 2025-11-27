@@ -1,6 +1,6 @@
 name:
 Charlotte cake with English trifle
-text:
+ingredients:
 Type 00 flour: 2 ½cups(300 g)
 Potato starch: 1 ¼cup(150 g)
 Egg whites: 1cup(250 g)- (about 7)

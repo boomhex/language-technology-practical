@@ -1,6 +1,6 @@
 name:
 Spaghetti with pea cream, asparagus and mussels
-text:
+ingredients:
 Spaghetti: 11.3oz(320 g)
 Mussels: 2.2lbs(1 kg)- (already cleaned)
 Garlic: 1clove

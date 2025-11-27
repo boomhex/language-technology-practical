@@ -1,6 +1,6 @@
 name:
 Very soft carrot cake
-text:
+ingredients:
 Carrots: 1 ½cup(250 g)- (to clean)
 Type 00 flour: 1 ¼cup(150 g)
 Potato starch: 0.4cup(50 g)

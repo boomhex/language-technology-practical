@@ -1,6 +1,6 @@
 name:
 Tonnarelli alla gricia with cod
-text:
+ingredients:
 Tonnarelli: 11.3oz(320 g)
 Desalted cod: 1.1lbs(500 g)
 Jowls: 5.3oz(150 g)

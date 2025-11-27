@@ -1,6 +1,6 @@
 name:
 Zucchini Rolls
-text:
+ingredients:
 Zucchini: 3 ¼cups(400 g)
 Extra virgin olive oil: 3spoonfuls
 Breadcrumbs: 1cup(100 g)

@@ -1,6 +1,6 @@
 name:
 Passatelli with ham in meat broth
-text:
+ingredients:
 Meat broth: 4 ¼cups(1 l)
 Prosciutto crudo: 7oz(200 g)
 Breadcrumbs: ¾cup(100 g)

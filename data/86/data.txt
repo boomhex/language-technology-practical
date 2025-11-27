@@ -1,6 +1,6 @@
 name:
 Apple and Walnut Cake
-text:
+ingredients:
 Type 00 flour: 2 ½cups(300 g)
 Sugar: 1cup(200 g)
 Whole milk: 0.8cup(200 g)

@@ -1,6 +1,6 @@
 name:
 Eggplant Tacos
-text:
+ingredients:
 Eggplant: 1lb(470 g)
 Prosciutto cotto: 3.5oz(100 g)
 Mozzarella cheese: 3oz(80 g)

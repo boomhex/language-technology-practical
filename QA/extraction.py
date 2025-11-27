@@ -1,4 +1,11 @@
-from utils import read_file, compute_f1, compute_exact_match, normalize_answer
+from utils import (
+    read_file,
+    compute_f1,
+    compute_exact_match,
+    normalize_answer,
+    max_over_ground_truths,
+    load_questions
+)
 from pathlib import Path
 from transformers import (
     AutoTokenizer,
@@ -13,22 +20,9 @@ import json
 
 EXTRACTIVE_MODEL_NAME = "distilbert-base-uncased-distilled-squad"
 DATA_FOLDER = Path( "./../data" )
-FILES = [DATA_FOLDER.joinpath(Path( str(id) + "/data.txt" )) for id in range(5)]
+FILES = [DATA_FOLDER.joinpath(Path( str(id) + "/data.txt" )) for id in range(1)]
 MAX_LEN = 384 # feel free to change
 N_EVAL_EXAMPLES = 300  # using a subset of the dataset, feel free to change
-
-
-def load_questions(fp: Path):
-    with open(fp, 'r') as file:
-        questions = json.load(file)
-    return questions
-
-def max_over_ground_truths(metric_fn, prediction: str, ground_truths):
-    """
-    If there are multiple ground truth answers,
-    we take the maximum score over them.
-    """
-    return max(metric_fn(prediction, gt) for gt in ground_truths)
 
 def evaluate_extractive(context, questions):
     """

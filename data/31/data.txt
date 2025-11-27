@@ -1,6 +1,6 @@
 name:
 Parmigiana in air fryer
-text:
+ingredients:
 Eggplant: 1.3lbs(600 g)- (about 3 medium, long)
 Tomato purée: 2.1cups(500 g)
 Mozzarella cheese: 1.8cups(200 g)

@@ -1,6 +1,6 @@
 name:
 Scrambled Eggs with Tomato
-text:
+ingredients:
 Eggs: 8
 Tomato purée: 0.9cup(200 g)
 Parsley: 2- stalks

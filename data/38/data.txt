@@ -1,6 +1,6 @@
 name:
 Cuzzetiello with meatballs
-text:
+ingredients:
 Bread: 2- country loaf
 Tomato purée: 1 ½cup(350 g)
 Water: ¼cup(50 g)

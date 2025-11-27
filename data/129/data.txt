@@ -1,6 +1,6 @@
 name:
 Broccoli Balls
-text:
+ingredients:
 Romanesco broccoli: 14.1oz(400 g)- (to clean)
 Broccoli: 0.9lb(400 g)- (to be cleaned)
 Smoked provola cheese: 5.25oz(150 g)

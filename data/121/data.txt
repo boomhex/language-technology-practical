@@ -1,6 +1,6 @@
 name:
 Stewed Cod with Potatoes
-text:
+ingredients:
 Desalted cod: 2.7lbs(1.2 kg)
 Potatoes: 0.9lb(400 g)
 Peeled tomatoes: 1.67cups(400 g)

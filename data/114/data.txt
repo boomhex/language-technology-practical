@@ -1,6 +1,6 @@
 name:
 Chicken with Cauliflower and Mustard Sauce
-text:
+ingredients:
 Chicken breast: 1.8lbs(800 g)- free-range (4 slices)
 Extra virgin olive oil: 2.1tbsp(30 g)
 Thyme: to taste

@@ -1,6 +1,6 @@
 name:
 Pea farinata with zucchini
-text:
+ingredients:
 Dried peas: 1cup(200 g)- hulled split
 Zucchini: 3 ¼cups(400 g)
 Shallot: 1

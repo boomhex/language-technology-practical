@@ -1,6 +1,6 @@
 name:
 Savory cheesecake with pesto and cherry tomatoes
-text:
+ingredients:
 Taralli (Round breadsticks): 8.8oz(250 g)
 Butter: ½cup(125 g)
 Cow's milk ricotta cheese: 1.4cups(350 g)

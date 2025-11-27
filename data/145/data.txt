@@ -1,6 +1,6 @@
 name:
 Rice soup with legumes
-text:
+ingredients:
 Rice: 1 ¼cup(240 g)- for risottos
 Mixed vegetables: 1 ¾cup(260 g)- precooked
 Potatoes: 1lb(430 g)

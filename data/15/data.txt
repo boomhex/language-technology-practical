@@ -1,6 +1,6 @@
 name:
 No-bake mint and chocolate crumble
-text:
+ingredients:
 Dry chocolate cookies: 2 ½cups(300 g)
 Butter: ½cup(120 g)
 Fresh liquid cream: 1cup(250 g)- cold

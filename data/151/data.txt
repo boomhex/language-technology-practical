@@ -1,6 +1,6 @@
 name:
 Spinach and Taleggio Risotto
-text:
+ingredients:
 Rice: 1 ½cup(320 g)- for risottos
 Shallot: 1
 Extra virgin olive oil: to taste

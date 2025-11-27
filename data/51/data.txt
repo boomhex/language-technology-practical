@@ -1,6 +1,6 @@
 name:
 Bruschetta with Broad Beans and Herbs
-text:
+ingredients:
 Bread: 3.5oz(100 g)- 4 slices
 Swiss chard: 1.8lbs(800 g)- (to clean)
 Fava beans: 1 ¼cup(200 g)

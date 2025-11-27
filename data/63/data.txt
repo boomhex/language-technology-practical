@@ -1,6 +1,6 @@
 name:
 Black Venus rice with vegetables
-text:
+ingredients:
 Black Venus rice: 1.6cups(320 g)
 Carrots: 7.1oz(200 g)- (to clean)
 Zucchini: 2 ½cups(300 g)- (to be cleaned)

@@ -1,6 +1,6 @@
 name:
 Coconut and Apple Cake
-text:
+ingredients:
 Apples: 2
 Type 00 flour: 1.6cups(200 g)
 Coconut flour: 0.625cup(70 g)

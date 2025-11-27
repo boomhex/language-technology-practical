@@ -1,6 +1,6 @@
 name:
 Cream Cake
-text:
+ingredients:
 Fresh liquid cream: ¾cup(200 g)
 Eggs: 3
 Type 00 flour: 1.6cups(200 g)

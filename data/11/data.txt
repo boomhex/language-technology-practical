@@ -1,6 +1,6 @@
 name:
 Risotto-style Spaghetti with Garlic, Oil, and Chili Pepper
-text:
+ingredients:
 Spaghettoni: 11.3oz(320 g)
 Garlic: 3cloves
 Fresh chili pepper: 2

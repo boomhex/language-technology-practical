@@ -1,6 +1,6 @@
 name:
 Noodles with vegetables
-text:
+ingredients:
 Noodles: 9oz(250 g)
 Carrots: 1.9cups(250 g)
 Red peppers: 1cup(150 g)

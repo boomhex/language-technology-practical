@@ -1,6 +1,6 @@
 name:
 Homemade Jelly
-text:
+ingredients:
 Potato starch: 3tsp(7 g)
 Sugar: 4tbsp(50 g)
 Water: ½cup(125 g)

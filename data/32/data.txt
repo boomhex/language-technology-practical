@@ -1,6 +1,6 @@
 name:
 Buckwheat pasta with pea cream and crispy speck
-text:
+ingredients:
 Buckwheat rigatoni: 11.3oz(320 g)
 Speck: 3.5oz(100 g)- thin slices
 Peas: 1.4cups(200 g)

@@ -1,6 +1,6 @@
 name:
 Lactose-free crepes
-text:
+ingredients:
 Coconut milk: 1cup(230 g)
 Eggs: 0.67cup(120 g)
 Type 00 flour: 1 ¼cup(160 g)

@@ -1,6 +1,6 @@
 name:
 Stockfish and potatoes stew
-text:
+ingredients:
 Stockfish: 1.8lbs(800 g)- already soaked
 Potatoes: 1.5lbs(700 g)
 Onions: 3.5oz(100 g)- to clean

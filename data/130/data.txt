@@ -1,6 +1,6 @@
 name:
 Cauliflower Fritters
-text:
+ingredients:
 Cauliflower: 14.1oz(400 g)- steamed
 Eggs: 2
 Parmigiano Reggiano PDO cheese: 1.5oz(40 g)

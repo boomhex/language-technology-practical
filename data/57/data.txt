@@ -1,6 +1,6 @@
 name:
 Gluten-free cake
-text:
+ingredients:
 Rice flour: 1 ⅓cup(170 g)
 Almond flour: ⅓cup(30 g)
 Gluten free  potato starch: 6tbsp(45 g)

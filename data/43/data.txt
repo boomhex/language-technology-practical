@@ -1,6 +1,6 @@
 name:
 Easy Asparagus Pasqualina
-text:
+ingredients:
 Manitoba flour: 2 ½cups(300 g)
 Type 00 flour: 1 ½cup(200 g)
 Water: 1.4cups(340 g)

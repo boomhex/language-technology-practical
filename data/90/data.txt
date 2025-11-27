@@ -1,6 +1,6 @@
 name:
 Fennel en Papillote
-text:
+ingredients:
 Fennel: 6cups(600 g)
 Taggiasca olives: 3.5oz(100 g)- pitted
 Sun-dried tomatoes in oil: 2.8oz(80 g)

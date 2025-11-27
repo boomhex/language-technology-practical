@@ -1,6 +1,6 @@
 name:
 Buckwheat spaghetti with anchovies and cherry tomatoes
-text:
+ingredients:
 Buckwheat spaghetti: 10oz(280 g)
 Anchovies: 1.3lbs(600 g)- (already cleaned)
 Salted anchovies: 2

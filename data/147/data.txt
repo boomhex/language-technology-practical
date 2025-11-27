@@ -1,6 +1,6 @@
 name:
 Confit cod on chickpea cream
-text:
+ingredients:
 Desalted cod: 1.1lbs(480 g)- cleaned
 Extra virgin olive oil: 4 ¼cups(1 l)
 Bay leaves: 2leaves

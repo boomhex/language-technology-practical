@@ -1,6 +1,6 @@
 name:
 Gluten-free Easter Pie
-text:
+ingredients:
 Gluten free flour mix: 3 ½cups(400 g)
 Butter: 0.9cup(200 g)- cold
 Water: 0.7cup(170 g)- cold

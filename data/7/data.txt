@@ -1,6 +1,6 @@
 name:
 Pasta with Cuttlefish
-text:
+ingredients:
 Paccheri pasta: 11.3oz(320 g)
 Octopi: 1.1lbs(500 g)- (cleaned)
 Cherry tomatoes: 2cups(300 g)

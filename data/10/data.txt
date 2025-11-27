@@ -1,6 +1,6 @@
 name:
 Mezze penne with red pesto and arugula
-text:
+ingredients:
 Mezze Penne Rigate pasta: 11.3oz(320 g)
 Dried tomatoes in oil: 10.6oz(300 g)
 Hazelnuts: ½cup(70 g)

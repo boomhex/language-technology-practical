@@ -1,6 +1,6 @@
 name:
 Potato loaf
-text:
+ingredients:
 Yellow potatoes: 1.75lbs(800 g)
 Eggs: 2
 Fresh scallion: 2.1oz(60 g)- to clean

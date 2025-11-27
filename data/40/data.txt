@@ -1,6 +1,6 @@
 name:
 Chocolate and tahini treats
-text:
+ingredients:
 Dark chocolate: 7.1oz(200 g)
 Tahini: 8tbsp(120 g)
 Honey: 2spoonfuls

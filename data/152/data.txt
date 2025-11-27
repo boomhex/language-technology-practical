@@ -1,6 +1,6 @@
 name:
 Baked Gratinated Calamari
-text:
+ingredients:
 Calamari (squid): 2.2lbs(1 kg)- to be cleaned
 Bread: 1 ½cup(150 g)- crumb
 Lemon peel: 1

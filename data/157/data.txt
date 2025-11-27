@@ -1,6 +1,6 @@
 name:
 Air Fryer Boiled Eggs
-text:
+ingredients:
 Eggs: 8
 Water: to taste- cold
 Extra virgin olive oil: to taste

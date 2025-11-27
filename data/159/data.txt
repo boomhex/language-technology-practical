@@ -1,6 +1,6 @@
 name:
 Baked Peppers
-text:
+ingredients:
 Red peppers: 2.2lbs(1 kg)
 Yellow peppers: 2.2lbs(1 kg)
 Taggiasca olives: 0.67cup(100 g)

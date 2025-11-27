@@ -1,6 +1,6 @@
 name:
 Pasta and Potato Supplì
-text:
+ingredients:
 Mixed Pasta: 5cups(500 g)
 Potatoes: 2.2lbs(1 kg)
 Scamorza (provola) cheese: 7oz(200 g)

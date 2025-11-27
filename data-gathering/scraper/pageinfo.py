@@ -15,7 +15,7 @@ class PageInfo:
             
         }
         string = f"name:\n{self.ident}\n" \
-                 f"text:\n{self.text}\n" \
+                 f"ingredients:\n{self.text}\n" \
                  f"url:\n{self.url}\n"
     
         return string

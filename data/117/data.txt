@@ -1,6 +1,6 @@
 name:
 Persimmon cheesecake cups
-text:
+ingredients:
 Cookies: 5.3oz(150 g)
 Butter: (75 g)
 Cream cheese: 8.8oz(250 g)

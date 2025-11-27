@@ -1,6 +1,6 @@
 name:
 Pizza with stuffed crust of pesto and ricotta
-text:
+ingredients:
 Type 0 flour: 8cups(1 kg)- (W 280)
 Water: 3cups(700 g)
 Fine salt: 4 ¼tsp(25 g)

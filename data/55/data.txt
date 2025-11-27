@@ -1,6 +1,6 @@
 name:
 Vegetarian meatballs
-text:
+ingredients:
 Precooked chickpeas: 1.1cups(260 g)
 Spinach: 8 ½cups(250 g)
 Carrots: 5.6oz(160 g)- to clean

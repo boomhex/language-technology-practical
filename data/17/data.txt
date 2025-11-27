@@ -1,6 +1,6 @@
 name:
 Rice and Lentils
-text:
+ingredients:
 Carnaroli rice: 1.6cups(320 g)
 Vegetable broth: 2.1cups(500 g)
 Extra virgin olive oil: 1filo

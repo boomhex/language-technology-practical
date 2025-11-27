@@ -1,6 +1,6 @@
 name:
 Potato and Onion Ravioli with Cheese Cream
-text:
+ingredients:
 Type 00 flour: 2 ½cups(300 g)
 Egg yolks: 7
 Fine salt: 1pinch

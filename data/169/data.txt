@@ -1,6 +1,6 @@
 name:
 Buccellati siciliani
-text:
+ingredients:
 Type 00 flour: 4cups(550 g)
 Sugar: 1cup(200 g)
 Lard: 6oz(170 g)

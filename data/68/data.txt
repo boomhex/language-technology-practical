@@ -1,6 +1,6 @@
 name:
 Vegan Saffron Penne
-text:
+ingredients:
 Whole wheat Pennette Rigate pasta: 11.3oz(320 g)
 Leeks: 1.5lbs(700 g)- to be cleaned
 Saffron: 2bags

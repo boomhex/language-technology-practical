@@ -1,6 +1,6 @@
 name:
 Shrimps in almond crust
-text:
+ingredients:
 Greek yogurt: 0.8cup(200 g)
 Lime: 1- zest and juice
 Coriander: to taste

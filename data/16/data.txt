@@ -1,6 +1,6 @@
 name:
 Chicken Salad
-text:
+ingredients:
 Chicken breast: 14.1oz(400 g)
 Spinach: 10cups(300 g)
 Belgian endive: 10.5oz(300 g)

@@ -1,6 +1,6 @@
 name:
 Takoyaki
-text:
+ingredients:
 Octopus: 1.1lbs(500 g)- (already cleaned)
 Onions: ½cup(80 g)
 Celery: ½cup(50 g)

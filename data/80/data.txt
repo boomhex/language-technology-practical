@@ -1,6 +1,6 @@
 name:
 Cod in air fryer
-text:
+ingredients:
 Cod fillet: 1.5lbs(700 g)
 Zucchini: 3 ¼cups(400 g)
 Breadcrumbs: 0.8cup(100 g)

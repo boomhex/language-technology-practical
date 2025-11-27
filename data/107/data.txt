@@ -1,6 +1,6 @@
 name:
 Sgabei
-text:
+ingredients:
 Type 0 flour: 4cups(500 g)
 Fresh brewer's yeast: 0.4oz(10 g)
 Water: 1 ¼cup(300 g)

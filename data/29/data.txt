@@ -1,6 +1,6 @@
 name:
 Jam Tart
-text:
+ingredients:
 Type 00 flour: 4cups(500 g)
 Butter: 1.1cups(250 g)- at room temperature
 Powdered sugar: 1 ½cup(200 g)

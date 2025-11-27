@@ -1,6 +1,6 @@
 name:
 Seafood Parmigiana
-text:
+ingredients:
 Mussels: 1.1lbs(500 g)- cleaned
 Clams: 1.1lbs(500 g)- cleaned
 Shrimps: 16- cleaned

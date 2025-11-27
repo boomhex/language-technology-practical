@@ -1,6 +1,6 @@
 name:
 Baked Chicken Thighs
-text:
+ingredients:
 Chicken Thighs: 2
 Potatoes: 0.8lb(350 g)
 Extra virgin olive oil: 1 ½tbsp(20 g)

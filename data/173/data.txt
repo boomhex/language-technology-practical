@@ -1,6 +1,6 @@
 name:
 Autumn Rice Salad
-text:
+ingredients:
 Rice: 1.6cups(320 g)
 Delica pumpkin: 1.67cups(400 g)
 Purple cabbage: 2 ¼cups(200 g)

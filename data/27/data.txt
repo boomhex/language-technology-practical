@@ -1,6 +1,6 @@
 name:
 Nuggets in air fryer
-text:
+ingredients:
 Chicken breast: 1.1lbs(500 g)
 Bread crumbs: 1.67cups(200 g)
 Fine salt: 1tsp

@@ -1,6 +1,6 @@
 name:
 Calabrian turdilli
-text:
+ingredients:
 Type 0 flour: 4 ¼cups(500 g)
 Extra virgin olive oil: ½cup(120 g)
 Vermouth: ½cup(100 g)

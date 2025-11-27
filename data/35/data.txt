@@ -1,6 +1,6 @@
 name:
 Couscous with Zucchini and Shrimp
-text:
+ingredients:
 Couscous: 1 ¾cup(300 g)
 Shrimps: 0.9lb(400 g)- to clean
 Zucchini: 1cup(200 g)

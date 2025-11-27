@@ -1,6 +1,6 @@
 name:
 Broccoli and Anchovies Risotto
-text:
+ingredients:
 Carnaroli rice: 1.6cups(320 g)
 Broccoli: 10.6oz(300 g)- to clean
 Anchovies in oil: 30fillets

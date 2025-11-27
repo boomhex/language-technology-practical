@@ -1,6 +1,6 @@
 name:
 Boiled Carrots
-text:
+ingredients:
 Carrots: 28.2oz(800 g)
 Black sesame seeds: to taste
 Spring onions: to taste- (only the green part)

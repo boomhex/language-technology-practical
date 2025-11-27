@@ -1,6 +1,6 @@
 name:
 Risotto with Stracchino, Broccoli and Anchovies
-text:
+ingredients:
 Rice: 1 ½cup(320 g)- for risottos
 Extra virgin olive oil: to taste
 Stracchino cheese: 3.5oz(100 g)

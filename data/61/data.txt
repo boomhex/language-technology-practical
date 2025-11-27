@@ -1,6 +1,6 @@
 name:
 Ricotta and Raspberry Glasses
-text:
+ingredients:
 Gluten free dry cookies: 5.6oz(160 g)- rice
 Butter: 3tbsp(40 g)- softened
 Acacia honey: 1tbsp(20 g)

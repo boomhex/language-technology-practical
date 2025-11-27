@@ -1,6 +1,6 @@
 name:
 Risotto with Onion Cream and Hazelnuts
-text:
+ingredients:
 Carnaroli rice: 1.6cups(320 g)
 Vegetable broth: 7 ¼cups(1.7 l)
 White wine: 1.8oz(50 g)

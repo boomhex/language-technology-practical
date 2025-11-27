@@ -1,6 +1,6 @@
 name:
 Crystal Dumplings
-text:
+ingredients:
 Wheat starch: 1cup(120 g)
 Potato starch: 0.3cup(40 g)
 Water: 0.6cup(150 g)- boiling

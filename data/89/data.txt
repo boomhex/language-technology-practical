@@ -1,6 +1,6 @@
 name:
 Roast beef in air fryer
-text:
+ingredients:
 Beef sirloin: 2.2lbs(1 kg)
 Rosemary: 1sprig
 Extra virgin olive oil: to taste

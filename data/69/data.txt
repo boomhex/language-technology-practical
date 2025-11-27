@@ -1,6 +1,6 @@
 name:
 Red wine and sausage risotto
-text:
+ingredients:
 Carnaroli rice: 1.6cups(320 g)
 Shallot: 1
 Butter: 1 ½tbsp(20 g)

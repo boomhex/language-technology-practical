@@ -1,6 +1,6 @@
 name:
 Scallop carpaccio with citrus
-text:
+ingredients:
 Scallops: 12- (frozen and already cleaned)
 Oranges: 1
 Pink grapefruits: 1

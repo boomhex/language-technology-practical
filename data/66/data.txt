@@ -1,6 +1,6 @@
 name:
 How to make Sardinian fregola
-text:
+ingredients:
 Semolina: 2 ½cups(500 g)- coarse
 Water: 1cup(240 g)- lukewarm
 Saffron: 0.05tsp(0.15 g)- (one packet)

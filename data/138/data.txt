@@ -1,6 +1,6 @@
 name:
 Mushroom Meatloaf
-text:
+ingredients:
 King oyster mushrooms: 1.67cups(150 g)
 Champignon mushrooms: 2.1cups(150 g)
 Porcini mushrooms: 0.7oz(20 g)- dried

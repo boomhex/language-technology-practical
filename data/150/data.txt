@@ -1,6 +1,6 @@
 name:
 Apple and Gorgonzola Risotto
-text:
+ingredients:
 Rice: 1 ¾cup(320 g)- great risotto
 Vegetable broth: 3 ½cups(800 g)
 Parmigiano Reggiano PDO cheese: 1.75oz(50 g)

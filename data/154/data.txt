@@ -1,6 +1,6 @@
 name:
 Fusilloni with black cabbage cream
-text:
+ingredients:
 Fusilloni pasta: 11.3oz(320 g)
 Italian kale (cavolo nero): 10.6oz(300 g)- to clean
 Parmigiano Reggiano PDO cheese: 3.5oz(100 g)- (to grate)

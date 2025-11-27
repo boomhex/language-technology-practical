@@ -1,6 +1,6 @@
 name:
 Jerusalem artichoke cream with seared scallops
-text:
+ingredients:
 Jerusalem artichoke: 4.4lbs(2 kg)
 Almond milk: ¾cup(200 g)
 Salt: to taste

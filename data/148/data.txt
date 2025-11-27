@@ -1,6 +1,6 @@
 name:
 Meat Ravioli
-text:
+ingredients:
 Type 00 flour: 3 ¼cups(400 g)
 Eggs: 4
 Ground beef: 5.3oz(150 g)

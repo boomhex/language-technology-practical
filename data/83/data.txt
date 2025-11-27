@@ -1,6 +1,6 @@
 name:
 Ricotta and orange fritters with chocolate chips
-text:
+ingredients:
 Cow's milk ricotta cheese: 1cup(250 g)
 Dark chocolate chips: 3oz(80 g)
 Eggs: 2

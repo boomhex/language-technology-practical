@@ -1,6 +1,6 @@
 name:
 Risotto with broccoli and quick bagna caoda
-text:
+ingredients:
 Vialone nano rice: 1cup(320 g)
 White wine: 1glass
 Fine salt: to taste

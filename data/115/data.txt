@@ -1,6 +1,6 @@
 name:
 Orzo with leeks, robiola cheese, and hazelnuts
-text:
+ingredients:
 Risoni pasta: 1 ½cup(320 g)
 Leeks: 4
 Vegetable broth: to taste

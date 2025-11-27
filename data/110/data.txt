@@ -1,6 +1,6 @@
 name:
 Pumpkin cream with curry and coconut milk
-text:
+ingredients:
 Delica pumpkin: 1.3lbs(600 g)- (to be cleaned)
 Potatoes: 7oz(200 g)
 Carrots: 5.3oz(150 g)- (to be cleaned)

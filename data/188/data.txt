@@ -1,6 +1,6 @@
 name:
 Zucchini and Ricotta Pasta
-text:
+ingredients:
 Fusilli pasta: 11.25oz(320 g)
 Cow's milk ricotta cheese: 1cup(240 g)
 Zucchini: 4cups(500 g)

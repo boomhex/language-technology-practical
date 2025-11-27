@@ -1,6 +1,6 @@
 name:
 Vareniki with cherries
-text:
+ingredients:
 Type 00 flour: 3 ¼cups(400 g)
 Water: 0.8cup(200 g)- lukewarm
 Sunflower seed oil: 2 ¼tbsp(30 g)

@@ -1,6 +1,6 @@
 name:
 Battilocchio napoletano
-text:
+ingredients:
 Type 0 flour: 2.2lbs(1 kg)- (W 280)
 Water: 2.9cups(700 g)
 Fine salt: 4 ½tsp(25 g)

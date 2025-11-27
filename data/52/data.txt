@@ -1,6 +1,6 @@
 name:
 Green bean, potato, and stracchino bake
-text:
+ingredients:
 Potatoes: 1.1lbs(500 g)
 Green beans: 1.1lbs(500 g)
 Stracchino cheese: 1 ⅓cup(300 g)

@@ -1,6 +1,6 @@
 name:
 Rice Balls
-text:
+ingredients:
 Carnaroli rice: 1 ½cup(330 g)
 Water: 2.8cups(660 g)
 Cheese: 2.5oz(70 g)- grated

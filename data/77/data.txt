@@ -1,6 +1,6 @@
 name:
 Pasta with Black Cabbage Cream, Guanciale, and Pecorino
-text:
+ingredients:
 Rigatoni: 11.3oz(320 g)
 Jowls: 5.3oz(150 g)
 Salt: to taste

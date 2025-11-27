@@ -1,6 +1,6 @@
 name:
 Berry Millefeuille
-text:
+ingredients:
 Puff pastry: 8.1oz(230 g)- (1 rectangular roll)
 Raspberries: 2cups(250 g)
 Blueberries: 1.4cups(200 g)

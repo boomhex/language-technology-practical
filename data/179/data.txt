@@ -1,6 +1,6 @@
 name:
 Cherry Tomato Hummus
-text:
+ingredients:
 Cherry tomatoes: 2 ¼cups(350 g)
 Precooked chickpeas: 2cups(470 g)
 Tahini: 2tbsp(30 g)

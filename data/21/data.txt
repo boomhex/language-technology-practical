@@ -1,6 +1,6 @@
 name:
 Buckwheat penne with wok mushrooms
-text:
+ingredients:
 Buckwheat penne: 11.3oz(320 g)
 Champignon mushrooms: 40
 Carrots: 1

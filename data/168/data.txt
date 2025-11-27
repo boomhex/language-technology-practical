@@ -1,6 +1,6 @@
 name:
 Catalonia in the pan
-text:
+ingredients:
 Chicory: 4bunches
 Anchovies in oil: 3fillets
 Garlic: 3cloves

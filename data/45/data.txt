@@ -1,6 +1,6 @@
 name:
 Seared Scallops on Pea Puree
-text:
+ingredients:
 Scallops: 12
 Prosciutto crudo: 3.5oz(100 g)- sliced
 Peas: 4cups(1 kg)- fresh

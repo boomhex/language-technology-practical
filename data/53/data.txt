@@ -1,6 +1,6 @@
 name:
 Cod with Citrus
-text:
+ingredients:
 Cod fillet: 1.3lbs(600 g)
 Lemons: 1- untreated
 Pink grapefruits: 1- untreated

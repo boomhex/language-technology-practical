@@ -1,6 +1,6 @@
 name:
 Canned pasta and beans
-text:
+ingredients:
 Mafaldine: 11.3oz(320 g)- short
 Precooked Borlotti beans: 2 ½cups(600 g)
 Carrots: 0.9cup(100 g)

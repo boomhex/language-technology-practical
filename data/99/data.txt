@@ -1,6 +1,6 @@
 name:
 Spaghetti with turnip greens cream, nduja, and stracciatella
-text:
+ingredients:
 Spaghetti: 11.3oz(320 g)
 Nduja: 0.4oz(10 g)
 Extra virgin olive oil: to taste

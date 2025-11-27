@@ -1,6 +1,6 @@
 name:
 Mescafrancesca potatoes and fish
-text:
+ingredients:
 Mixed Pasta: 1 ½cup(220 g)
 Potatoes: 1.3lbs(600 g)
 Carrots: 1.5oz(40 g)
