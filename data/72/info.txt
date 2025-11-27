@@ -1,4 +1,1 @@
-{
-    name: Neapolitan Babà
-    url: https://www.giallozafferano.com/recipes/neapolitan-baba.html
-}
+{"name": "Neapolitan Bab\u00e0", "url": "https://www.giallozafferano.com/recipes/neapolitan-baba.html"}

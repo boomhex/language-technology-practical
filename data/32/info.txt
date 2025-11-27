@@ -1,4 +1,1 @@
-{
-    name: Buckwheat pasta with pea cream and crispy speck
-    url: https://www.giallozafferano.com/recipes/buckwheat-pasta-with-pea-cream-and-crispy-speck.html
-}
+{"name": "Buckwheat pasta with pea cream and crispy speck", "url": "https://www.giallozafferano.com/recipes/buckwheat-pasta-with-pea-cream-and-crispy-speck.html"}

@@ -1,4 +1,1 @@
-{
-    name: Vatrushka
-    url: https://www.giallozafferano.com/recipes/vatrushka.html
-}
+{"name": "Vatrushka", "url": "https://www.giallozafferano.com/recipes/vatrushka.html"}

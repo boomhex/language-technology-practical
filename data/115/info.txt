@@ -1,4 +1,1 @@
-{
-    name: Orzo with leeks, robiola cheese, and hazelnuts
-    url: https://www.giallozafferano.com/recipes/orzo-with-leeks-robiola-cheese-and-hazelnuts.html
-}
+{"name": "Orzo with leeks, robiola cheese, and hazelnuts", "url": "https://www.giallozafferano.com/recipes/orzo-with-leeks-robiola-cheese-and-hazelnuts.html"}

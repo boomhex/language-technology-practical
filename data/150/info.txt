@@ -1,4 +1,1 @@
-{
-    name: Apple and Gorgonzola Risotto
-    url: https://www.giallozafferano.com/recipes/apple-and-gorgonzola-risotto.html
-}
+{"name": "Apple and Gorgonzola Risotto", "url": "https://www.giallozafferano.com/recipes/apple-and-gorgonzola-risotto.html"}

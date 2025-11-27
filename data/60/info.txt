@@ -1,4 +1,1 @@
-{
-    name: Lactose-free crepes
-    url: https://www.giallozafferano.com/recipes/lactose-free-crepes.html
-}
+{"name": "Lactose-free crepes", "url": "https://www.giallozafferano.com/recipes/lactose-free-crepes.html"}

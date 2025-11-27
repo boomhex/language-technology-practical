@@ -1,4 +1,1 @@
-{
-    name: Ciaramicola
-    url: https://www.giallozafferano.com/recipes/ciaramicola.html
-}
+{"name": "Ciaramicola", "url": "https://www.giallozafferano.com/recipes/ciaramicola.html"}

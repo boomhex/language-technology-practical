@@ -1,0 +1,10 @@
+{
+    "1" : {
+        "question" : "What ingredients are in Mayonnaise with Hard-Boiled Eggs?",
+        "answer" : "Eggs: 2\nVegetable oil: 6tbsp(80 g)\nLemon juice: 1.3tbsp(20 g)\nSalt: 1pinch\nPepper: 1pinch\nMustard: 1tsp"
+    },
+    "2" : {
+        "question" : "What ingredients are in Cream Cake?",
+        "answer" : "Fresh liquid cream: ¾cup(200 g)\nEggs: 3\nType 00 flour: 1.6cups(200 g)\nSugar: 0.6cup(120 g)\nLemon peel: 1\nBaking powder: 3 ½tsp(16 g)\nSalt: 1pinch\nPowdered sugar: to taste"
+    }
+}

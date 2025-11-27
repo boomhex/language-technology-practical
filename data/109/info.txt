@@ -1,4 +1,1 @@
-{
-    name: Cauliflower and Saffron Pasta
-    url: https://www.giallozafferano.com/recipes/cauliflower-and-saffron-pasta.html
-}
+{"name": "Cauliflower and Saffron Pasta", "url": "https://www.giallozafferano.com/recipes/cauliflower-and-saffron-pasta.html"}

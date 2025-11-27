@@ -1,4 +1,1 @@
-{
-    name: Air Fryer Boiled Eggs
-    url: https://www.giallozafferano.com/recipes/air-fryer-boiled-eggs.html
-}
+{"name": "Air Fryer Boiled Eggs", "url": "https://www.giallozafferano.com/recipes/air-fryer-boiled-eggs.html"}

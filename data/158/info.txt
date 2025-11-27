@@ -1,4 +1,1 @@
-{
-    name: Apple Puff Pastry Squares
-    url: https://www.giallozafferano.com/recipes/apple-puff-pastry-squares.html
-}
+{"name": "Apple Puff Pastry Squares", "url": "https://www.giallozafferano.com/recipes/apple-puff-pastry-squares.html"}

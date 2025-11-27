@@ -1,4 +1,1 @@
-{
-    name: Zucchini and Ricotta Pasta
-    url: https://www.giallozafferano.com/recipes/zucchini-and-ricotta-pasta.html
-}
+{"name": "Zucchini and Ricotta Pasta", "url": "https://www.giallozafferano.com/recipes/zucchini-and-ricotta-pasta.html"}

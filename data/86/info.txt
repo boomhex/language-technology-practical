@@ -1,4 +1,1 @@
-{
-    name: Apple and Walnut Cake
-    url: https://www.giallozafferano.com/recipes/apple-and-walnut-cake.html
-}
+{"name": "Apple and Walnut Cake", "url": "https://www.giallozafferano.com/recipes/apple-and-walnut-cake.html"}

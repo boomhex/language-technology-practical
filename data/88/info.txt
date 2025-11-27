@@ -1,4 +1,1 @@
-{
-    name: Air Fryer Salt Cod
-    url: https://www.giallozafferano.com/recipes/air-fryer-salt-cod.html
-}
+{"name": "Air Fryer Salt Cod", "url": "https://www.giallozafferano.com/recipes/air-fryer-salt-cod.html"}

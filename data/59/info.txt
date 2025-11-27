@@ -1,4 +1,1 @@
-{
-    name: Buckwheat spaghetti with anchovies and cherry tomatoes
-    url: https://www.giallozafferano.com/recipes/buckwheat-spaghetti-with-anchovies-and-cherry-tomatoes.html
-}
+{"name": "Buckwheat spaghetti with anchovies and cherry tomatoes", "url": "https://www.giallozafferano.com/recipes/buckwheat-spaghetti-with-anchovies-and-cherry-tomatoes.html"}

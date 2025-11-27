@@ -1,4 +1,1 @@
-{
-    name: Scrambled Eggs with Tomato
-    url: https://www.giallozafferano.com/recipes/scrambled-eggs-with-tomato.html
-}
+{"name": "Scrambled Eggs with Tomato", "url": "https://www.giallozafferano.com/recipes/scrambled-eggs-with-tomato.html"}

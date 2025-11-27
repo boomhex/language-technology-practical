@@ -1,4 +1,1 @@
-{
-    name: Pasta with Black Cabbage Cream, Guanciale, and Pecorino
-    url: https://www.giallozafferano.com/recipes/pasta-with-black-cabbage-cream-guanciale-and-pecorino.html
-}
+{"name": "Pasta with Black Cabbage Cream, Guanciale, and Pecorino", "url": "https://www.giallozafferano.com/recipes/pasta-with-black-cabbage-cream-guanciale-and-pecorino.html"}

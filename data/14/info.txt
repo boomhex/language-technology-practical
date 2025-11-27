@@ -1,4 +1,1 @@
-{
-    name: Mescafrancesca potatoes and fish
-    url: https://www.giallozafferano.com/recipes/mescafrancesca-potatoes-and-fish.html
-}
+{"name": "Mescafrancesca potatoes and fish", "url": "https://www.giallozafferano.com/recipes/mescafrancesca-potatoes-and-fish.html"}

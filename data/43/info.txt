@@ -1,4 +1,1 @@
-{
-    name: Easy Asparagus Pasqualina
-    url: https://www.giallozafferano.com/recipes/easy-asparagus-pasqualina.html
-}
+{"name": "Easy Asparagus Pasqualina", "url": "https://www.giallozafferano.com/recipes/easy-asparagus-pasqualina.html"}

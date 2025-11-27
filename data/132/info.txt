@@ -1,4 +1,1 @@
-{
-    name: Noodles with vegetables
-    url: https://www.giallozafferano.com/recipes/noodles-with-vegetables.html
-}
+{"name": "Noodles with vegetables", "url": "https://www.giallozafferano.com/recipes/noodles-with-vegetables.html"}

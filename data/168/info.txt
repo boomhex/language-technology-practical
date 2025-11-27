@@ -1,4 +1,1 @@
-{
-    name: Catalonia in the pan
-    url: https://www.giallozafferano.com/recipes/catalonia-in-the-pan.html
-}
+{"name": "Catalonia in the pan", "url": "https://www.giallozafferano.com/recipes/catalonia-in-the-pan.html"}

@@ -1,4 +1,1 @@
-{
-    name: Risotto with red lentils and shrimp
-    url: https://www.giallozafferano.com/recipes/risotto-with-red-lentils-and-shrimp.html
-}
+{"name": "Risotto with red lentils and shrimp", "url": "https://www.giallozafferano.com/recipes/risotto-with-red-lentils-and-shrimp.html"}

@@ -2,6 +2,7 @@ from scraper.recipeScraper import RecipeScraper
 from scraper.scraperABC import Scraper
 from scraper.pageinfo import PageInfo
 from pathlib import Path
+import json
 
 def remove_newline(line: str):
     return line.replace("\n", "")
@@ -46,12 +47,17 @@ class CrawlBot:
         dest = dest.joinpath("info.txt")
         dest.touch()
         with open(dest, 'w') as file:
-            text = line("{") + \
-            tab() + line(f"name: {page.ident}") + \
-            tab() + line(f"url: {page.url}") + \
-            line("}")
+        #     text = line("{") + \
+        #     tab() + line(f"name: {page.ident}") + \
+        #     tab() + line(f"url: {page.url}") + \
+        #     line("}")
+        # file.write(text)
+            dictionary = {
+                'name' : page.ident,
+                'url' : page.url
+            }
 
-            file.write(text)
+            json.dump(dictionary, file)
 
     @staticmethod
     def create_datafile(page: PageInfo, dest: Path) -> None:

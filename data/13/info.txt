@@ -1,4 +1,1 @@
-{
-    name: Cuzzetiello alla parmigiana
-    url: https://www.giallozafferano.com/recipes/cuzzetiello-alla-parmigiana.html
-}
+{"name": "Cuzzetiello alla parmigiana", "url": "https://www.giallozafferano.com/recipes/cuzzetiello-alla-parmigiana.html"}

@@ -1,4 +1,1 @@
-{
-    name: Takoyaki
-    url: https://www.giallozafferano.com/recipes/takoyaki.html
-}
+{"name": "Takoyaki", "url": "https://www.giallozafferano.com/recipes/takoyaki.html"}

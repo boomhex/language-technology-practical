@@ -1,4 +1,1 @@
-{
-    name: Meat Ravioli
-    url: https://www.giallozafferano.com/recipes/meat-ravioli.html
-}
+{"name": "Meat Ravioli", "url": "https://www.giallozafferano.com/recipes/meat-ravioli.html"}

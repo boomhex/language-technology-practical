@@ -1,4 +1,1 @@
-{
-    name: Banana waffles
-    url: https://www.giallozafferano.com/recipes/banana-waffles.html
-}
+{"name": "Banana waffles", "url": "https://www.giallozafferano.com/recipes/banana-waffles.html"}

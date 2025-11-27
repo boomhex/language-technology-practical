@@ -1,4 +1,1 @@
-{
-    name: No-bake mint and chocolate crumble
-    url: https://www.giallozafferano.com/recipes/no-bake-mint-and-chocolate-crumble.html
-}
+{"name": "No-bake mint and chocolate crumble", "url": "https://www.giallozafferano.com/recipes/no-bake-mint-and-chocolate-crumble.html"}

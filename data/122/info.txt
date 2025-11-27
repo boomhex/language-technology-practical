@@ -1,4 +1,1 @@
-{
-    name: Capon with Citrus Fruits
-    url: https://www.giallozafferano.com/recipes/capon-with-citrus-fruits.html
-}
+{"name": "Capon with Citrus Fruits", "url": "https://www.giallozafferano.com/recipes/capon-with-citrus-fruits.html"}

@@ -1,4 +1,1 @@
-{
-    name: Pistachio Semifreddo
-    url: https://www.giallozafferano.com/recipes/pistachio-semifreddo.html
-}
+{"name": "Pistachio Semifreddo", "url": "https://www.giallozafferano.com/recipes/pistachio-semifreddo.html"}

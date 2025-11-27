@@ -1,4 +1,1 @@
-{
-    name: Lemon pesto
-    url: https://www.giallozafferano.com/recipes/lemon-pesto.html
-}
+{"name": "Lemon pesto", "url": "https://www.giallozafferano.com/recipes/lemon-pesto.html"}

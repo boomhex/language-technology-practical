@@ -1,4 +1,1 @@
-{
-    name: Sole roulade with cauliflower cream
-    url: https://www.giallozafferano.com/recipes/sole-roulade-with-cauliflower-cream.html
-}
+{"name": "Sole roulade with cauliflower cream", "url": "https://www.giallozafferano.com/recipes/sole-roulade-with-cauliflower-cream.html"}

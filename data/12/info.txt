@@ -1,4 +1,1 @@
-{
-    name: Seafood Panzanella
-    url: https://www.giallozafferano.com/recipes/seafood-panzanella.html
-}
+{"name": "Seafood Panzanella", "url": "https://www.giallozafferano.com/recipes/seafood-panzanella.html"}

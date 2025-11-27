@@ -1,4 +1,1 @@
-{
-    name: Cod with Citrus
-    url: https://www.giallozafferano.com/recipes/cod-with-citrus.html
-}
+{"name": "Cod with Citrus", "url": "https://www.giallozafferano.com/recipes/cod-with-citrus.html"}

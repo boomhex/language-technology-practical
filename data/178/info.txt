@@ -1,4 +1,1 @@
-{
-    name: Fondant Egg Yolk Raviolone with Ricotta and Asparagus
-    url: https://www.giallozafferano.com/recipes/fondant-egg-yolk-raviolone-with-ricotta-and-asparagus.html
-}
+{"name": "Fondant Egg Yolk Raviolone with Ricotta and Asparagus", "url": "https://www.giallozafferano.com/recipes/fondant-egg-yolk-raviolone-with-ricotta-and-asparagus.html"}

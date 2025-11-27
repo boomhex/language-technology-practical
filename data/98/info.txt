@@ -1,4 +1,1 @@
-{
-    name: Baked Chicken Thighs
-    url: https://www.giallozafferano.com/recipes/baked-chicken-thighs.html
-}
+{"name": "Baked Chicken Thighs", "url": "https://www.giallozafferano.com/recipes/baked-chicken-thighs.html"}

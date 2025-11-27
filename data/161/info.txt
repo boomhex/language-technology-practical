@@ -1,4 +1,1 @@
-{
-    name: Baked saffron rice with speck and brie
-    url: https://www.giallozafferano.com/recipes/baked-saffron-rice-with-speck-and-brie.html
-}
+{"name": "Baked saffron rice with speck and brie", "url": "https://www.giallozafferano.com/recipes/baked-saffron-rice-with-speck-and-brie.html"}

@@ -1,4 +1,1 @@
-{
-    name: Cod in air fryer
-    url: https://www.giallozafferano.com/recipes/cod-in-air-fryer.html
-}
+{"name": "Cod in air fryer", "url": "https://www.giallozafferano.com/recipes/cod-in-air-fryer.html"}

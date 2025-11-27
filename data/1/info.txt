@@ -1,4 +1,1 @@
-{
-    name: Cream Cake
-    url: https://www.giallozafferano.com/recipes/cream-cake.html
-}
+{"name": "Cream Cake", "url": "https://www.giallozafferano.com/recipes/cream-cake.html"}

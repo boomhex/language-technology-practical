@@ -1,4 +1,1 @@
-{
-    name: Braised Fennel on Cannellini Bean Cream
-    url: https://www.giallozafferano.com/recipes/braised-fennel-on-cannellini-bean-cream.html
-}
+{"name": "Braised Fennel on Cannellini Bean Cream", "url": "https://www.giallozafferano.com/recipes/braised-fennel-on-cannellini-bean-cream.html"}

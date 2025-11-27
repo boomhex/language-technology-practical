@@ -1,4 +1,1 @@
-{
-    name: Mushroom Meatloaf
-    url: https://www.giallozafferano.com/recipes/mushroom-meatloaf.html
-}
+{"name": "Mushroom Meatloaf", "url": "https://www.giallozafferano.com/recipes/mushroom-meatloaf.html"}

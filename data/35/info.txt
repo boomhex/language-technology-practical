@@ -1,4 +1,1 @@
-{
-    name: Couscous with Zucchini and Shrimp
-    url: https://www.giallozafferano.com/recipes/couscous-with-zucchini-and-shrimp.html
-}
+{"name": "Couscous with Zucchini and Shrimp", "url": "https://www.giallozafferano.com/recipes/couscous-with-zucchini-and-shrimp.html"}

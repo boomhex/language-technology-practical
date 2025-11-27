@@ -1,4 +1,1 @@
-{
-    name: Calabrian turdilli
-    url: https://www.giallozafferano.com/recipes/calabrian-turdilli.html
-}
+{"name": "Calabrian turdilli", "url": "https://www.giallozafferano.com/recipes/calabrian-turdilli.html"}

@@ -1,4 +1,1 @@
-{
-    name: Pea farinata with zucchini
-    url: https://www.giallozafferano.com/recipes/pea-farinata-with-zucchini.html
-}
+{"name": "Pea farinata with zucchini", "url": "https://www.giallozafferano.com/recipes/pea-farinata-with-zucchini.html"}

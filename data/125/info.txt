@@ -1,4 +1,1 @@
-{
-    name: Risotto with Stracchino, Broccoli and Anchovies
-    url: https://www.giallozafferano.com/recipes/risotto-with-stracchino-broccoli-and-anchovies.html
-}
+{"name": "Risotto with Stracchino, Broccoli and Anchovies", "url": "https://www.giallozafferano.com/recipes/risotto-with-stracchino-broccoli-and-anchovies.html"}

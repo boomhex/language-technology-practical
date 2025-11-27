@@ -1,4 +1,1 @@
-{
-    name: Spaghetti with turnip greens cream, nduja, and stracciatella
-    url: https://www.giallozafferano.com/recipes/spaghetti-with-turnip-greens-cream-nduja-and-stracciatella.html
-}
+{"name": "Spaghetti with turnip greens cream, nduja, and stracciatella", "url": "https://www.giallozafferano.com/recipes/spaghetti-with-turnip-greens-cream-nduja-and-stracciatella.html"}

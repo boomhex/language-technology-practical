@@ -1,4 +1,1 @@
-{
-    name: Chocolate and tahini treats
-    url: https://www.giallozafferano.com/recipes/chocolate-and-tahini-treats.html
-}
+{"name": "Chocolate and tahini treats", "url": "https://www.giallozafferano.com/recipes/chocolate-and-tahini-treats.html"}

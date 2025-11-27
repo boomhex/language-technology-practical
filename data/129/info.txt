@@ -1,4 +1,1 @@
-{
-    name: Broccoli Balls
-    url: https://www.giallozafferano.com/recipes/broccoli-balls.html
-}
+{"name": "Broccoli Balls", "url": "https://www.giallozafferano.com/recipes/broccoli-balls.html"}

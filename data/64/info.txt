@@ -1,4 +1,1 @@
-{
-    name: Father's Day Cake
-    url: https://www.giallozafferano.com/recipes/father-s-day-cake.html
-}
+{"name": "Father's Day Cake", "url": "https://www.giallozafferano.com/recipes/father-s-day-cake.html"}

@@ -1,4 +1,1 @@
-{
-    name: Fried Corn on the Cob
-    url: https://www.giallozafferano.com/recipes/fried-corn-on-the-cob.html
-}
+{"name": "Fried Corn on the Cob", "url": "https://www.giallozafferano.com/recipes/fried-corn-on-the-cob.html"}

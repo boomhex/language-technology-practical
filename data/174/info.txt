@@ -1,4 +1,1 @@
-{
-    name: Capon stuffed ravioli
-    url: https://www.giallozafferano.com/recipes/capon-stuffed-ravioli.html
-}
+{"name": "Capon stuffed ravioli", "url": "https://www.giallozafferano.com/recipes/capon-stuffed-ravioli.html"}

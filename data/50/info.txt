@@ -1,4 +1,1 @@
-{
-    name: Pancotto with turnip tops
-    url: https://www.giallozafferano.com/recipes/pancotto-with-turnip-tops.html
-}
+{"name": "Pancotto with turnip tops", "url": "https://www.giallozafferano.com/recipes/pancotto-with-turnip-tops.html"}

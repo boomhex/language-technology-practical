@@ -1,4 +1,1 @@
-{
-    name: Crepe Lasagna with Vegetables
-    url: https://www.giallozafferano.com/recipes/crepe-lasagna-with-vegetables.html
-}
+{"name": "Crepe Lasagna with Vegetables", "url": "https://www.giallozafferano.com/recipes/crepe-lasagna-with-vegetables.html"}

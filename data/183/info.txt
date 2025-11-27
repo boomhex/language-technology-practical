@@ -1,4 +1,1 @@
-{
-    name: Spaghetti with meat sauce and meatballs
-    url: https://www.giallozafferano.com/recipes/spaghetti-with-meat-sauce-and-meatballs.html
-}
+{"name": "Spaghetti with meat sauce and meatballs", "url": "https://www.giallozafferano.com/recipes/spaghetti-with-meat-sauce-and-meatballs.html"}

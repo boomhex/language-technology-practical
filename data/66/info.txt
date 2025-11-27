@@ -1,4 +1,1 @@
-{
-    name: How to make Sardinian fregola
-    url: https://www.giallozafferano.com/recipes/how-to-make-sardinian-fregola.html
-}
+{"name": "How to make Sardinian fregola", "url": "https://www.giallozafferano.com/recipes/how-to-make-sardinian-fregola.html"}

@@ -1,4 +1,1 @@
-{
-    name: Mushrooms in Oil
-    url: https://www.giallozafferano.com/recipes/mushrooms-in-oil.html
-}
+{"name": "Mushrooms in Oil", "url": "https://www.giallozafferano.com/recipes/mushrooms-in-oil.html"}

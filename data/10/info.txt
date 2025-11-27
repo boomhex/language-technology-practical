@@ -1,4 +1,1 @@
-{
-    name: Mezze penne with red pesto and arugula
-    url: https://www.giallozafferano.com/recipes/mezze-penne-with-red-pesto-and-arugula.html
-}
+{"name": "Mezze penne with red pesto and arugula", "url": "https://www.giallozafferano.com/recipes/mezze-penne-with-red-pesto-and-arugula.html"}

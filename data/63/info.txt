@@ -1,4 +1,1 @@
-{
-    name: Black Venus rice with vegetables
-    url: https://www.giallozafferano.com/recipes/black-venus-rice-with-vegetables.html
-}
+{"name": "Black Venus rice with vegetables", "url": "https://www.giallozafferano.com/recipes/black-venus-rice-with-vegetables.html"}

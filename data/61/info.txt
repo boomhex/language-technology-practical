@@ -1,4 +1,1 @@
-{
-    name: Ricotta and Raspberry Glasses
-    url: https://www.giallozafferano.com/recipes/ricotta-and-raspberry-glasses.html
-}
+{"name": "Ricotta and Raspberry Glasses", "url": "https://www.giallozafferano.com/recipes/ricotta-and-raspberry-glasses.html"}

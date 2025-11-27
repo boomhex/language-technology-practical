@@ -1,4 +1,1 @@
-{
-    name: Risotto with broccoli and quick bagna caoda
-    url: https://www.giallozafferano.com/recipes/risotto-with-broccoli-and-quick-bagna-caoda.html
-}
+{"name": "Risotto with broccoli and quick bagna caoda", "url": "https://www.giallozafferano.com/recipes/risotto-with-broccoli-and-quick-bagna-caoda.html"}

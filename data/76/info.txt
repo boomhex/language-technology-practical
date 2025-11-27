@@ -1,4 +1,1 @@
-{
-    name: Potato loaf
-    url: https://www.giallozafferano.com/recipes/potato-loaf.html
-}
+{"name": "Potato loaf", "url": "https://www.giallozafferano.com/recipes/potato-loaf.html"}

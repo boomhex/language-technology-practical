@@ -1,4 +1,1 @@
-{
-    name: Boiled Carrots
-    url: https://www.giallozafferano.com/recipes/boiled-carrots.html
-}
+{"name": "Boiled Carrots", "url": "https://www.giallozafferano.com/recipes/boiled-carrots.html"}

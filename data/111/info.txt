@@ -1,4 +1,1 @@
-{
-    name: Lasagna with Swiss Chard
-    url: https://www.giallozafferano.com/recipes/lasagna-with-swiss-chard.html
-}
+{"name": "Lasagna with Swiss Chard", "url": "https://www.giallozafferano.com/recipes/lasagna-with-swiss-chard.html"}

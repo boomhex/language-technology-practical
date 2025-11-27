@@ -1,4 +1,1 @@
-{
-    name: Vegetarian meatballs
-    url: https://www.giallozafferano.com/recipes/vegetarian-meatballs.html
-}
+{"name": "Vegetarian meatballs", "url": "https://www.giallozafferano.com/recipes/vegetarian-meatballs.html"}

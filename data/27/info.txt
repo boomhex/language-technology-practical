@@ -1,4 +1,1 @@
-{
-    name: Nuggets in air fryer
-    url: https://www.giallozafferano.com/recipes/nuggets-in-air-fryer.html
-}
+{"name": "Nuggets in air fryer", "url": "https://www.giallozafferano.com/recipes/nuggets-in-air-fryer.html"}

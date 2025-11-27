@@ -1,4 +1,1 @@
-{
-    name: Pasta with Cuttlefish
-    url: https://www.giallozafferano.com/recipes/pasta-with-cuttlefish.html
-}
+{"name": "Pasta with Cuttlefish", "url": "https://www.giallozafferano.com/recipes/pasta-with-cuttlefish.html"}

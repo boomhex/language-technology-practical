@@ -1,4 +1,1 @@
-{
-    name: Battilocchio napoletano
-    url: https://www.giallozafferano.com/recipes/battilocchio-napoletano.html
-}
+{"name": "Battilocchio napoletano", "url": "https://www.giallozafferano.com/recipes/battilocchio-napoletano.html"}

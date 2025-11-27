@@ -1,4 +1,1 @@
-{
-    name: Salmon Canapés
-    url: https://www.giallozafferano.com/recipes/salmon-canapes.html
-}
+{"name": "Salmon Canap\u00e9s", "url": "https://www.giallozafferano.com/recipes/salmon-canapes.html"}

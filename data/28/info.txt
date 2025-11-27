@@ -1,4 +1,1 @@
-{
-    name: Tea Cake without Lactose
-    url: https://www.giallozafferano.com/recipes/tea-cake-without-lactose.html
-}
+{"name": "Tea Cake without Lactose", "url": "https://www.giallozafferano.com/recipes/tea-cake-without-lactose.html"}

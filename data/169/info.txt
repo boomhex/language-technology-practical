@@ -1,4 +1,1 @@
-{
-    name: Buccellati siciliani
-    url: https://www.giallozafferano.com/recipes/buccellati-siciliani.html
-}
+{"name": "Buccellati siciliani", "url": "https://www.giallozafferano.com/recipes/buccellati-siciliani.html"}

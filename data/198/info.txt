@@ -1,4 +1,1 @@
-{
-    name: Quick chocolate cake
-    url: https://www.giallozafferano.com/recipes/quick-chocolate-cake.html
-}
+{"name": "Quick chocolate cake", "url": "https://www.giallozafferano.com/recipes/quick-chocolate-cake.html"}

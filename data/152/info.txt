@@ -1,4 +1,1 @@
-{
-    name: Baked Gratinated Calamari
-    url: https://www.giallozafferano.com/recipes/baked-gratinated-calamari.html
-}
+{"name": "Baked Gratinated Calamari", "url": "https://www.giallozafferano.com/recipes/baked-gratinated-calamari.html"}

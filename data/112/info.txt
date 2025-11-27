@@ -1,4 +1,1 @@
-{
-    name: Scrippelle mbusse
-    url: https://www.giallozafferano.com/recipes/scrippelle-mbusse.html
-}
+{"name": "Scrippelle mbusse", "url": "https://www.giallozafferano.com/recipes/scrippelle-mbusse.html"}

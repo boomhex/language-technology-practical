@@ -1,4 +1,1 @@
-{
-    name: Blue Crab Risotto
-    url: https://www.giallozafferano.com/recipes/blue-crab-risotto.html
-}
+{"name": "Blue Crab Risotto", "url": "https://www.giallozafferano.com/recipes/blue-crab-risotto.html"}

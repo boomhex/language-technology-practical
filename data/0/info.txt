@@ -1,4 +1,1 @@
-{
-    name: Mayonnaise with Hard-Boiled Eggs
-    url: https://www.giallozafferano.com/recipes/mayonnaise-with-hard-boiled-eggs.html
-}
+{"name": "Mayonnaise with Hard-Boiled Eggs", "url": "https://www.giallozafferano.com/recipes/mayonnaise-with-hard-boiled-eggs.html"}

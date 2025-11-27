@@ -1,4 +1,1 @@
-{
-    name: Sea bass fillet with cherry tomatoes
-    url: https://www.giallozafferano.com/recipes/sea-bass-fillet-with-cherry-tomatoes.html
-}
+{"name": "Sea bass fillet with cherry tomatoes", "url": "https://www.giallozafferano.com/recipes/sea-bass-fillet-with-cherry-tomatoes.html"}
