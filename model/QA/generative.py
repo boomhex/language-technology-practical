@@ -16,10 +16,22 @@ from utils import (
 
 GEN_MODEL_NAME = "t5-small"
 DATA_FOLDER = Path( "./../data" )
-FILES = [DATA_FOLDER.joinpath(Path( str(id) + "/data.txt" )) for id in range(5)]
+FILES = [DATA_FOLDER.joinpath(Path( str(id) + "/data.txt" )) for id in range(2)]
 MAX_LEN = 384 # feel free to change
 N_EVAL_EXAMPLES = 300  # using a subset of the dataset, feel free to change
 
+def answer_prompt(prompt, gen_pipe) -> str:
+    try:
+        out = gen_pipe(
+            prompt,
+            max_new_tokens=128, # max answer length
+            num_beams=4, # 4 candidates
+            do_sample=False, #deterministic
+        )[0]["generated_text"]
+        prediction_text = out.strip()
+    except Exception as e:
+        prediction_text = ""
+    return prediction_text
 
 def evaluate_generative(context, questions) -> tuple[float, float]:
     """
@@ -29,6 +41,7 @@ def evaluate_generative(context, questions) -> tuple[float, float]:
     - Compare to ground truth with EM/F1
     """
 
+    # set device
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"\n[Generative] Using device: {device}")
 
@@ -53,18 +66,9 @@ def evaluate_generative(context, questions) -> tuple[float, float]:
         # Prompt format for the model
         prompt = f"question: {question}  context: {context}"
 
-        try:
-            out = gen_pipe(
-                prompt,
-                max_new_tokens=32, # max answer length
-                num_beams=4, # 4 candidates
-                do_sample=False, #deterministic
-            )[0]["generated_text"]
-            prediction_text = out.strip()
-        except Exception as e:
-            prediction_text = ""
+        prediction_text = answer_prompt(prompt, gen_pipe)
 
-        print(prediction_text, ground_truths)
+        print(f"PREDICTION:\n{prediction_text}\nGROUND TRUTH:\n{ground_truths}")
 
         em = max_over_ground_truths(compute_exact_match, prediction_text, ground_truths)
         f1 = max_over_ground_truths(compute_f1, prediction_text, ground_truths)
@@ -82,7 +86,7 @@ def main() -> None:
     context = "\n".join(
         [read_file(file) for file in FILES]
     )   # concatenate context
-    questions_file = Path( "./../questions/questions.json" )
+    questions_file = Path( "./../../questions/questions.json" )
     questions = load_questions(questions_file)
     em, f1 = evaluate_generative(context, questions)
     print(f"em: {em}, f1: {f1}")
