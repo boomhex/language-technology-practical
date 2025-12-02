@@ -33,8 +33,8 @@ class GenerativeModel:
             out = self.pipeline(
                 prompt,
                 max_new_tokens=128, # max answer length
-                num_beams=4, # 4 candidates
-                do_sample=False, #deterministic
+                num_beams=4,        # 4 candidates
+                do_sample=False,    # deterministic
             )[0]["generated_text"]
             prediction_text = out.strip()
         except Exception as e:
@@ -47,5 +47,6 @@ if __name__ == "__main__":
         "cpu",
         "t5-small"
     )
-    ans = gen_model("context: My name is Timo. Question: what is my name?")
+    prompt = input("? ")
+    ans = gen_model(prompt)
     print(ans)
