@@ -32,8 +32,8 @@ class GenerativeModel:
         try:
             out = self.pipeline(
                 prompt,
-                max_new_tokens=128, # max answer length
-                num_beams=4,        # 4 candidates
+                max_new_tokens=256, # max answer length
+                num_beams=10,        # 4 candidates
                 do_sample=False,    # deterministic
             )[0]["generated_text"]
             prediction_text = out.strip()
@@ -49,6 +49,7 @@ if __name__ == "__main__":
     )
     with open("../data/1/data.txt", 'r') as file:
         context = file.read()
-    prompt = context + ' ' + input("? ")
+    question = input("? ")
+    prompt = f"question: {question} context: {context}"
     ans = gen_model(prompt)
     print(ans)
