@@ -15,7 +15,7 @@ class RecipeScraper(Scraper):
     def info(self, soup: BeautifulSoup):
         ingredients = self.ingredients(soup)        # get ingr. and instrc.
         paragraphs = self.paragraphs(soup)
-        page_info = f"{ingredients}\n{paragraphs}\n"    # concatenate
+        page_info = f"{ingredients}\ninstructions:\n{paragraphs}\n"    # concatenate
         return page_info
 
     def ingredients(self, soup: BeautifulSoup):
@@ -49,6 +49,8 @@ class RecipeScraper(Scraper):
 
     def paragraphs(self, soup: BeautifulSoup) -> str:
         text_tags = soup.select('p')        # filter paragraphs and join texts
+        for span in soup.find_all("span", class_="num-step"):
+            span.decompose()
         paragraphs = [t.get_text(" ", strip=True) for t in text_tags]
         joined_paragraphs = '\n'.join(paragraphs)
         return joined_paragraphs

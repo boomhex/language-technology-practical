@@ -1,3 +1,9 @@
 - improve QA-model
+    - Normalize question
+        - Add question mark etc.
+- preprocess data
+    - chunking
+    - normalize text?
+    
 - improve folder layout
 - indexing

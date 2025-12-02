@@ -42,14 +42,18 @@ class GenerativeModel:
 
         return prediction_text
 
+
 if __name__ == "__main__":
     gen_model = GenerativeModel(
         "cpu",
-        "t5-small"
+        "t5-base"
     )
-    with open("../data/1/data.txt", 'r') as file:
+    with open("../data/aa_test.txt", 'r') as file:
         context = file.read()
-    question = input("? ")
-    prompt = f"question: {question} context: {context}"
+    # User prompt:
+    print(context)
+    print("Ask a question based on context")
+    user_input = input("? ")
+    prompt = "question: " + user_input + " context: " + context
     ans = gen_model(prompt)
     print(ans)
