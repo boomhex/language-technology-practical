@@ -40,8 +40,8 @@ class CrawlBot:
 
     def save_page(self, page: PageInfo) -> None:
         dest = CrawlBot.make_dirs(self.dest_dir)    # make new directory
-        CrawlBot.create_info_file(page, dest)
-        CrawlBot.create_datafile(page, dest)
+        # CrawlBot.create_info_file(page, dest)
+        CrawlBot.create_datafile(page, self.dest_dir)
 
     def create_info_file(page: PageInfo, dest: Path) -> None:
         dest = dest.joinpath("info.txt")
@@ -61,7 +61,8 @@ class CrawlBot:
 
     @staticmethod
     def create_datafile(page: PageInfo, dest: Path) -> None:
-        dest = dest.joinpath("data.txt")
+        n_file = CrawlBot.n_thfile(dest)
+        dest = dest.joinpath(n_file + ".txt")
         dest.touch()
         with open(dest, 'w') as file:
             text = str(page)
@@ -72,18 +73,25 @@ class CrawlBot:
         if not Path.exists(dest_dir):
             Path.mkdir(dest_dir)
 
-        max_dest = CrawlBot.n_thfolder(dest_dir)
-        print(max_dest)
-        dest = Path(dest_dir, max_dest)
-        Path.mkdir(dest)
-        return dest
+        # max_dest = CrawlBot.n_thfolder(dest_dir)
+        # print(max_dest)
+        # dest = Path(dest_dir, max_dest)
+        # Path.mkdir(dest)
+        # return dest
 
     @staticmethod
     def n_thfolder(dir: Path) -> str:
-        return str(len([f.name for f in dir.iterdir()]))
+        all_files = [f.name for f in dir.iterdir()]
+        return str(len(all_files))
+    
+    @staticmethod
+    def n_thfile(dir: Path) -> str:
+        all_files = [f.name for f in dir.iterdir()]
+        return str(len(all_files))
 
-scraper = RecipeScraper()
-path = Path("getRecipes/recipes.txt")
-dest = Path("data/")
-bot = CrawlBot(scraper, path, dest)
-bot.crawl()
+if __name__ == "__main__":
+    scraper = RecipeScraper()
+    path = Path("getRecipes/recipes.txt")
+    dest = Path("../model/data")
+    bot = CrawlBot(scraper, path, dest)
+    bot.crawl()
