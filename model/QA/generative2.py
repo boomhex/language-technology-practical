@@ -47,6 +47,8 @@ if __name__ == "__main__":
         "cpu",
         "t5-small"
     )
-    prompt = input("? ")
+    with open("../data/1/data.txt", 'r') as file:
+        context = file.read()
+    prompt = context + ' ' + input("? ")
     ans = gen_model(prompt)
     print(ans)
