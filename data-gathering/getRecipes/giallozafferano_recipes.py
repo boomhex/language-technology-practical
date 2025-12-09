@@ -4,7 +4,7 @@ from urllib.parse import urljoin
 
 BASE_URL = "https://www.giallozafferano.com"
 START_URL = f"{BASE_URL}/recipes-list/"
-TARGET_COUNT = 200
+TARGET_COUNT = 1000
 
 def is_recipe_url(href: str) -> bool:
     if not href:

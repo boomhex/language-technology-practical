@@ -145,10 +145,11 @@ def build_recipe_chunks(recipes, tokenizer, max_tokens: int = 100, overlap_token
 def load_chunk_recipes(
     data_dir: str = "../model/data",
     model_name: str = "google/flan-t5-small",
+    nr_recipes: int = 200,
     max_tokens: int = 400,
     overlap_tokens: int = 0,
 ):
-    recipes = load_recipes(data_dir)
+    recipes = load_recipes(data_dir, max_index=nr_recipes)
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     recipe_chunks = build_recipe_chunks(recipes, tokenizer, max_tokens=max_tokens, overlap_tokens=overlap_tokens)
     random.seed(123)

@@ -7,7 +7,7 @@ GEN_MODEL_NAME = "google/flan-t5-base"
 ENC_MODEL_NAME = "all-MiniLM-L6-v2"
 DEVICE = "cpu"
 CHUNK_TOKEN_SIZE = 400
-TOPK = 2
+TOPK = 10
 DATA_SRC = "../data"
 
 def interactive_recipe_qa(
@@ -15,7 +15,7 @@ def interactive_recipe_qa(
     recipe_chunks,
     embed_model,
     faiss_index,
-    k_retrieval: int = 2,
+    k_retrieval,
 ):
     print("Recipe QA – ask a question about your recipes.")
     print("Type 'quit' or 'exit' to stop.\n")
@@ -59,6 +59,7 @@ def interactive_recipe_qa(
 def main():
     recipe_chunks = load_chunk_recipes(data_dir=DATA_SRC, 
                                        model_name=GEN_MODEL_NAME, 
+                                       nr_recipes=1050,
                                        max_tokens=400)
     index, embed_model= build_similarity_index(recipe_chunks=recipe_chunks, 
                                    model_name=ENC_MODEL_NAME, 
