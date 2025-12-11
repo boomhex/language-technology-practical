@@ -4,7 +4,7 @@ from urllib.parse import urljoin
 
 BASE_URL = "https://www.giallozafferano.com"
 START_URL = f"{BASE_URL}/recipes-list/"
-TARGET_COUNT = 1000
+TARGET_COUNT = 6645
 
 def is_recipe_url(href: str) -> bool:
     if not href:
@@ -55,6 +55,7 @@ def collect_recipe_links(start_url=START_URL, target_count=TARGET_COUNT):
         for a in soup.find_all("a", href=True):
             text = (a.get_text() or "").strip().lower()
             if "next page" in text:
+                #print("next page", a["href"])
                 next_link = urljoin(BASE_URL, a["href"])
                 break
 

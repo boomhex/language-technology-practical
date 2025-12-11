@@ -7,7 +7,8 @@ GEN_MODEL_NAME = "google/flan-t5-base"
 ENC_MODEL_NAME = "all-MiniLM-L6-v2"
 DEVICE = "cpu"
 CHUNK_TOKEN_SIZE = 400
-TOPK = 10
+RECIPES = 1050
+TOPK = 3
 DATA_SRC = "../data"
 
 def interactive_recipe_qa(
@@ -59,8 +60,8 @@ def interactive_recipe_qa(
 def main():
     recipe_chunks = load_chunk_recipes(data_dir=DATA_SRC, 
                                        model_name=GEN_MODEL_NAME, 
-                                       nr_recipes=1050,
-                                       max_tokens=400)
+                                       nr_recipes=RECIPES,
+                                       max_tokens=CHUNK_TOKEN_SIZE )
     index, embed_model= build_similarity_index(recipe_chunks=recipe_chunks, 
                                    model_name=ENC_MODEL_NAME, 
                                    device=DEVICE, 
