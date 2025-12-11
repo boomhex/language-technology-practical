@@ -43,6 +43,7 @@ def ask_recipe_question(
     faiss_index,
     k_retrieval: int = 5,
     device: str = "cuda",
+    conversation_context: str = "",
 ):
     """
     Retrieve top-k relevant recipe chunks for a question and generate an answer.
@@ -87,5 +88,9 @@ def ask_recipe_question(
     #     print(context_text)
 
     # 2. generate answer from the retrieved contexts
-    answer = gen_qa.answer(question, contexts)
+    answer = gen_qa.answer(
+        question=question,
+        contexts=contexts,
+        conversation_context=conversation_context,   # NEW
+    )
     return answer, hits
