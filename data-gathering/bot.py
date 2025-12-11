@@ -39,19 +39,13 @@ class CrawlBot:
             self.save_page(page_info)
 
     def save_page(self, page: PageInfo) -> None:
-        dest = CrawlBot.make_dirs(self.dest_dir)    # make new directory
-        # CrawlBot.create_info_file(page, dest)
+        CrawlBot.make_dirs(self.dest_dir)    # make new directory
         CrawlBot.create_datafile(page, self.dest_dir)
 
     def create_info_file(page: PageInfo, dest: Path) -> None:
         dest = dest.joinpath("info.txt")
         dest.touch()
         with open(dest, 'w') as file:
-        #     text = line("{") + \
-        #     tab() + line(f"name: {page.ident}") + \
-        #     tab() + line(f"url: {page.url}") + \
-        #     line("}")
-        # file.write(text)
             dictionary = {
                 'name' : page.ident,
                 'url' : page.url
@@ -69,15 +63,9 @@ class CrawlBot:
             file.write(text)
 
     @staticmethod
-    def make_dirs(dest_dir) -> Path:
+    def make_dirs(dest_dir):
         if not Path.exists(dest_dir):
             Path.mkdir(dest_dir)
-
-        # max_dest = CrawlBot.n_thfolder(dest_dir)
-        # print(max_dest)
-        # dest = Path(dest_dir, max_dest)
-        # Path.mkdir(dest)
-        # return dest
 
     @staticmethod
     def n_thfolder(dir: Path) -> str:

@@ -18,7 +18,6 @@ class Scraper(ABC):
 
     def order(self, html: str):
         soup = BeautifulSoup(html, "html.parser")       # parse html
-
         title = self.title(soup)                        # extract relevant info
         info = self.info(soup)
 
