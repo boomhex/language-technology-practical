@@ -10,12 +10,7 @@ class PageInfo:
         self.url = url
 
     def __str__(self) -> str:
-        info = {
-            'name':self.ident,
-            
-        }
         string = f"name:\n{self.ident}\n" \
-                 f"ingredients:\n{self.text}\n" \
-                 f"url:\n{self.url}\n"
+                 f"{self.text}\n"
     
         return string

@@ -2,11 +2,18 @@ import requests
 from bs4 import BeautifulSoup
 from .scraperABC import Scraper
 from .pageinfo import PageInfo
+from typing import List
 
 def normalize_ws(string: str):
     string = string.replace('\n', '')
     string = string.replace('\t', '') 
     return string
+
+def concat_info(info):
+    page_info = ""
+    for (label, item) in info:
+        page_info += f"{label}\n{item}\n" 
+    return page_info
 
 class RecipeScraper(Scraper):
     def __init__(self):
@@ -15,8 +22,24 @@ class RecipeScraper(Scraper):
     def info(self, soup: BeautifulSoup):
         ingredients = self.ingredients(soup)        # get ingr. and instrc.
         paragraphs = self.paragraphs(soup)
-        page_info = f"{ingredients}\ninstructions:\n{paragraphs}\n"    # concatenate
+        recipe_metainfo = self.metainfo(soup)
+
+        info = []
+        info.append(("ingredients:", ingredients))
+        info.append(("info:", recipe_metainfo))
+        info.append(("instructions:", paragraphs))
+
+        page_info = concat_info(info)
+
         return page_info
+
+    def metainfo(self, soup: BeautifulSoup):
+        info = ""
+        # Select all summary rows
+        for item in soup.select("span.gz-name-featured-data"):
+            text = item.get_text(" ", strip=True)
+            info += text + '\n'
+        return info
 
     def ingredients(self, soup: BeautifulSoup):
         ingredients = []
@@ -48,11 +71,35 @@ class RecipeScraper(Scraper):
         return text
 
     def paragraphs(self, soup: BeautifulSoup) -> str:
-        text_tags = soup.select('p')        # filter paragraphs and join texts
+        # 1. Remove the "You might also like" section if we can identify it
+        #    by heading or visible text.
+        for node in soup.find_all(string=lambda s: s and "you might also like" in s.lower()):
+            container = node.parent
+            # Walk up a bit and remove a reasonably-sized block
+            for _ in range(3):                  # go up at most 3 levels
+                if container is None:
+                    break
+                # Heuristic: likely wrappers for that block
+                if container.name in {"section", "aside", "div"}:
+                    container.decompose()
+                    break
+                container = container.parent
+
+        # 2. Remove numbered step spans as you already do
         for span in soup.find_all("span", class_="num-step"):
             span.decompose()
-        paragraphs = [t.get_text(" ", strip=True) for t in text_tags]
-        joined_paragraphs = '\n'.join(paragraphs)
+
+        # 3. Collect <p> tags, but stop if we hit a "You might also like" paragraph
+        text_tags = soup.select("p")
+
+        paragraphs: List[str] = []
+        for p in text_tags:
+            txt = p.get_text(" ", strip=True)
+            if txt.lower().startswith("you might also like"):
+                break
+            paragraphs.append(txt)
+
+        joined_paragraphs = "\n".join(paragraphs)
         return joined_paragraphs
 
     def title(self, soup: BeautifulSoup) -> str:
@@ -61,11 +108,3 @@ class RecipeScraper(Scraper):
 
     def remove_dup(self, some_list: list):
         return list(dict.fromkeys(some_list))
-
-
-if __name__ == "__main__":
-    scraper = RecipeScraper()
-
-    sc = scraper.scrape("https://www.giallozafferano.com/recipes/baked-pasta-with-zucchini-cream.html")
-
-    print(sc)
