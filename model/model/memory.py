@@ -19,4 +19,5 @@ class ShortTermMemory:
         Simple textual representation of the conversation so far,
         in case you want to feed it into the model later.
         """
-        return "\n".join(f"{m['role']}: {m['text']}" for m in self.buffer)
+        return "\n".join(m["text"] for m in self.buffer if m.get("role") == "user")
+        #return "\n".join(f"{m['role']}: {m['text']}" for m in self.buffer)

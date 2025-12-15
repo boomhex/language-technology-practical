@@ -6,7 +6,7 @@ from memory import ShortTermMemory
 
 short_memory = ShortTermMemory(max_size=12)
 
-GEN_MODEL_NAME = "google/flan-t5-large"
+GEN_MODEL_NAME = "google/flan-t5-base"
 ENC_MODEL_NAME = "all-MiniLM-L6-v2"
 DEVICE = "cpu"
 CHUNK_TOKEN_SIZE = 400
@@ -37,10 +37,13 @@ def handle_question(
 
     # 2. normal retrieval + generation
     context_history = short_memory.get_context()
+    print(context_history)
+    query = gen_qa.rewrite(user_input, context_history)
+    print(f"new query: {query}\n")
 
     answer, hits = ask_recipe_question(
         gen_qa=gen_qa,
-        question=user_input,
+        question=query,
         recipe_chunks=recipe_chunks,
         embed_model=embed_model,
         faiss_index=faiss_index,

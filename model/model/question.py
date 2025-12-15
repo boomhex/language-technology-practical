@@ -91,6 +91,5 @@ def ask_recipe_question(
     answer = gen_qa.answer(
         question=question,
         contexts=contexts,
-        conversation_context=conversation_context,   # NEW
     )
     return answer, hits
