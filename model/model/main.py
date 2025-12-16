@@ -1,22 +1,27 @@
+import os
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+os.environ["OMP_NUM_THREADS"] = "1"
+os.environ["MKL_NUM_THREADS"] = "1"
+os.environ["OPENBLAS_NUM_THREADS"] = "1"
+os.environ["VECLIB_MAXIMUM_THREADS"] = "1"
 from generator import GenerativeQA
 from similarity import build_similarity_index
 from load import load_chunk_recipes
 from question import ask_recipe_question
 from memory import ShortTermMemory
 
-short_memory = ShortTermMemory(max_size=12)
-
 GEN_MODEL_NAME = "google/flan-t5-base"
 ENC_MODEL_NAME = "all-MiniLM-L6-v2"
 DEVICE = "cpu"
 CHUNK_TOKEN_SIZE = 400
-RECIPES = 12
+RECIPES = 6000
 TOPK = 3
 DATA_SRC = "../data"
 
 def handle_question(
     user_input: str,
     gen_qa,
+    memory,
     recipe_chunks,
     embed_model,
     faiss_index,
@@ -33,12 +38,13 @@ def handle_question(
     - Store the assistant reply in short_memory as well.
     """
     # 1. remember what the user said
-    short_memory.add("user", user_input)
+    
 
     # 2. normal retrieval + generation
-    context_history = short_memory.get_context()
+    context_history = memory.get_context()
     print(context_history)
     query = gen_qa.rewrite(user_input, context_history)
+    memory.add("question", user_input)
     print(f"new query: {query}\n")
 
     answer, hits = ask_recipe_question(
@@ -60,16 +66,17 @@ def handle_question(
             "answer that. Could you rephrase the question or be more specific, "
             "for example by mentioning a dish or ingredient?"
         )
-        short_memory.add("assistant", clarification)
+        memory.add("assistant", clarification)
         return clarification, hits
 
     # 4. otherwise, use the generated answer
-    short_memory.add("assistant", answer)
+    memory.add("answer", answer)
     return answer, hits
 
 
 def interactive_recipe_qa(
     gen_qa,
+    memory,
     recipe_chunks,
     embed_model,
     faiss_index,
@@ -93,6 +100,7 @@ def interactive_recipe_qa(
         answer, hits = handle_question(
             user_input=q,
             gen_qa=gen_qa,
+            memory=memory,
             recipe_chunks=recipe_chunks,
             embed_model=embed_model,
             faiss_index=faiss_index,
@@ -124,8 +132,9 @@ def main():
                                    device=DEVICE, 
                                    batch_size=32)
     gen_qa = GenerativeQA(device=DEVICE, model_name=GEN_MODEL_NAME)
-
+    short_memory = ShortTermMemory(model=gen_qa,max_size=12,)
     interactive_recipe_qa(gen_qa=gen_qa, 
+                          memory=short_memory,
                           recipe_chunks=recipe_chunks, 
                           embed_model=embed_model, 
                           faiss_index=index, 
@@ -134,4 +143,6 @@ def main():
     
 
 if __name__ == "__main__":
+    import multiprocessing as mp
+    mp.set_start_method("spawn", force=True)
     main()

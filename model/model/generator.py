@@ -2,7 +2,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 
 class GenerativeQA:
-    def __init__(self, device: str = "cpu", model_name: str = "google/flan-t5-small") -> None:
+    def __init__(self, device: str = "cpu", model_name: str = "google/flan-t5-large") -> None:
         device_obj = torch.device(device if torch.cuda.is_available() else "cpu")
 
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -14,19 +14,43 @@ class GenerativeQA:
             tokenizer=self.tokenizer,
             device=0 if device_obj.type == "cuda" else -1,
         )
+
+    def summarize(self, conversation_context: str = "") -> str:
+        prompt = (
+            "Task: Extract and summarize ONLY the questions asked.\n"
+            "Rules:\n"
+            "- Do NOT include ingredients, quantities, units, or instructions\n"
+            "- Do NOT copy food items\n"
+            "- Output ONLY a short question summary\n"
+            "- If no question is present, output an ONLY an empty string\n\n"
+            "Conversation history:\n"
+            f"{conversation_context}\n\n"
+            "Output:"
+        )
+
+        out = self.pipe(
+            prompt,
+            max_new_tokens=50,
+            num_beams=4,
+            do_sample=False,
+        )[0]["generated_text"]
+
+        return out.strip()
+
     def rewrite(self, question: str, conversation_context: str = "") -> str:
         prompt = (
             "You are a query rewriter for a recipe retrieval system.\n\n"
-            "Rules:\n"
-            "- Do not change any words in the user question.\n"
-            "- Make a smnall context from the Conversation History, With most importantly the most recent recipe.\n"
-            "- Output format must be: context + user_question\n"
-            "- If no recipe name is mentioned, output: user_question\n\n"
+            "Do not change any words in the user question.\n"
+            "get the last recipe from the Conversation History.\n"
+            "The conversation history consist of user inputs and model answers, use these to get your answer.\n"
+            "The user_question is copied without changing\n"
+            "If the question has a different recipe than in the history, then use the new recipe from the question\n"
+            "If no recipe name is mentioned, output: user_question\n\n"
             "Conversation history:\n"
             f"{conversation_context}\n\n"
-            "User question:\n"
+            "User_question:\n"
             f"{question}\n\n"
-            "Output line:"
+            "output the found recipe and the last user question.\n"
         )
 
         out = self.pipe(
