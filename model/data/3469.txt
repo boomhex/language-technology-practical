@@ -1,0 +1,21 @@
+name:
+Banana milkshake
+ingredients:
+Bananas: 0.7lb(300 g)
+Ice: 2.1oz(60 g)
+Cinnamon sticks: ½tsp(2 g)
+Whole milk: 0.625cup(150 g)
+
+info:
+Difficulty: Very easy
+Prep time: 10 min
+Serving: 4
+Cost: Very low
+
+instructions:
+To prepare the banana milkshake, start by peeling the bananas and cutting them into chunks . Then place the freshly cut banana pieces into the blender .
+Add the cinnamon , ice cubes , and cold milk .
+Blend until you get a thick and creamy mixture . Then pour it into the glasses and decorate with a few pieces of cinnamon . Serve the banana milkshake immediately and enjoy it well chilled!
+If you want to sweeten your milkshake, add a teaspoon of honey, it will make it sweeter... Alternatively, you can flavor the milkshake with a teaspoon of cocoa instead of cinnamon!
+It is advisable to consume the banana milkshake immediately to prevent the fruit from oxidizing. Freezing is not recommended!
+
