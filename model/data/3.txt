@@ -22,13 +22,15 @@ Cinnamon sticks: 1
 Star anise: 1
 Sprinkles: to taste
 
+info:
+Difficulty: Average
+Prep time: 60 min
+Cook time: 45 min
+Serving: 8
+Cost: Average
+Note + chilling time in the fridge (at least 3.5 hours total)
+
 instructions:
-So, here's the thing: a gingerbread tart is one of those holiday tart recipes that really brings the magic of winter right to your table. It's super festive. All the gingerbread spices—cinnamon, ginger, nutmeg—come together in this crumbly, tender shortcrust. And the aroma? Totally fills your kitchen like Christmas morning. It's got this unique vibe compared to your usual fruit tart.
-And you know what? Instead of the usual jam or custard, this version has a glossy, dark chocolate ganache. It's rich and smooth against that spiced shell. Really, really delicious. Plus, decorating it with tiny gingerbread figures and some royal icing? Gives you that gingerbread house feel—but way more grown-up.
-So, this dessert? It's a conversation starter, for sure. People love those cute shapes and golden sparkles from the icing. Other gingerbread-inspired treats like muffins, bundt cakes, or even those big gingerbread house cakes are fun. But a gingerbread tart recipe like this? Brings something new to the table. If you’re into spiced tart recipes or just want more moist, chocolatey desserts during the holidays, you'll love it.
-What makes this tart really pop is how the sweet and slightly tangy chocolate filling pairs with the bold, warm spices. It's this unique mix rooted in Northern European Christmas traditions. Serving a gingerbread tart at your next gathering? Total "wow" factor without much fuss. It pairs beautifully with coffee, hot cocoa, or even a glass of dessert wine. Really, it's so so good.
-Guests always remember the crispy pastry and those festive decorations—really ready for the holidays. So, if you're collecting festive dessert ideas or want something different from the usual cookies, this is one of those seasonal tart recipes that just works every single time. Whether you're hosting a party or just want to enjoy a special treat, this tart is sure to become a holiday favorite. For real.
-You might also like:
 To prepare your gingerbread tart, start with the shortcrust pastry: gather the flour and brown sugar in a bowl, then add the unsweetened cocoa powder which will give color and aroma to the dough . Add the cubed butter and the egg .
 Also, add the honey , baking soda , and nutmeg .
 Finally, flavor with the cinnamon and ginger powder . Start mixing the ingredients with a spoon or with a stand mixer paddle, then continue working with your fingertips.
@@ -48,5 +50,3 @@ For a Christmas-scented ganache, infuse star anise in the cream and remove it be
 Try flavoring the shortcrust pastry with a pinch of ground cardamom, perfect in combination with cinnamon and ginger.
 It's important to pour the ganache into the shortcrust shell while it is still hot, otherwise, it will tend to thicken and be more difficult to spread evenly.
 
-url:
-https://www.giallozafferano.com/recipes/gingerbread-tart.html

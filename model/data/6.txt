@@ -17,11 +17,14 @@ Type 00 flour: ¼cup(35 g)
 Butter: 2 ½tbsp(35 g)
 Nutmeg: 1pinch
 
+info:
+Difficulty: Average
+Prep time: 50 min
+Cook time: 1 h 20 min
+Makes: 15 pieces
+Cost: High
+
 instructions:
-Lasagna bundles really bring a whole new energy to the world of baked pasta dishes . You know, they're from Emilia-Romagna—where they totally nail homemade lasagna —and these little parcels give you all the melty, tender goodness of classic lasagna, but in a smart, individual way. And the sauce? To be honest, it is seriously good. Instead of big layered pans, each bundle is its own mini celebration, filled with soft fresh egg pasta, savory ham, creamy ricotta, and spinach. This delicious mix gets wrapped up, covered in béchamel sauce, and baked until the tops are golden and a bit crispy. Honestly, folks in Italy love their traditional Lasagne alla Bolognese, but this style really stands out for festive days or any family meal where you want something fun and a little different.
-Holiday tables or Sunday dinners get more exciting with lasagna roll-ups like these. Guests always appreciate how each serving feels special, plus the individual lasagna portions make everything look so put together. It's super cool seeing those moist bundles lined up, each bursting with flavor from the ham, spinach, and creamy cheese inside. Even picky eaters enjoy these because the edges turn crispy while the insides remain soft and melty. You know what? It's a great way to keep all the best parts of an Italian lasagna with spinach , but with an extra touch of style and convenience.
-Emilia-Romagna is known for its creativity with fresh pasta, and these bundles fit perfectly into that tradition. Trying out new versions of classic comfort food like this keeps family dinners interesting. For real, you can explore other fresh pasta monoporzioni for more variety. So next time the usual lasagna feels a bit old, these bundles offer an easy switch that still feels special and totally Italian. Perfect for impressing guests—or just adding a bit of flair to your regular family meals. Makes every dinner feel like a celebration, no question.
-You might also like:
 To prepare the lasagna pockets, start with the sauce: in a pot, sauté the oil with the garlic, then add the tomato purée and a little water, just enough to rinse the can . Salt and bring to a boil, then reduce the temperature a bit and cook for about 45 minutes; at the end of cooking, the sauce shouldn't be too thick .
 Cut the mozzarella into 15 pieces and transfer it onto a tray with paper towels to remove excess liquid . Move on to the spinach: in a large pot, sauté the oil with the garlic, then add the cleaned spinach .
 Lightly salt, cover with a lid, and cook over medium heat for about 7-8 minutes . Once wilted, remove the garlic and drain them well by squeezing them in a colander .
@@ -38,5 +41,3 @@ You can also freeze them, either cooked or uncooked.
 If you prefer, you can replace the béchamel with ricotta softened with hot milk or with stracchino cheese blended with a little milk.
 If you prepare the lasagna pockets in advance, you can reheat them in the oven at 175°F-210°F for about 10-15 minutes, browning them just before serving.
 
-url:
-https://www.giallozafferano.com/recipes/lasagna-pockets.html
