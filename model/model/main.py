@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 os.environ["OMP_NUM_THREADS"] = "1"
@@ -10,13 +9,6 @@ from similarity import build_similarity_index
 from load import load_chunk_recipes
 from question import ask_recipe_question
 from memory import ShortTermMemory
-=======
-from .generator import GenerativeQA
-from .similarity import build_similarity_index
-from .load import load_chunk_recipes
-from .question import ask_recipe_question
-from .memory import ShortTermMemory
->>>>>>> 1ab4b32 (mini error analysis 1)
 
 GEN_MODEL_NAME = "google/flan-t5-base"
 ENC_MODEL_NAME = "all-MiniLM-L6-v2"
