@@ -1,4 +1,4 @@
-from generator import GenerativeQA
+from .generator import GenerativeQA
 import numpy as np
 import torch
 import faiss

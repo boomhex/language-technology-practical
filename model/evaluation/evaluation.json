@@ -1,0 +1,140 @@
+{
+    "meta": {
+      "purpose": "Error analysis",
+      "notes": "Used to identify retrieval, generation, and confidence errors"
+    },
+    "questions": [
+      {
+        "id": 1,
+        "type": "ingredients",
+        "question": "What ingredients are in Roasted Pumpkin Cream with Crunchy Vegetables?",
+        "expected_answer": ["Mantuan pumpkin", "Parsnip", "Carrots", "Fresh scallion", "Broccoli", "Cauliflower", "Tamari", "Lemon peel", "Sumac", "Extra virgin olive oil", "Coarse sea salt", "Sage", "water", "Croutons", "Wild Fennel"]
+      },
+      {
+        "id": 2,
+        "type": "ingredients",
+        "question": "What ingredients are in Cream Cake?",
+        "expected_behavior": "Should mention it is not sure"
+      },
+      {
+        "id": 3,
+        "type": "ingredients",
+        "question": "Which ingredients do I need to make gluten-free tiramisu?",
+        "expected_answer": ["Egg whites", "Egg yolks", "Sugar", "Rice flour", "Potato starch", "Gluten free cornstarch", "Gluten free powdered yeast for sweets", "Xantana", "Powdered sugar", "Mascarpone cheese", "Fresh liquid cream", "Water", "Coffee", "Unsweetened cocoa powder"]
+      },
+      {
+        "id": 4,
+        "type": "ingredients",
+        "question": "Does the Christmas Crepes contain eggs?",
+        "expected_behavior": "Should answer yes, grounded in the Christmas Crepes ingredients list."
+      },
+      {
+        "id": 5,
+        "type": "ingredients",
+        "question": "Is saffron used in Orange Saffron Risotto?",
+        "expected_behavior": "Should answer yes, grounded in the risotto ingredients list."
+      },
+      {
+        "id": 6,
+        "type": "ingredients",
+        "question": "What ingredients are in Lasagna Pockets?",
+        "expected_answer": ["Lasagne egg pasta", "Prosciutto cotto", "Cow's milk ricotta cheese", "Fior di latte mozzarella cheese", "Parmigiano Reggiano PDO cheese", "Black pepper", "Spinach", "Garlic", "Extra virgin olive oil", "Fine salt", "Tomato purée", "Whole milk", "Type 00 flour", "Butter", "Nutmeg"]
+      },
+      {
+        "id": 7,
+        "type": "ingredients",
+        "question": "List the ingredients in Manhattan",
+        "expected_answer": ["Rye whiskey", "Sweet red vermouth", "Angostura bitters", "Ice", "Maraschino cherries"]
+      },
+      {
+        "id": 8,
+        "type": "ingredients",
+        "question": "How many shrimp do I need for Pistachio Shrimp Skewers",
+        "expected_answer": "16 pieces"
+      },
+      {
+        "id": 9,
+        "type": "ingredients",
+        "question": "Do I need red wine or white wine in Codfish Salad?",
+        "expected_answer": "white wine"
+      },
+      {
+        "id": 10,
+        "type": "instructions",
+        "question": "How do I make Orange Saffron Risotto?",
+        "expected_behavior": "Should describe the key steps (toast rice, add broth gradually, add saffron, finish with butter/cheese, garnish with orange zest) using only the retrieved context."
+      },
+      {
+        "id": 11,
+        "type": "instructions",
+        "question": "How do I prepare Pistachio Shrimp Skewers?",
+        "expected_behavior": "Should mention cleaning shrimp, battering, coating in pistachio, frying, and serving; grounded in context."
+      },
+      {
+        "id": 12,
+        "type": "instructions",
+        "question": "How to make Whiskey Sour?",
+        "expected_behavior": "Should mention pouring ice, whiskey, and sugar syrup in shaker, straining lemon juice and then adding it, adding egg whites if desired, securing lid, shaking shaker, straining and serving with orange slice and marachino cherry; grounded in context."
+      },
+      {
+        "id": 13,
+        "type": "instructions",
+        "question": "Explain how to prepare Gingerbread Tart",
+        "expected_behavior": "Steps should include: make shortcrust pastry (combining ingredients in right order), flavor dough with cinnamon and ginger powder, and first mix with spoon/mixer, then fingertips. Wrap and store in fridge. Roll dough out, place in tart pan, remove excess, prick base, bake, etc."
+      },
+      {
+        "id": 14,
+        "type": "instructions",
+        "question": "How long should I bake the Potato pie with chicken and mushrooms",
+        "expected_behavior": "Should mention baking the crust for 15 minutes and then baking again with egg mixture for 40-45 minutes."
+      },
+      {
+        "id": 15,
+        "type": "instructions",
+        "question": "What is the first step in making Codfish Salad",
+        "expected_behavior": "Should mention bringing a pot full of water to a boil"
+      },
+      {
+        "id": 16,
+        "type": "instructions",
+        "question": "How do I cook Christmas Canapés?",
+        "expected_behavior": "Should mention steps on how to make them"
+      },
+      {
+        "id": 17,
+        "type": "general",
+        "question": "Give a suggestion for a Christmas Dish",
+        "expected_behavior": "Should mention either Christmas crepes or Christmas Canapés"
+      },
+      {
+        "id": 18,
+        "type": "general",
+        "question": "Which recipes use seafood?",
+        "expected_behavior": "Should mention Codfish Salad, Pistachio Shrimp Skewers, and Christmas Canapés (seafood toppings); grounded in context."
+      },
+      {
+        "id": 19,
+        "type": "general",
+        "question": "Which recipes contain eggs?",
+        "expected_behavior": "Mention only recipes whose ingredients include eggs"
+      },
+      {
+        "id": 20,
+        "type": "general",
+        "question": "Do I need an oven to make Lasagna Pockets?",
+        "expected_behavior": "Mention only recipes whose ingredients include eggs"
+      },
+      {
+        "id": 21,
+        "type": "general",
+        "question": "Which of your recipes contain coffee?",
+        "expected_behavior": "Should identify Gluten-Free Tiramisu as containing coffee, and avoid claiming others unless context supports it."
+      },
+      {
+        "id": 22,
+        "type": "ingredients",
+        "question": "How many grams of butter do I need for Gingerbread Tart",
+        "expected_answer": "150 g"
+      }
+    ]
+  }
