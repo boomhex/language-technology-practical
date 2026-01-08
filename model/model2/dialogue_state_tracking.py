@@ -30,7 +30,7 @@ class DialogueStateTracking:
             num_beams=4,
             do_sample=False,
         )[0]["generated_text"].strip()
-
+#
     def update_state(self, user_input: str) -> None:
         self.state.history.append(user_input)
 
