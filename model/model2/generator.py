@@ -2,7 +2,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 
 class GenerativeQA:
-    def __init__(self, device: str = "cpu", model_name: str = "google/flan-t5-large") -> None:
+    def __init__(self, device: str = "cpu", model_name: str = "google/flan-t5-xl") -> None:
         device_obj = torch.device(device if torch.cuda.is_available() else "cpu")
 
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -93,3 +93,13 @@ class GenerativeQA:
         )[0]["generated_text"]
         return out.strip()
     
+    def call_llm(self, prompt: str, *, max_new_tokens: int = 80, num_beams: int = 1) -> str:
+        out = self.pipe(
+            prompt,
+            max_new_tokens=max_new_tokens,
+            num_beams=num_beams,
+            do_sample=False,
+            repetition_penalty=1.1,
+            no_repeat_ngram_size=3
+        )[0]["generated_text"]
+        return out.strip()
