@@ -5,6 +5,45 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 
+import re
+from typing import Dict, List, Tuple
+
+TagScores = List[Tuple[str, float]]
+
+_NEGATION_PATTERNS: Dict[str, List[re.Pattern]] = {
+    # If query indicates "no meat", penalize the "meat" tag
+    "meat": [
+        re.compile(r"\b(no|without|w\/o|not)\s+(any\s+)?meat\b", re.I),
+        re.compile(r"\b(meat[-\s]?free|no\s+meat)\b", re.I),
+        re.compile(r"\b(no|without|w\/o|not)\s+(any\s+)?(bacon|ham|beef|pork|chicken)\b", re.I),
+        re.compile(r"\b(vegetarian|vegan)\b", re.I),  # optional: treat vegetarian/vegan as excluding meat
+    ],
+    # If query indicates "no seafood", penalize the "seafood" tag
+    "seafood": [
+        re.compile(r"\b(no|without|w\/o|not)\s+(any\s+)?(seafood|fish|shellfish)\b", re.I),
+        re.compile(r"\b(seafood[-\s]?free|fish[-\s]?free)\b", re.I),
+    ],
+    # Optional examples:
+    # "pasta": [re.compile(r"\b(gluten[-\s]?free|no\s+gluten)\b", re.I)],
+}
+
+def apply_negation_gate(
+    query: str,
+    scores: TagScores,
+    penalty: float = 0.15,   # multiply forbidden tag score by this (0.0 blocks, 0.1..0.3 soft)
+) -> TagScores:
+    score_map = dict(scores)
+
+    for tag, patterns in _NEGATION_PATTERNS.items():
+        if tag not in score_map:
+            continue
+        if any(p.search(query) for p in patterns):
+            score_map[tag] *= penalty
+
+    gated = list(score_map.items())
+    gated.sort(key=lambda x: x[1], reverse=True)
+    return gated
+
 # -----------------------------
 # JSONL tags
 # -----------------------------
@@ -131,42 +170,16 @@ def score_query_against_tags(
 def top_k(scores: List[Tuple[str, float]], k: int = 5) -> List[Tuple[str, float]]:
     return scores[:k]
 
-
-def pick_top2_tags(
-    scores: List[Tuple[str, float]],
-    min_score: float = 0.35,
-    max_tags: int = 2,
-    within_margin: float = 0.03,      # accept if close to best
-    ratio_of_best: float = 0.95,      # or if >= 95% of best
-) -> List[Tuple[str, float]]:
-    """
-    Multi-label selection:
-      - include best if >= min_score
-      - include next tags if they are strong and near-tied with best
-    """
+def pick_top_k_with_margin(scores: TagScores, k: int = 2, margin: float = 0.03) -> TagScores:
     if not scores:
         return []
-
-    best_tag, best_score = scores[0]
-    if best_score < min_score:
-        return []
-
-    picked = [(best_tag, best_score)]
-
+    picked = [scores[0]]
     for tag, s in scores[1:]:
-        if len(picked) >= max_tags:
+        if len(picked) >= k:
             break
-        if s < min_score:
-            break
-
-        near_tie = (best_score - s) <= within_margin
-        strong_ratio = s >= (best_score * ratio_of_best)
-
-        if near_tie or strong_ratio:
+        if picked[0][1] - s <= margin:
             picked.append((tag, s))
-
     return picked
-
 # -----------------------------
 # Example usage
 # -----------------------------
@@ -177,7 +190,6 @@ if __name__ == "__main__":
     # Print tags found in your dataset
     print(get_all_tag_categories_from_jsonl("schemas/chunks.jsonl"))
 
-    # Better synonym sets: avoid generic "main course/main" (it blurs classes).
     TAG_SYNONYMS: Dict[str, List[WeightedSyn]] = {
         "vegetarian_candidate": [
             ("vegetarian", 2.0),
@@ -186,7 +198,7 @@ if __name__ == "__main__":
             ("plant-based", 1.2),
             ("veggie", 1.0),
             ("vegetable dish", 1.0),
-            ("without meat", 1.5),
+            # ("without meat", 1.5),
         ],
         "dessert": [
             ("dessert", 2.0),
@@ -197,13 +209,14 @@ if __name__ == "__main__":
             ("after dinner sweet", 1.0),
         ],
         "meat": [
-            ("meat", 2.0),
-            ("beef", 1.0),
-            ("pork", 1.0),
-            ("chicken", 1.0),
-            ("ham", 1.0),
-            ("bacon", 1.0),
+            ("with meat", 2.0),
+            ("with beef", 1.0),
+            ("with pork", 1.0),
+            ("with chicken", 1.0),
+            ("with ham", 1.0),
+            ("with bacon", 1.0),
             ("minced meat", 0.8),
+            ("contains meat", 1.5)
         ],
         "pasta": [
             ("pasta", 2.0),
@@ -235,6 +248,8 @@ if __name__ == "__main__":
     queries = [
         "I want something without meat",
         "a sweet dish after dinner",
+        "a sweet dish",
+        "A carbonara without meat",
         "recipe with bacon and ham",
         "What are the ingredients to tiramisu?",
         "What are the ingredients to lasagna?",
@@ -244,9 +259,12 @@ if __name__ == "__main__":
         scores = score_query_against_tags(
             model, q, tag_vecs, device=device, template="User request: {text}"
         )
+
+        scores = apply_negation_gate(q, scores, penalty=0.10)  # strong penalty
+        # print(top_k(scores, k=5))
         print(f"\nQuery: {q}")
         for tag, s in top_k(scores, k=5):
             print(f"  {tag:22s}  {s:.3f}")
 
-        picked = pick_top2_tags(scores, min_score=0.35, within_margin=0.03, ratio_of_best=0.95)
+        picked = pick_top_k_with_margin(scores, k=2, margin=0.03)
         print("  picked:", picked)      
