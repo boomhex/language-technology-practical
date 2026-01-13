@@ -1,7 +1,7 @@
 {
     "meta": {
-      "purpose": "Error analysis",
-      "notes": "Used to identify retrieval, generation, and confidence errors"
+      "purpose": "Evaluation set",
+      "notes": "Used to evaluate the model"
     },
     "questions": [
       {
@@ -135,6 +135,234 @@
         "type": "ingredients",
         "question": "How many grams of butter do I need for Gingerbread Tart",
         "expected_answer": "150 g"
+      },
+      {
+        "id": 23,
+        "type": "General",
+        "question": "What is the cooking time of mushroom meatloaf",
+        "expected_answer": ["1 hour 10 min"]
+      },
+      {
+        "id": 24,
+        "type": "ingredients",
+        "turns": [
+          {
+            "role": "user",
+            "question":  "What kind of mushrooms do I need for mushroom meatloaf",
+            "expected_answer": ["king oyster mushrooms", "champignon mushrooms", "porcini mushrooms"]
+          },
+          {
+            "role": "user",
+            "question": "Can I use any other kind of mushroom as well?",
+            "expected_answer": "For the meatloaf, you can vary the type of mushrooms and beans as you prefer. If you use portobello mushrooms, make sure to brown them well to avoid them being watery."
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "type": "General",
+        "question": "How difficult is it to make Zucchini parmigiana",
+        "expected_answer": "Easy"
+      },
+      {
+        "id": 26,
+        "type": "General",
+        "question": "How high are the costs of ingredients for Vegetarian Lasagna",
+        "expected_answer": "Average"
+      },
+      {
+        "id": 27,
+        "type": "General",
+        "question": "How long can I store Panettone risotto in the refrigerator",
+        "expected_answer": "maximum of one day"
+      },
+      {
+        "id": 28,
+        "type": "General",
+        "question": "How many people does Cima alla genovese serve",
+        "expected_answer": "maximum of one day"
+      },
+      {
+        "id": 29,
+        "type": "General",
+        "question": "What is the preparation time of Pasta with arugula pesto and asparagus",
+        "expected_answer": "20 min"
+      },
+      {
+        "id": 30,
+        "type": "General",
+        "question": "Does nutella tartlets contain nuts",
+        "expected_answer": "yes"
+      },
+      {
+        "id": 31,
+        "type": "Instructions",
+        "question": "How do I make the sauce for the Salmon fillet with green pepper, ginger and lime",
+        "expected_answer": "First, peel the ginger , then pour the sour cream into a saucepan , let it heat for a moment over high heat, and deglaze with the brandy .Add the grated ginger , a pinch of salt , stir to combine the ingredients and turn off the heat"
+      },
+      {
+        "id": 32,
+        "type": "Multi-turn",
+        "turns":[
+          {
+            "role": "user",
+            "question": "Is Penne with almond pesto and shrimp easy to make",
+            "expected_answer": "very easy"
+          },
+          {
+            "role": "user",
+            "question": "What ingredients do I need",
+            "expected_answer": ["5-grain Pennette Rigate pasta: 14.1oz(400 g)", "Shrimps: 1lb(450 g)", "Lemon peel: ¼", "Garlic: 2cloves", "Extra virgin olive oil: to taste", "Fine salt: to taste", "Black pepper: to taste", "Peeled almonds: 3oz(85 g)", "Extra virgin olive oil: 4 ½tbsp(60 g)", "Grana Padano PDO cheese: 0.7oz(20 g)- to grate", "Pecorino cheese: 0.7oz(20 g)- to grate", "Lemon peel: ½", "Marjoram: 3sprigs", "Marjoram: to taste"]
+          },
+          {
+            "role": "user",
+            "question": "I don't like pecorino, can I use a different cheese",
+            "expected_answer": "yes, you can replace it with the same amount of Grana or Parmesan"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "type": "Multi-turn",
+        "turns":[
+          {
+            "role": "user",
+            "question": "What is the Italian name of Mountain sugar Cookies",
+            "expected_answer": "zuccherini montanari"
+          },
+          {
+            "role": "user",
+            "question": "How do I make them?",
+            "expected_behavior": "should give description of how to make them, mentioning mixing sugar with eggs, adding vegetable oil and anise liqueur, sifting the flower in, mixing until a doough is formed, rolling the dough, cutting strips, shaping it into cord, making a ring, baking them, dipping them in the sugar syrup, and letting them cool"
+          },
+          {
+            "role": "user",
+            "question": "how many does this recipe make",
+            "expected_answer": "48 pieces"
+          },
+          {
+            "role": "user",
+            "question": "Should I store them in the fridge",
+            "expected_answer": "You can store them at room temperature, freezing them is not recommended"
+          },
+          {
+            "role": "user",
+            "question": "how many days can I store them for",
+            "expected_answer": "10 days"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "Ingredients",
+        "question": "How many eggs do I need for Chestnut Flour Cantucci with Almonds and Chocolate",
+        "expected_answer": "2 medium eggs"
+      },
+      {
+        "id": 35,
+        "type": "Ingredients",
+        "question": "What kind of tomatoes do I need for Roasted Tomato Pesto",
+        "expected_answer": "Datterino tomatoes"
+      },
+      {
+        "id": 36,
+        "type": "General",
+        "question": "What is the total time I need to make Ciaudedda",
+        "expected_answer": "75 minutes"
+      },
+      {
+        "id": 37,
+        "type": "Instructions",
+        "question": "What is the last step of making Puccia with burrata and zucchini flowers",
+        "expected_answer": "Add the fried zucchini flowers , season with basil leaves and a bit of pepper to taste. Serve your pucce immediately "
+      },
+      {
+        "id": 38,
+        "type": "General",
+        "question": "Give me 3 dessert suggestions containing fruits",
+        "expected_behavior": "gives 3 dessert options with fruits, e.g. Chocolate and Apricot Cakes, Black Forest Semifreddo, tropical cake"
+      },
+      {
+        "id": 39,
+        "type": "Instructions",
+        "question": "How long does the zebra cake need to bake",
+        "expected_answer": "Bake in a preheated static oven at 350°F for 55-60 minutes"
+      },
+      {
+        "id": 40,
+        "type": "Ingredients",
+        "question": "Do I need a lemon peel or an orange peel for Whole Wheat Sponge Cake",
+        "expected_answer": "Lemon peel"
+      },
+      {
+        "id": 41,
+        "type": "Ingredients",
+        "question": "Do I need yellow or purple cauliflower for Vegetable and Bulgur Soup",
+        "expected_answer": "both yellow and purple"
+      }, 
+      {
+        "id": 42,
+        "type": "Multi-turn",
+        "turns":[
+          {
+            "role": "user",
+            "question": "I want to make Wholemeal rolls with pine nuts, but I am allergic to pine nuts, can I use other nuts",
+            "expected_answer": "Yes, it is possible to substitute pine nuts with other nuts, such as walnuts, almonds, or pistachios"
+          },
+          {
+            "role": "user",
+            "question": "I want to make them for my birthday party that starts in 2 hours, do I have enough time",
+            "expected_answer": "No, the prep time is 20 min, cooking time 15 min, plus 3 hours of rising time"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "type": "Ingredients",
+        "question": "Is the Lemon plumcake without butter dairy-free",
+        "expected_answer": "yes"
+      }, 
+      {
+        "id": 44,
+        "type": "Instructions",
+        "question": "how long does kimchi need to ferment for",
+        "expected_answer": "at least 1 week at room temperature or 2 weeks in the fridge"
+      },
+      {
+        "id": 45,
+        "type": "General",
+        "question": "Are the Gluten-Free Pancakes vegan",
+        "expected_answer": "no"
+      },
+      {
+        "id": 46,
+        "type": "General",
+        "question": "Is the Gratinated Fennel in a Pan vegetarian",
+        "expected_answer": "yes"
+      },
+      {
+        "id": 47,
+        "type": "General",
+        "question": "I have tomatoes, basil, mozzarella and spinach lying in my fridge, what can I make",
+        "expected_behavior": "suggestion of recipe containing at least 1 of these ingredients"
+      },
+      {
+        "id": 48,
+        "type": "Instructions",
+        "question": "what is the first step of making Chaffle",
+        "expected_answer": "first grate the provolone cheese with a large-hole grater"
+      },
+      {
+        "id": 49,
+        "type": "Ingredients",
+        "question": "What kind of flour do I need for soft lemon muffins",
+        "expected_answer": "Type 00 flour"
+      },
+      {
+        "id": 50,
+        "type": "Ingredients",
+        "question": "What ingredients do I need for Eggs en Cocotte",
+        "expected_answer": ["eggs", "butter", "fine salt", "black pepper"]
       }
     ]
   }
