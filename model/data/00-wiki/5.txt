@@ -1,0 +1,10 @@
+name:
+ravioli
+text:
+Ravioli are mentioned in the personal letters of Francesco Datini, a merchant 
+of Prato in the 14th century. In Venice, the mid-14th-century manuscript Libro
+per cuoco offers ravioli of green herbs blanched and minced, mixed with beaten 
+egg and fresh cheese, simmered in broth and seasoned with "sweet and strong 
+spices". In Rome, ravioli were already well known when Bartolomeo Scappi 
+served them with boiled chicken to the papal conclave of 1549.
+

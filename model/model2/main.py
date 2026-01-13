@@ -8,6 +8,7 @@ import numpy as np
 
 from load import load_chunks
 from similarity import build_similarity_index, SimilarityIndex
+from metadata_filter import filter_top_idxs_by_tags
 from index_store import save_store, load_store
 from bm25 import build_bm25
 from hybrid import HybridConfig, hybrid_search
@@ -79,12 +80,11 @@ def main():
             text_preview = c.text.replace("\n", " ")[:140]
             print(
                 f"{rank:2d}. "
-                f"doc_id={md.get('doc_id')} | "
-                f"chunk_id={md.get('chunk_id')} | "
                 f"section={md.get('section')} | "
                 f"dish_name={md.get('dish_name')}"
             )
-            print(f"    {text_preview}...\n")
+        filter_top_idxs_by_tags(top_idxs=top_idxs, chunks, )
+        
 
 
     

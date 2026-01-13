@@ -42,7 +42,7 @@ class DialogueStateTracking:
         dish = self._generate(prompt)
         if dish.lower() != "none":
             self.state.dish = dish
-        return dish
+        return self.state.dish
 
     def rewrite_for_retrieval(self, user_query: str) -> str:
         # Make the query standalone for RAG retrieval

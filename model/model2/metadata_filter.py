@@ -87,6 +87,32 @@ def encode_texts(
     )
     return emb.astype(np.float32, copy=False)
 
+def filter_top_idxs_by_tags(
+    top_idxs: list[int],
+    chunks,
+    picked_tags: list[str],
+    keep_k: int = 10,
+) -> list[int]:
+    """
+    Keep only chunks whose metadata has at least one of picked_tags.
+    If nothing matches, return the original top_idxs (fallback).
+    """
+    if not picked_tags:
+        return top_idxs[:keep_k]
+
+    picked = set(picked_tags)
+
+    kept: list[int] = []
+    for i in top_idxs:
+        md = chunks[i].metadata or {}
+        tags = md.get("tags", [])
+        if any(t in picked for t in tags):
+            kept.append(i)
+            if len(kept) >= keep_k:
+                break
+
+    return kept if kept else top_idxs[:keep_k]
+
 
 def l2_normalize(v: np.ndarray) -> np.ndarray:
     n = np.linalg.norm(v)
@@ -180,6 +206,7 @@ def pick_top_k_with_margin(scores: TagScores, k: int = 2, margin: float = 0.03) 
         if picked[0][1] - s <= margin:
             picked.append((tag, s))
     return picked
+
 # -----------------------------
 # Example usage
 # -----------------------------
