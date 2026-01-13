@@ -14,7 +14,7 @@
         "id": 2,
         "type": "ingredients",
         "question": "What ingredients are in Cream Cake?",
-        "expected_behavior": "Should mention it is not sure"
+        "expected_answer": ["Fresh liquid cream: ¾cup(200 g)", "Eggs: 3", "Type 00 flour: 1.6cups(200 g)", "Sugar: 0.6cup(120 g)", "Lemon peel: 1", "Baking powder: 3 ½tsp(16 g)", "Salt: 1pinch", "Powdered sugar: to taste"]
       },
       {
         "id": 3,
@@ -104,7 +104,7 @@
         "id": 17,
         "type": "general",
         "question": "Give a suggestion for a Christmas Dish",
-        "expected_behavior": "Should mention either Christmas crepes or Christmas Canapés"
+        "expected_behavior": "Should mention christmas dishes, e.g. Christmas crepes, Christmas Canapés"
       },
       {
         "id": 18,
@@ -363,6 +363,206 @@
         "type": "Ingredients",
         "question": "What ingredients do I need for Eggs en Cocotte",
         "expected_answer": ["eggs", "butter", "fine salt", "black pepper"]
+      },
+      {
+        "id": 51,
+        "type": "Background",
+        "question": "Where is pasta carbonara originally from",
+        "expected_answer": "Most sources trace its origin to the region of Lazio"
+      },
+      {
+        "id": 52,
+        "type": "Background",
+        "question": "What does 'gnocchi' mean",
+        "expected_answer": "The word gnocchi may be derived from the Italian word nocchio, meaning 'a knot in wood', or from nocca, meaning 'knuckle'"
+      },
+      {
+        "id": 53,
+        "type": "Background",
+        "question": "Since when is gnocchi made with potato",
+        "expected_answer": "After potato was introduced to Europe, it was incorporated into gnocchi recipes in the late 19th century"
+      },
+      {
+        "id": 54,
+        "type": "Background",
+        "question": "When was lasagna first made",
+        "expected_answer": "The oldest known written reference to lasagna appears in 1282"
+      },
+      {
+        "id": 55,
+        "type": "Background",
+        "question": "Who invented carpaccio",
+        "expected_answer": "Cipriani"
+      },
+      {
+        "id": 56,
+        "type": "Background",
+        "question": "Which region of Italy is cacio e pepe from?",
+        "expected_answer": "the Lazio region of Italy"
+      },
+      {
+        "id": 57,
+        "type": "Background",
+        "question": "What are the origins of pasta alla vodka",
+        "expected_answer": "The exact origins of penne alla vodka are unclear and, to some extent, the subject of urban legend and folklore"
+      },
+      {
+        "id": 58,
+        "type": "Background",
+        "question": "What toppings does pizza margerita traditionally have",
+        "expected_answer": "basil, tomatoes, and thin slices of mozzarella"
+      }, 
+      {
+        "id": 59,
+        "type": "Multi-turn",
+        "turns":[
+          {
+            "role": "user",
+            "question": "I have a nut allergy, can I make Chocolate Salami Cake",
+            "expected_answer": "no, there are hazelnuts in this recipe"
+          },
+          {
+            "role": "user",
+            "question": "Can I leave the hazelnuts out",
+            "expected_answer": "yes, you can omit them or replace them with cereals to maintain the crunchiness"
+          },
+          {
+            "role": "user",
+            "question": "how difficult is it to make",
+            "expected_answer": "Easy"
+          },
+          {
+            "role": "user",
+            "question": "How high are the costs of ingredients",
+            "expected_answer": "low"
+          },
+          {
+            "role": "user",
+            "question": "how large of a springform pan do I need",
+            "expected_answer": "9-inch springform pan"
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "type": "Ingredients",
+        "question": "I would like to make Pasta with pesto and cherry tomatoes but I do not have basil. What can I use instead",
+        "expected_answer": "You can substitute basil with arugula"
+      },
+      {
+        "id": 61,
+        "type": "General",
+        "question": "What tools do I need to make lemon pesto",
+        "expected_answer": "A peeler and a mixer"
+      },
+      {
+        "id": 62,
+        "type": "Instructions",
+        "question": "How to make Seafood Panzanella",
+        "expected_behavior": "Should mention steps on how to make them, including cleaning the squid, slicing the mantles into rings, cleaning the shrimp, cooking the squid and shrimp in a pan, cleaning the mussels, preparing the vegetables, cutting the bread into cubes, assembling the dish, and seasoning"
+      },
+      {
+        "id": 63,
+        "type": "General",
+        "question": "how many people does Savory Pie with Potatoes and Bacon serve",
+        "expected_answer": "4 servings"
+      }, 
+      {
+        "id": 64,
+        "type": "Ingredients",
+        "question": "What jam should I use for jam tart",
+        "expected_answer": "your choice (apricot, cherry, strawberry, etc.)"
+      }, 
+      {
+        "id": 65,
+        "type": "Ingredients",
+        "question": "Do I need basil or mint for Beetroot Culurgiones with Potatoes and Blue Cheese Sauce",
+        "expected_answer": "mint"
+      }, 
+      {
+        "id": 66,
+        "type": "Instructions",
+        "question": "Should I leave the skin on the pumpkin for pumpkin in the pan",
+        "expected_answer": "It is recommended to leave the skin on, so the pumpkin does not fall apart during cooking"
+      },
+      {
+        "id": 67,
+        "type": "Ingredients",
+        "question": "How many ingredients do I need for Red lentil tofu",
+        "expected_answer": "3 ingredients (red lentils, water, and fine salt)"
+      },
+      {
+        "id": 68,
+        "type": "Ingredients",
+        "question": "What herbs do I need for crispy baked chickpeas",
+        "expected_answer": "thyme, rosemary, and oregano"
+      },
+      {
+        "id": 69,
+        "type": "Ingredients",
+        "question": "How many grams of butter do I need for Fried Doughnuts",
+        "expected_answer": "30 grams"
+      },
+      {
+        "id": 70,
+        "type": "General",
+        "question": "Give a suggestion for a dish that uses rice oil",
+        "expected_behavior": "suggests a dish using rice oil (e.g. Wholemeal biscuits without butter, Butterless Croissants, Cake terai, fekkas"
+      },
+      {
+        "id": 71,
+        "type": "Ingredients",
+        "question": "Should the coffee for the Zeppole with mascarpone cream and coffee be hot or cold",
+        "expected_answer": "cold"
+      }, 
+      {
+        "id": 72,
+        "type": "Multi-turn",
+        "turns": [
+          {
+            "role": "user",
+            "question": "What ingredients do I need for cherry sorbet",
+            "expected_answer": ["Cherries: 2lbs(900 g)- sweet", "Lemon juice: 1", "Sugar: 0.67cup(160 g)", "Water: 1 ½cup(360 g)"]
+          },
+          {
+            "role": "user",
+            "question": "Is this recipe vegan",
+            "expected_answer": "yes"
+          },
+          {
+            "role": "user",
+            "question": "Do I need an ice cream maker",
+            "expected_answer": "yes"
+          },
+          {
+            "role": "user",
+            "question": "How many people can I serve with this recipe",
+            "expected_answer": "6 servings"
+          },
+          {
+            "role": "user",
+            "question": "I have some left over, is it possible to store the ice cream",
+            "expected_answer": "yes, the cherry sorbet can be stored in the freezer for up to a month"
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "type": "Ingredients",
+        "question": "Can I use a different cheese than mozzarella for Anchovy Parmigiana",
+        "expected_answer": "buffalo mozzarella can be replaced with caciocavallo or another melting cheese"
+      },
+      {
+        "id": 74,
+        "type": "Ingredients",
+        "question": "Is 2 medium eggs enough to make Eggplants a pullastiello",
+        "expected_answer": "yes"
+      }, 
+      {
+        "id": 75,
+        "type": "General",
+        "question": "What kind of knife should I use to open the oysters for Oysters with champagne and spring onion",
+        "expected_answer": "a special thin-bladed knife "
       }
     ]
   }
