@@ -231,7 +231,7 @@ def infer_tags(dish_name: str, ingredients: List[Dict[str, str]], instructions: 
 
     tags = set()
 
-    if any(k in txt for k in ["tart", "cake", "cookie", "dessert", "chocolate", "sugar", "icing", "ganache"]):
+    if any(k in txt for k in [" tart", "cake", "cookie", "dessert", "chocolate", "sugar", "icing", "ganache"]):
         tags.add("dessert")
     if any(k in txt for k in ["pasta", "spaghetti", "penne", "rigatoni", "tagliatelle"]):
         tags.add("pasta")
@@ -242,7 +242,8 @@ def infer_tags(dish_name: str, ingredients: List[Dict[str, str]], instructions: 
     # Very rough vegetarian guess
     if "meat" not in tags and "seafood" not in tags:
         tags.add("vegetarian_candidate")
-    # Guard: dessert should not co-exist with savory mains
+    
+    # Guard: dessert should not co-exist with savory dishes
     if "dessert" in tags and any(t in tags for t in {"seafood", "meat", "pasta"}):
         tags.remove("dessert")
     return sorted(tags)

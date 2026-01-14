@@ -363,49 +363,71 @@
         "id": 34,
         "type": "Ingredients",
         "question": "How many eggs do I need for Chestnut Flour Cantucci with Almonds and Chocolate",
-        "expected_answer": "2 medium eggs"
+        "expected_answer": "2 medium eggs",
+        "gold_doc_id": ["doc_b3e59eebf17cd0bb"],
+        "gold_chunk_ids": ["doc_b3e59eebf17cd0bb#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 35,
         "type": "Ingredients",
         "question": "What kind of tomatoes do I need for Roasted Tomato Pesto",
-        "expected_answer": "Datterino tomatoes"
+        "expected_answer": "Datterino tomatoes",
+        "gold_doc_id": ["doc_34a8b6c0feb3c2d2"],
+        "gold_chunk_ids": ["doc_34a8b6c0feb3c2d2#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 36,
         "type": "General",
         "question": "What is the total time I need to make Ciaudedda",
-        "expected_answer": "75 minutes"
+        "expected_answer": "75 minutes",
+        "gold_doc_id": ["doc_ee4b09c39fed1ff1"],
+        "gold_chunk_ids": ["doc_ee4b09c39fed1ff1#info#0"],
+        "gold_section": ["info"]
       },
       {
         "id": 37,
         "type": "Instructions",
         "question": "What is the last step of making Puccia with burrata and zucchini flowers",
-        "expected_answer": "Add the fried zucchini flowers , season with basil leaves and a bit of pepper to taste. Serve your pucce immediately "
+        "expected_answer": "Add the fried zucchini flowers , season with basil leaves and a bit of pepper to taste. Serve your pucce immediately ",
+        "gold_doc_id": ["doc_9610d6ebf280ede5"],
+        "gold_chunk_ids": ["doc_9610d6ebf280ede5#steps#0"],
+        "gold_section": ["steps"]
       },
       {
         "id": 38,
         "type": "General",
         "question": "Give me 3 dessert suggestions containing fruits",
-        "expected_behavior": "gives 3 dessert options with fruits, e.g. Chocolate and Apricot Cakes, Black Forest Semifreddo, tropical cake"
+        "expected_behavior": "gives 3 dessert options with fruits, e.g. Chocolate and Apricot Cakes, Black Forest Semifreddo, tropical cake",
+        "gold_doc_id": []
       },
       {
         "id": 39,
         "type": "Instructions",
         "question": "How long does the zebra cake need to bake",
-        "expected_answer": "Bake in a preheated static oven at 350°F for 55-60 minutes"
+        "expected_answer": "Bake in a preheated static oven at 350°F for 55-60 minutes",
+        "gold_doc_id": ["doc_d17ff8617f9c97c3"],
+        "gold_chunk_ids": ["doc_d17ff8617f9c97c3#steps#0"],
+        "gold_section": ["steps"]
       },
       {
         "id": 40,
         "type": "Ingredients",
         "question": "Do I need a lemon peel or an orange peel for Whole Wheat Sponge Cake",
-        "expected_answer": "Lemon peel"
+        "expected_answer": "Lemon peel",
+        "gold_doc_id": ["doc_80b3c14771c55959"],
+        "gold_chunk_ids": ["doc_80b3c14771c55959#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 41,
         "type": "Ingredients",
         "question": "Do I need yellow or purple cauliflower for Vegetable and Bulgur Soup",
-        "expected_answer": "both yellow and purple"
+        "expected_answer": "both yellow and purple",
+        "gold_doc_id": ["doc_3cd6cbe521da5852"],
+        "gold_chunk_ids": ["doc_3cd6cbe521da5852#ingredients#0"],
+        "gold_section": ["ingredients"]
       }, 
       {
         "id": 42,
@@ -414,110 +436,161 @@
           {
             "role": "user",
             "text": "I want to make Wholemeal rolls with pine nuts, but I am allergic to pine nuts, can I use other nuts",
-            "expected_answer": "Yes, it is possible to substitute pine nuts with other nuts, such as walnuts, almonds, or pistachios"
+            "expected_answer": "Yes, it is possible to substitute pine nuts with other nuts, such as walnuts, almonds, or pistachios",
+            "gold_chunk_ids": ["doc_e6b84b593ab3f450#steps#3"],
+            "gold_section": ["steps"]
           },
           {
             "role": "user",
             "text": "I want to make them for my birthday party that starts in 2 hours, do I have enough time",
-            "expected_answer": "No, the prep time is 20 min, cooking time 15 min, plus 3 hours of rising time"
+            "expected_answer": "No, the prep time is 20 min, cooking time 15 min, plus 3 hours of rising time",
+            "gold_chunk_ids": ["doc_e6b84b593ab3f450#notes#0", "doc_e6b84b593ab3f450#info#0"],
+            "gold_section": ["info", "notes"]
           }
-        ]
+        ],
+        "gold_doc_id": ["doc_e6b84b593ab3f450"]
       },
       {
         "id": 43,
         "type": "Ingredients",
         "question": "Is the Lemon plumcake without butter dairy-free",
-        "expected_answer": "yes"
+        "expected_answer": "yes",
+        "gold_doc_id": ["doc_c5ea9a2cc756e256"],
+        "gold_chunk_ids": ["doc_c5ea9a2cc756e256#ingredients#0"],
+        "gold_section": ["ingredients"]
       }, 
       {
         "id": 44,
         "type": "Instructions",
         "question": "how long does kimchi need to ferment for",
-        "expected_answer": "at least 1 week at room temperature or 2 weeks in the fridge"
+        "expected_answer": "at least 1 week at room temperature or 2 weeks in the fridge",
+        "gold_doc_id": ["doc_b2cd950abcda4a8f"],
+        "gold_chunk_ids": ["doc_b2cd950abcda4a8f#notes#0"],
+        "gold_section": ["notes"]
       },
       {
         "id": 45,
         "type": "General",
         "question": "Are the Gluten-Free Pancakes vegan",
-        "expected_answer": "no"
+        "expected_answer": "no",
+        "gold_doc_id": ["doc_5d7745512b9ada0d"],
+        "gold_chunk_ids": ["doc_5d7745512b9ada0d#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 46,
         "type": "General",
         "question": "Is the Gratinated Fennel in a Pan vegetarian",
-        "expected_answer": "yes"
+        "expected_answer": "yes",
+        "gold_doc_id": ["doc_8b6de71153d1df23"],
+        "gold_chunk_ids": ["doc_8b6de71153d1df23#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 47,
         "type": "General",
         "question": "I have tomatoes, basil, mozzarella and spinach lying in my fridge, what can I make",
-        "expected_behavior": "suggestion of recipe containing at least 1 of these ingredients"
+        "expected_behavior": "suggestion of recipe containing at least 3 these ingredients",
+        "gold_doc_id": []
       },
       {
         "id": 48,
         "type": "Instructions",
         "question": "what is the first step of making Chaffle",
-        "expected_answer": "first grate the provolone cheese with a large-hole grater"
+        "expected_answer": "first grate the provolone cheese with a large-hole grater",
+        "gold_doc_id": ["doc_b55fd32a0e7f1908"],
+        "gold_chunk_ids": ["doc_b55fd32a0e7f1908#steps#0"],
+        "gold_section": ["steps"]
       },
       {
         "id": 49,
         "type": "Ingredients",
         "question": "What kind of flour do I need for soft lemon muffins",
-        "expected_answer": "Type 00 flour"
+        "expected_answer": "Type 00 flour",
+        "gold_doc_id": ["doc_8a81dbc8a2d48952"],
+        "gold_chunk_ids": ["doc_8a81dbc8a2d48952#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 50,
         "type": "Ingredients",
         "question": "What ingredients do I need for Eggs en Cocotte",
-        "expected_answer": ["eggs", "butter", "fine salt", "black pepper"]
+        "expected_answer": ["eggs", "butter", "fine salt", "black pepper"],
+        "gold_doc_id": ["doc_ab634f2a6d60bb4e"],
+        "gold_chunk_ids": ["doc_ab634f2a6d60bb4e#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 51,
         "type": "Background",
         "question": "Where is pasta carbonara originally from",
-        "expected_answer": "Most sources trace its origin to the region of Lazio"
+        "expected_answer": "Most sources trace its origin to the region of Lazio",
+        "gold_doc_id": ["MISSING"],
+        "gold_chunk_ids": ["MISSING"],
+        "gold_section": ["MISSING"]
       },
       {
         "id": 52,
         "type": "Background",
         "question": "What does 'gnocchi' mean",
-        "expected_answer": "The word gnocchi may be derived from the Italian word nocchio, meaning 'a knot in wood', or from nocca, meaning 'knuckle'"
+        "expected_answer": "The word gnocchi may be derived from the Italian word nocchio, meaning 'a knot in wood', or from nocca, meaning 'knuckle'",
+        "gold_doc_id": ["MISSING"],
+        "gold_chunk_ids": ["MISSING"],
+        "gold_section": ["MISSING"]
       },
       {
         "id": 53,
         "type": "Background",
         "question": "Since when is gnocchi made with potato",
-        "expected_answer": "After potato was introduced to Europe, it was incorporated into gnocchi recipes in the late 19th century"
+        "expected_answer": "After potato was introduced to Europe, it was incorporated into gnocchi recipes in the late 19th century",
+        "gold_doc_id": ["MISSING"],
+        "gold_chunk_ids": ["MISSING"],
+        "gold_section": ["MISSING"]
       },
       {
         "id": 54,
         "type": "Background",
         "question": "When was lasagna first made",
-        "expected_answer": "The oldest known written reference to lasagna appears in 1282"
+        "expected_answer": "The oldest known written reference to lasagna appears in 1282",
+        "gold_doc_id": ["MISSING"],
+        "gold_chunk_ids": ["MISSING"],
+        "gold_section": ["MISSING"]
       },
       {
         "id": 55,
         "type": "Background",
         "question": "Who invented carpaccio",
-        "expected_answer": "Cipriani"
+        "expected_answer": "Cipriani",
+        "gold_doc_id": ["MISSING"],
+        "gold_chunk_ids": ["MISSING"],
+        "gold_section": ["MISSING"]
       },
       {
         "id": 56,
         "type": "Background",
         "question": "Which region of Italy is cacio e pepe from?",
-        "expected_answer": "the Lazio region of Italy"
+        "expected_answer": "the Lazio region of Italy",
+        "gold_doc_id": ["MISSING"],
+        "gold_chunk_ids": ["MISSING"],
+        "gold_section": ["MISSING"]
       },
       {
         "id": 57,
         "type": "Background",
         "question": "What are the origins of pasta alla vodka",
-        "expected_answer": "The exact origins of penne alla vodka are unclear and, to some extent, the subject of urban legend and folklore"
+        "expected_answer": "The exact origins of penne alla vodka are unclear and, to some extent, the subject of urban legend and folklore",
+        "gold_doc_id": ["MISSING"],
+        "gold_chunk_ids": ["MISSING"],
+        "gold_section": ["MISSING"]
       },
       {
         "id": 58,
         "type": "Background",
         "question": "What toppings does pizza margerita traditionally have",
-        "expected_answer": "basil, tomatoes, and thin slices of mozzarella"
+        "expected_answer": "basil, tomatoes, and thin slices of mozzarella",
+        "gold_doc_id": ["MISSING"],
+        "gold_chunk_ids": ["MISSING"],
+        "gold_section": ["MISSING"]
       }, 
       {
         "id": 59,
@@ -526,101 +599,146 @@
           {
             "role": "user",
             "text": "I have a nut allergy, can I make Chocolate Salami Cake",
-            "expected_answer": "no, there are hazelnuts in this recipe"
+            "expected_answer": "no, there are hazelnuts in this recipe",
+            "gold_chunk_ids": ["doc_23671bd8044fdff0#ingredients#0"],
+            "gold_section": ["ingredients"]
           },
           {
             "role": "user",
             "text": "Can I leave the hazelnuts out",
-            "expected_answer": "yes, you can omit them or replace them with cereals to maintain the crunchiness"
+            "expected_answer": "yes, you can omit them or replace them with cereals to maintain the crunchiness",
+            "gold_chunk_ids": ["doc_23671bd8044fdff0#steps#1"],
+            "gold_section": ["steps"]
           },
           {
             "role": "user",
             "text": "how difficult is it to make",
-            "expected_answer": "Easy"
+            "expected_answer": "Easy",
+            "gold_chunk_ids": ["doc_23671bd8044fdff0#info#0"],
+            "gold_section": ["info"]
           },
           {
             "role": "user",
             "text": "How high are the costs of ingredients",
-            "expected_answer": "low"
+            "expected_answer": "low",
+            "gold_chunk_ids": ["doc_23671bd8044fdff0#info#0"],
+            "gold_section": ["info"]
           },
           {
             "role": "user",
             "text": "how large of a springform pan do I need",
-            "expected_answer": "9-inch springform pan"
+            "expected_answer": "9-inch springform pan",
+            "gold_chunk_ids": ["doc_23671bd8044fdff0#steps#0"],
+            "gold_section": ["steps"]
           }
-        ]
+        ],
+        "gold_doc_id": ["doc_23671bd8044fdff0"]
       },
       {
         "id": 60,
         "type": "Ingredients",
         "question": "I would like to make Pasta with pesto and cherry tomatoes but I do not have basil. What can I use instead",
-        "expected_answer": "You can substitute basil with arugula"
+        "expected_answer": "You can substitute basil with arugula",
+        "gold_doc_id": ["doc_f65a72db74059a1b"],
+        "gold_chunk_ids": ["doc_f65a72db74059a1b#steps#1"],
+        "gold_section": ["steps"]
       },
       {
         "id": 61,
         "type": "General",
         "question": "What tools do I need to make lemon pesto",
-        "expected_answer": "A peeler and a mixer"
+        "expected_answer": "A peeler and a mixer",
+        "gold_doc_id": ["doc_06f0edd2def4c58f"],
+        "gold_chunk_ids": ["doc_06f0edd2def4c58f#steps#0"],
+        "gold_section": ["steps"]
       },
       {
         "id": 62,
         "type": "Instructions",
         "question": "How to make Seafood Panzanella",
-        "expected_behavior": "Should mention steps on how to make them, including cleaning the squid, slicing the mantles into rings, cleaning the shrimp, cooking the squid and shrimp in a pan, cleaning the mussels, preparing the vegetables, cutting the bread into cubes, assembling the dish, and seasoning"
+        "expected_behavior": "Should mention steps on how to make them, including cleaning the squid, slicing the mantles into rings, cleaning the shrimp, cooking the squid and shrimp in a pan, cleaning the mussels, preparing the vegetables, cutting the bread into cubes, assembling the dish, and seasoning",
+        "gold_doc_id": ["doc_c9b1361544023f72"],
+        "gold_chunk_ids": ["doc_c9b1361544023f72#steps#0", "doc_c9b1361544023f72#steps#1", "doc_c9b1361544023f72#steps#2"],
+        "gold_section": ["steps"]
       },
       {
         "id": 63,
         "type": "General",
         "question": "how many people does Savory Pie with Potatoes and Bacon serve",
-        "expected_answer": "4 servings"
+        "expected_answer": "4 servings",
+        "gold_doc_id": ["doc_a44be626388ae382"],
+        "gold_chunk_ids": ["doc_a44be626388ae382#info#0"],
+        "gold_section": ["info"]
       }, 
       {
         "id": 64,
         "type": "Ingredients",
         "question": "What jam should I use for jam tart",
-        "expected_answer": "your choice (apricot, cherry, strawberry, etc.)"
+        "expected_answer": "your choice (apricot, cherry, strawberry, etc.)",
+        "gold_doc_id": ["doc_6d088995dc7a1dd5"],
+        "gold_chunk_ids": ["doc_6d088995dc7a1dd5#ingredients#0"],
+        "gold_section": ["ingredients"]
       }, 
       {
         "id": 65,
         "type": "Ingredients",
         "question": "Do I need basil or mint for Beetroot Culurgiones with Potatoes and Blue Cheese Sauce",
-        "expected_answer": "mint"
+        "expected_answer": "mint",
+        "gold_doc_id": ["doc_825c20bc0458e937"],
+        "gold_chunk_ids": ["doc_825c20bc0458e937#ingredients#0"],
+        "gold_section": ["ingredients"]
       }, 
       {
         "id": 66,
         "type": "Instructions",
         "question": "Should I leave the skin on the pumpkin for pumpkin in the pan",
-        "expected_answer": "It is recommended to leave the skin on, so the pumpkin does not fall apart during cooking"
+        "expected_answer": "It is recommended to leave the skin on, so the pumpkin does not fall apart during cooking",
+        "gold_doc_id": ["doc_0b6af1a72e4913f2"],
+        "gold_chunk_ids": ["doc_0b6af1a72e4913f2#steps#0"],
+        "gold_section": ["steps"]
       },
       {
         "id": 67,
         "type": "Ingredients",
         "question": "How many ingredients do I need for Red lentil tofu",
-        "expected_answer": "3 ingredients (red lentils, water, and fine salt)"
+        "expected_answer": "3 ingredients (red lentils, water, and fine salt)",
+        "gold_doc_id": ["doc_378522bffbea9754"],
+        "gold_chunk_ids": ["doc_378522bffbea9754#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 68,
         "type": "Ingredients",
         "question": "What herbs do I need for crispy baked chickpeas",
-        "expected_answer": "thyme, rosemary, and oregano"
+        "expected_answer": "thyme, rosemary, and oregano",
+        "gold_doc_id": ["doc_19db65fd3dc0bdd3"],
+        "gold_chunk_ids": ["doc_19db65fd3dc0bdd3#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 69,
         "type": "Ingredients",
         "question": "How many grams of butter do I need for Fried Doughnuts",
-        "expected_answer": "30 grams"
+        "expected_answer": "30 grams",
+        "gold_doc_id": ["doc_e426bc7181908ca5"],
+        "gold_chunk_ids": ["doc_e426bc7181908ca5#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 70,
         "type": "General",
         "question": "Give a suggestion for a dish that uses rice oil",
-        "expected_behavior": "suggests a dish using rice oil (e.g. Wholemeal biscuits without butter, Butterless Croissants, Cake terai, fekkas"
+        "expected_behavior": "suggests a dish using rice oil (e.g. Wholemeal biscuits without butter, Butterless Croissants, Cake terai, fekkas",
+        "gold_doc_id": ["doc_341ef4f51598f96f", "doc_4bdfb677eaa22ca8", "doc_8470b61601adca17", "doc_cc43d40f4fdbedbb"]
       },
       {
         "id": 71,
         "type": "Ingredients",
         "question": "Should the coffee for the Zeppole with mascarpone cream and coffee be hot or cold",
-        "expected_answer": "cold"
+        "expected_answer": "cold",
+        "gold_doc_id": ["doc_5059fba3838df211"],
+        "gold_chunk_ids": ["doc_5059fba3838df211#ingredients#0"],
+        "gold_section": ["ingredients"]
       }, 
       {
         "id": 72,
@@ -629,53 +747,76 @@
           {
             "role": "user",
             "text": "What ingredients do I need for cherry sorbet",
-            "expected_answer": ["Cherries: 2lbs(900 g)- sweet", "Lemon juice: 1", "Sugar: 0.67cup(160 g)", "Water: 1 ½cup(360 g)"]
+            "expected_answer": ["Cherries: 2lbs(900 g)- sweet", "Lemon juice: 1", "Sugar: 0.67cup(160 g)", "Water: 1 ½cup(360 g)"],
+            "gold_chunk_ids": ["doc_cf27372a2bdde135#ingredients#0"],
+            "gold_section": ["ingredients"]
           },
           {
             "role": "user",
             "text": "Is this recipe vegan",
-            "expected_answer": "yes"
+            "expected_answer": "yes",
+            "gold_chunk_ids": ["doc_cf27372a2bdde135#ingredients#0"],
+            "gold_section": ["ingredients"]
           },
           {
             "role": "user",
             "text": "Do I need an ice cream maker",
-            "expected_answer": "yes"
+            "expected_answer": "yes",
+            "gold_chunk_ids": ["doc_cf27372a2bdde135#steps#0"],
+            "gold_section": ["steps"]
           },
           {
             "role": "user",
             "text": "How many people can I serve with this recipe",
-            "expected_answer": "6 servings"
+            "expected_answer": "6 servings",
+            "gold_chunk_ids": ["doc_cf27372a2bdde135#info#0"],
+            "gold_section": ["info"]
           },
           {
             "role": "user",
             "text": "I have some left over, is it possible to store the ice cream",
-            "expected_answer": "yes, the cherry sorbet can be stored in the freezer for up to a month"
+            "expected_answer": "yes, the cherry sorbet can be stored in the freezer for up to a month",
+            "gold_chunk_ids": ["doc_cf27372a2bdde135#steps#0"],
+            "gold_section": ["steps"]
           }
-        ]
+        ],
+        "gold_doc_id": ["doc_cf27372a2bdde135"]
       },
       {
         "id": 73,
         "type": "Ingredients",
         "question": "Can I use a different cheese than mozzarella for Anchovy Parmigiana",
-        "expected_answer": "buffalo mozzarella can be replaced with caciocavallo or another melting cheese"
+        "expected_answer": "buffalo mozzarella can be replaced with caciocavallo or another melting cheese",
+        "gold_doc_id": ["doc_77ea8bac85a08752"],
+        "gold_chunk_ids": ["doc_77ea8bac85a08752#steps#2"],
+        "gold_section": ["steps"]
       },
       {
         "id": 74,
         "type": "Ingredients",
         "question": "Is 2 medium eggs enough to make Eggplants a pullastiello",
-        "expected_answer": "yes"
+        "expected_answer": "yes",
+        "gold_doc_id": ["doc_63ebbeeb6ae577b8"],
+        "gold_chunk_ids": ["doc_63ebbeeb6ae577b8#ingredients#0"],
+        "gold_section": ["ingredients"]
       }, 
       {
         "id": 75,
         "type": "General",
         "question": "What kind of knife should I use to open the oysters for Oysters with champagne and spring onion",
-        "expected_answer": "a special thin-bladed knife "
+        "expected_answer": "a special thin-bladed knife",
+        "gold_doc_id": ["doc_2564519cc2538129"],
+        "gold_chunk_ids": ["doc_2564519cc2538129#steps#1"],
+        "gold_section": ["steps"]
       }, 
       {
         "id": 76,
         "type": "Instructions",
         "question": "At what temperature should I preheat the oven for stuffed pasta shells",
-        "expected_answer": "415° F (220° C)"
+        "expected_answer": "415° F (220° C)",
+        "gold_doc_id": ["doc_0f2aec6fc3005631"],
+        "gold_chunk_ids": ["doc_0f2aec6fc3005631#steps#2"],
+        "gold_section": ["steps"]
       }, 
       {
         "id": 77,
