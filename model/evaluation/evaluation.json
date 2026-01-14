@@ -8,197 +8,286 @@
         "id": 1,
         "type": "ingredients",
         "question": "What ingredients are in Roasted Pumpkin Cream with Crunchy Vegetables?",
-        "expected_answer": ["Mantuan pumpkin", "Parsnip", "Carrots", "Fresh scallion", "Broccoli", "Cauliflower", "Tamari", "Lemon peel", "Sumac", "Extra virgin olive oil", "Coarse sea salt", "Sage", "water", "Croutons", "Wild Fennel"]
+        "expected_answer": ["Mantuan pumpkin", "Parsnip", "Carrots", "Fresh scallion", "Broccoli", "Cauliflower", "Tamari", "Lemon peel", "Sumac", "Extra virgin olive oil", "Coarse sea salt", "Sage", "water", "Croutons", "Wild Fennel"],
+        "gold_doc_id": ["doc_029f7d15edfc9453"],
+        "gold_chunk_ids": ["doc_029f7d15edfc9453#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 2,
         "type": "ingredients",
         "question": "What ingredients are in Cream Cake?",
-        "expected_answer": ["Fresh liquid cream: ¾cup(200 g)", "Eggs: 3", "Type 00 flour: 1.6cups(200 g)", "Sugar: 0.6cup(120 g)", "Lemon peel: 1", "Baking powder: 3 ½tsp(16 g)", "Salt: 1pinch", "Powdered sugar: to taste"]
+        "expected_answer": ["Fresh liquid cream: ¾cup(200 g)", "Eggs: 3", "Type 00 flour: 1.6cups(200 g)", "Sugar: 0.6cup(120 g)", "Lemon peel: 1", "Baking powder: 3 ½tsp(16 g)", "Salt: 1pinch", "Powdered sugar: to taste"],
+        "gold_doc_id": ["doc_bdf73dd08f305cf2"],
+        "gold_chunk_ids": ["doc_bdf73dd08f305cf2#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 3,
         "type": "ingredients",
         "question": "Which ingredients do I need to make gluten-free tiramisu?",
-        "expected_answer": ["Egg whites", "Egg yolks", "Sugar", "Rice flour", "Potato starch", "Gluten free cornstarch", "Gluten free powdered yeast for sweets", "Xantana", "Powdered sugar", "Mascarpone cheese", "Fresh liquid cream", "Water", "Coffee", "Unsweetened cocoa powder"]
+        "expected_answer": ["Egg whites", "Egg yolks", "Sugar", "Rice flour", "Potato starch", "Gluten free cornstarch", "Gluten free powdered yeast for sweets", "Xantana", "Powdered sugar", "Mascarpone cheese", "Fresh liquid cream", "Water", "Coffee", "Unsweetened cocoa powder"],
+        "gold_doc_id": ["doc_b1687530874181e1"],
+        "gold_chunk_ids": ["doc_b1687530874181e1#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 4,
         "type": "ingredients",
         "question": "Does the Christmas Crepes contain eggs?",
-        "expected_behavior": "Should answer yes, grounded in the Christmas Crepes ingredients list."
+        "expected_answer": "yes",
+        "expected_behavior": "Should answer yes, grounded in the Christmas Crepes ingredients list.",
+        "gold_doc_id": ["doc_3069fdaa9c17660b"],
+        "gold_chunk_ids": ["doc_3069fdaa9c17660b#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 5,
         "type": "ingredients",
         "question": "Is saffron used in Orange Saffron Risotto?",
-        "expected_behavior": "Should answer yes, grounded in the risotto ingredients list."
+        "expected_behavior": "Should answer yes, grounded in the risotto ingredients list.",
+        "expected_answer": "yes",
+        "gold_doc_id": ["doc_017ac79942c7664b"],
+        "gold_chunk_ids": ["doc_017ac79942c7664b#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 6,
         "type": "ingredients",
         "question": "What ingredients are in Lasagna Pockets?",
-        "expected_answer": ["Lasagne egg pasta", "Prosciutto cotto", "Cow's milk ricotta cheese", "Fior di latte mozzarella cheese", "Parmigiano Reggiano PDO cheese", "Black pepper", "Spinach", "Garlic", "Extra virgin olive oil", "Fine salt", "Tomato purée", "Whole milk", "Type 00 flour", "Butter", "Nutmeg"]
+        "expected_answer": ["Lasagne egg pasta", "Prosciutto cotto", "Cow's milk ricotta cheese", "Fior di latte mozzarella cheese", "Parmigiano Reggiano PDO cheese", "Black pepper", "Spinach", "Garlic", "Extra virgin olive oil", "Fine salt", "Tomato purée", "Whole milk", "Type 00 flour", "Butter", "Nutmeg"],
+        "gold_doc_id": ["doc_a6debd1fde29fd36"],
+        "gold_chunk_ids": ["doc_a6debd1fde29fd36#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 7,
         "type": "ingredients",
         "question": "List the ingredients in Manhattan",
-        "expected_answer": ["Rye whiskey", "Sweet red vermouth", "Angostura bitters", "Ice", "Maraschino cherries"]
+        "expected_answer": ["Rye whiskey", "Sweet red vermouth", "Angostura bitters", "Ice", "Maraschino cherries"],
+        "gold_doc_id": ["doc_9ac11d6171e5d97f"],
+        "gold_chunk_ids": ["doc_9ac11d6171e5d97f#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 8,
         "type": "ingredients",
         "question": "How many shrimp do I need for Pistachio Shrimp Skewers",
-        "expected_answer": "16 pieces"
+        "expected_answer": "16 pieces",
+        "gold_doc_id": ["doc_faf26aeb431ff008"],
+        "gold_chunk_ids": ["doc_faf26aeb431ff008#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 9,
         "type": "ingredients",
         "question": "Do I need red wine or white wine in Codfish Salad?",
-        "expected_answer": "white wine"
+        "expected_answer": "white wine",
+        "gold_doc_id": ["doc_984a840db64567e7"],
+        "gold_chunk_ids": ["doc_984a840db64567e7#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 10,
         "type": "instructions",
         "question": "How do I make Orange Saffron Risotto?",
-        "expected_behavior": "Should describe the key steps (toast rice, add broth gradually, add saffron, finish with butter/cheese, garnish with orange zest) using only the retrieved context."
+        "expected_behavior": "Should describe the key steps (toast rice, add broth gradually, add saffron, finish with butter/cheese, garnish with orange zest) using only the retrieved context.",
+        "gold_doc_id": ["doc_017ac79942c7664b"],
+        "gold_chunk_ids": ["doc_017ac79942c7664b#steps#0"],
+        "gold_section": ["steps"]
       },
       {
         "id": 11,
         "type": "instructions",
         "question": "How do I prepare Pistachio Shrimp Skewers?",
-        "expected_behavior": "Should mention cleaning shrimp, battering, coating in pistachio, frying, and serving; grounded in context."
+        "expected_behavior": "Should mention cleaning shrimp, battering, coating in pistachio, frying, and serving; grounded in context.",
+        "gold_doc_id": ["doc_faf26aeb431ff008"],
+        "gold_chunk_ids": ["doc_faf26aeb431ff008#steps#0"],
+        "gold_section": ["steps"]
       },
       {
         "id": 12,
         "type": "instructions",
         "question": "How to make Whiskey Sour?",
-        "expected_behavior": "Should mention pouring ice, whiskey, and sugar syrup in shaker, straining lemon juice and then adding it, adding egg whites if desired, securing lid, shaking shaker, straining and serving with orange slice and marachino cherry; grounded in context."
+        "expected_behavior": "Should mention pouring ice, whiskey, and sugar syrup in shaker, straining lemon juice and then adding it, adding egg whites if desired, securing lid, shaking shaker, straining and serving with orange slice and marachino cherry; grounded in context.",
+        "gold_doc_id": ["doc_9ec31366b5694c54"],
+        "gold_chunk_ids": ["doc_9ec31366b5694c54#steps#0"],
+        "gold_section": ["steps"]
       },
       {
         "id": 13,
         "type": "instructions",
         "question": "Explain how to prepare Gingerbread Tart",
-        "expected_behavior": "Steps should include: make shortcrust pastry (combining ingredients in right order), flavor dough with cinnamon and ginger powder, and first mix with spoon/mixer, then fingertips. Wrap and store in fridge. Roll dough out, place in tart pan, remove excess, prick base, bake, etc."
+        "expected_behavior": "Steps should include: make shortcrust pastry (combining ingredients in right order), flavor dough with cinnamon and ginger powder, and first mix with spoon/mixer, then fingertips. Wrap and store in fridge. Roll dough out, place in tart pan, remove excess, prick base, bake, etc.",
+        "gold_doc_id": ["doc_09dd85d0111cd7fc"],
+        "gold_chunk_ids": ["doc_09dd85d0111cd7fc#steps#0", "doc_09dd85d0111cd7fc#steps#1", "doc_09dd85d0111cd7fc#steps#2", "doc_09dd85d0111cd7fc#steps#3"],
+        "gold_section": ["steps"]
       },
       {
         "id": 14,
         "type": "instructions",
         "question": "How long should I bake the Potato pie with chicken and mushrooms",
-        "expected_behavior": "Should mention baking the crust for 15 minutes and then baking again with egg mixture for 40-45 minutes."
+        "expected_behavior": "Should mention baking the crust for 15 minutes and then baking again with egg mixture for 40-45 minutes.",
+        "gold_doc_id": ["doc_84399f8f9450d2a7"],
+        "gold_chunk_ids": ["doc_84399f8f9450d2a7#steps#0", "doc_84399f8f9450d2a7#steps#1"],
+        "gold_section": ["steps"]
       },
       {
         "id": 15,
         "type": "instructions",
         "question": "What is the first step in making Codfish Salad",
-        "expected_behavior": "Should mention bringing a pot full of water to a boil"
+        "expected_behavior": "Should mention bringing a pot full of water to a boil",
+        "gold_doc_id": ["doc_984a840db64567e7"],
+        "gold_chunk_ids": ["doc_984a840db64567e7#steps#0"],
+        "gold_section": ["steps"]
       },
       {
         "id": 16,
         "type": "instructions",
         "question": "How do I cook Christmas Canapés?",
-        "expected_behavior": "Should mention steps on how to make them"
+        "expected_behavior": "Should mention steps on how to make them",
+        "gold_doc_id": ["doc_26ada2a57e6c2164"],
+        "gold_chunk_ids": ["doc_26ada2a57e6c2164#steps#0", "doc_26ada2a57e6c2164#steps#1", "doc_26ada2a57e6c2164#steps#2"],
+        "gold_section": ["steps"]
       },
       {
         "id": 17,
         "type": "general",
         "question": "Give a suggestion for a Christmas Dish",
-        "expected_behavior": "Should mention christmas dishes, e.g. Christmas crepes, Christmas Canapés"
+        "expected_behavior": "Should mention christmas dishes, e.g. Christmas crepes, Christmas Canapés",
+        "gold_doc_id": ["doc_3069fdaa9c17660b", "doc_0b46f1b4f5f555c9", "doc_bd6ff0c4e3a54ac1", "doc_013dbde2f7376f65", "doc_a195876fdab5eff8", "doc_03bc0d0064d51361", "doc_ad364bc7957f40af", "doc_51e65fbf26553664", "doc_60b0187ea2d3c7e1", "doc_f1bf02415dc2ddef", "doc_ee1846908aaa234f", "doc_c2cf7f9f75dc3c9d", "doc_fd67342af87c86d5", "doc_869e9c3635a290bb", "doc_08edffabcf5bfbab", "doc_5e56cb78e69aa316", "doc_3c7bc4e7aab8fcc8", "doc_d082ff6c0fdd332f", "doc_c3490602e958c7f5", "doc_09dd85d0111cd7fc", "doc_08b6e9088aac03ee", "doc_4c723ced060e8cbf", "doc_41de6595eb2236b0", "doc_93aed4e4fa6eebc0", "doc_f1b9e15d1b303ebf", "doc_98e7fc9f4640665a", "doc_8cbe5dbb10383749", "doc_870be7e06663e17b", "doc_91a0a1b4119140f9", "doc_e54155e27c07bb9a", "doc_1f59f5dce1c2a02c", "doc_b83771e0f6d635fd", "doc_34c060e7d5133e5d", "doc_0a45e62e2750548d", "doc_17f83871a73f9139", "doc_ddb9ae4176861428", "doc_4d490fea07b814fb", "doc_d44d137388ce8359", "doc_b6c64ffd15cf8e7b", "doc_9c9284fc8a17ce23", "doc_d3c6e72b992394cd", "doc_23bb0423b5cc58ca", "doc_716aa8c7c67efcf1", "doc_c13bb572f8dd89df", "doc_7fa27ec82010d186", "doc_0d6e9fc9af93f48a", "doc_04c7afe981f5d47c", "doc_06d16002c7f94523", "doc_7b0a4b6a33f3ba11", "doc_0017bae1cdedc280", "doc_b2a2b8148c09707f", "doc_82f6bbcd77387d4e", "doc_551ff6e5e5102661", "doc_fdab209ef2c7572d", "doc_229efcd107ba8d10", "doc_fc1dd8a135591209", "doc_87e22f00e7a3f6c2", "doc_9a044d28ba3c4e58", "doc_c1babe9e8cd1e299", "doc_30afce143e114a74", "doc_ab17f871b206625c", "doc_1fa00a28ad6d472e", "doc_04fb879adea470e5", "doc_22742fe75056a8c5", "doc_a5084f068b2cab3d", "doc_a682313020190529", "doc_bb51dfbb8560fee3", "doc_5c7d76e772ec2512", "doc_441d7e617f3f38ef", "doc_610369cce6e62d1e", "doc_0c010c14843a81ec", "doc_39d640c6eb63971d", "doc_45f2a5787b3c270e", "doc_ed18478b21e70348", "doc_961be6ea5cc964b2", "doc_fa9eebdd08e0e03d", "doc_9aca843a63eb6b28", "doc_940a75dcaa27cbe4", "doc_5c7c379e247f383a", "doc_c154150e8c99a613", "doc_92c5cf0fd77f9ca3", "doc_15423c02ea4a72da", "doc_4f6290f040190c29", "doc_f5f8b40ac81ceeab", "doc_ba7c93542898d8d6", "doc_f5fd7b7b36b3782a", "doc_c797f9c75b547258", "doc_893cb655cf45e5e4", "doc_1ff746aa4d695cb0", "doc_373560654abdd26a", "doc_7ec3f26aa1dfec35", "doc_26ada2a57e6c2164"]
       },
       {
         "id": 18,
         "type": "general",
         "question": "Which recipes use seafood?",
-        "expected_behavior": "Should mention Codfish Salad, Pistachio Shrimp Skewers, and Christmas Canapés (seafood toppings); grounded in context."
+        "expected_behavior": "Should mention some recipes with seafood (e.g. Codfish Salad, Pistachio Shrimp Skewers); grounded in context.", 
+        "gold_doc_id": []
       },
       {
         "id": 19,
         "type": "general",
         "question": "Which recipes contain eggs?",
-        "expected_behavior": "Mention only recipes whose ingredients include eggs"
+        "expected_behavior": "Mention only recipes whose ingredients include eggs",
+        "gold_doc_id": []
       },
       {
         "id": 20,
         "type": "general",
         "question": "Do I need an oven to make Lasagna Pockets?",
-        "expected_behavior": "Mention only recipes whose ingredients include eggs"
+        "expected_answer": "yes",
+        "gold_doc_id": ["doc_a6debd1fde29fd36"],
+        "gold_chunk_ids": ["doc_a6debd1fde29fd36#steps#2"],
+        "gold_section": ["steps"]
       },
       {
         "id": 21,
         "type": "general",
         "question": "Which of your recipes contain coffee?",
-        "expected_behavior": "Should identify Gluten-Free Tiramisu as containing coffee, and avoid claiming others unless context supports it."
+        "expected_behavior": "Should identify recipes containing coffee, e.g. gluten-free tiramisu",
+        "gold_doc_id": [""]
       },
       {
         "id": 22,
         "type": "ingredients",
         "question": "How many grams of butter do I need for Gingerbread Tart",
-        "expected_answer": "150 g"
+        "expected_answer": "150 g",
+        "gold_doc_id": ["doc_09dd85d0111cd7fc"],
+        "gold_chunk_ids": ["doc_09dd85d0111cd7fc#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 23,
-        "type": "General",
+        "type": "instructions",
         "question": "What is the cooking time of mushroom meatloaf",
-        "expected_answer": ["1 hour 10 min"]
+        "expected_answer": ["70 min"],
+        "gold_doc_id": ["doc_e12bc27c39167b5d"],
+        "gold_chunk_ids": ["doc_e12bc27c39167b5d#info#0"],
+        "gold_section": ["info"]
       },
       {
         "id": 24,
-        "type": "ingredients",
+        "type": "multi-turn",
         "turns": [
           {
             "role": "user",
             "question":  "What kind of mushrooms do I need for mushroom meatloaf",
-            "expected_answer": ["king oyster mushrooms", "champignon mushrooms", "porcini mushrooms"]
+            "expected_answer": ["king oyster mushrooms", "champignon mushrooms", "porcini mushrooms"], 
+            "gold_chunk_ids": ["doc_e12bc27c39167b5d#ingredients#0"],
+            "gold_section": ["ingredients"]
           },
           {
             "role": "user",
             "question": "Can I use any other kind of mushroom as well?",
-            "expected_answer": "For the meatloaf, you can vary the type of mushrooms and beans as you prefer. If you use portobello mushrooms, make sure to brown them well to avoid them being watery."
+            "expected_answer": "For the meatloaf, you can vary the type of mushrooms and beans as you prefer. If you use portobello mushrooms, make sure to brown them well to avoid them being watery.",
+            "gold_chunk_ids": ["doc_a5dbac13d702aab5#steps#2"],
+            "gold_section": ["steps"]
           }
-        ]
+        ],
+        "gold_doc_id": ["doc_e12bc27c39167b5d"]
       },
       {
         "id": 25,
         "type": "General",
         "question": "How difficult is it to make Zucchini parmigiana",
-        "expected_answer": "Easy"
+        "expected_answer": "Easy",
+        "gold_doc_id": ["doc_fcef9a3c4cff3f08"],
+        "gold_chunk_ids": ["doc_fcef9a3c4cff3f08#info#0"],
+        "gold_section": ["info"]
       },
       {
         "id": 26,
         "type": "General",
         "question": "How high are the costs of ingredients for Vegetarian Lasagna",
-        "expected_answer": "Average"
+        "expected_answer": "Average",
+        "gold_doc_id": ["doc_b6886f2db4eb2b6e"],
+        "gold_chunk_ids": ["doc_b6886f2db4eb2b6e#info#0"],
+        "gold_section": ["info"]
       },
       {
         "id": 27,
         "type": "General",
         "question": "How long can I store Panettone risotto in the refrigerator",
-        "expected_answer": "maximum of one day"
+        "expected_answer": "maximum of one day",
+        "gold_doc_id": ["doc_22742fe75056a8c5"],
+        "gold_chunk_ids": ["doc_22742fe75056a8c5#steps#1"],
+        "gold_section": ["steps"]
       },
       {
         "id": 28,
         "type": "General",
         "question": "How many people does Cima alla genovese serve",
-        "expected_answer": "maximum of one day"
+        "expected_answer": "8",
+        "gold_doc_id": ["doc_beb45df75dc04a91"],
+        "gold_chunk_ids": ["doc_beb45df75dc04a91#info#0"],
+        "gold_section": ["info"]
       },
       {
         "id": 29,
         "type": "General",
         "question": "What is the preparation time of Pasta with arugula pesto and asparagus",
-        "expected_answer": "20 min"
+        "expected_answer": "20 min",
+        "gold_doc_id": ["doc_e17deda74bd052ca"],
+        "gold_chunk_ids": ["doc_e17deda74bd052ca#info#0"],
+        "gold_section": ["info"]
       },
       {
         "id": 30,
         "type": "General",
         "question": "Does nutella tartlets contain nuts",
-        "expected_answer": "yes"
+        "expected_answer": "yes",
+        "gold_doc_id": ["doc_e258569dce5a0016"],
+        "gold_chunk_ids": ["doc_e258569dce5a0016#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 31,
         "type": "Instructions",
         "question": "How do I make the sauce for the Salmon fillet with green pepper, ginger and lime",
-        "expected_answer": "First, peel the ginger , then pour the sour cream into a saucepan , let it heat for a moment over high heat, and deglaze with the brandy .Add the grated ginger , a pinch of salt , stir to combine the ingredients and turn off the heat"
+        "expected_answer": "First, peel the ginger , then pour the sour cream into a saucepan , let it heat for a moment over high heat, and deglaze with the brandy .Add the grated ginger , a pinch of salt , stir to combine the ingredients and turn off the heat",
+        "gold_doc_id": ["doc_92dfa1f36bdd342c"],
+        "gold_chunk_ids": ["doc_92dfa1f36bdd342c#steps#0"],
+        "gold_section": ["steps"]
       },
       {
         "id": 32,
@@ -207,19 +296,26 @@
           {
             "role": "user",
             "text": "Is Penne with almond pesto and shrimp easy to make",
-            "expected_answer": "very easy"
+            "expected_answer": "very easy",
+            "gold_chunk_ids": ["doc_07aa0b7aec6a0d79#info#0"],
+            "gold_section": ["info"]
           },
           {
             "role": "user",
             "text": "What ingredients do I need",
-            "expected_answer": ["5-grain Pennette Rigate pasta: 14.1oz(400 g)", "Shrimps: 1lb(450 g)", "Lemon peel: ¼", "Garlic: 2cloves", "Extra virgin olive oil: to taste", "Fine salt: to taste", "Black pepper: to taste", "Peeled almonds: 3oz(85 g)", "Extra virgin olive oil: 4 ½tbsp(60 g)", "Grana Padano PDO cheese: 0.7oz(20 g)- to grate", "Pecorino cheese: 0.7oz(20 g)- to grate", "Lemon peel: ½", "Marjoram: 3sprigs", "Marjoram: to taste"]
+            "expected_answer": ["5-grain Pennette Rigate pasta: 14.1oz(400 g)", "Shrimps: 1lb(450 g)", "Lemon peel: ¼", "Garlic: 2cloves", "Extra virgin olive oil: to taste", "Fine salt: to taste", "Black pepper: to taste", "Peeled almonds: 3oz(85 g)", "Extra virgin olive oil: 4 ½tbsp(60 g)", "Grana Padano PDO cheese: 0.7oz(20 g)- to grate", "Pecorino cheese: 0.7oz(20 g)- to grate", "Lemon peel: ½", "Marjoram: 3sprigs", "Marjoram: to taste"],
+            "gold_chunk_ids": ["doc_07aa0b7aec6a0d79#ingredients#0"],
+            "gold_section": ["ingredients"]
           },
           {
             "role": "user",
             "text": "I don't like pecorino, can I use a different cheese",
-            "expected_answer": "yes, you can replace it with the same amount of Grana or Parmesan"
+            "expected_answer": "yes, you can replace it with the same amount of Grana or Parmesan",
+            "gold_chunk_ids": ["doc_07aa0b7aec6a0d79#steps#3"],
+            "gold_section": ["steps"]
           }
-        ]
+        ],
+        "gold_doc_id": ["doc_07aa0b7aec6a0d79"]
       },
       {
         "id": 33,
@@ -228,29 +324,40 @@
           {
             "role": "user",
             "text": "What is the Italian name of Mountain sugar Cookies",
-            "expected_answer": "zuccherini montanari"
+            "expected_answer": "zuccherini montanari",
+            "gold_chunk_ids": ["doc_386588e72fcdd9db#steps#0"],
+            "gold_section": ["steps"]
           },
           {
             "role": "user",
             "text": "How do I make them?",
-            "expected_behavior": "should give description of how to make them, mentioning mixing sugar with eggs, adding vegetable oil and anise liqueur, sifting the flower in, mixing until a doough is formed, rolling the dough, cutting strips, shaping it into cord, making a ring, baking them, dipping them in the sugar syrup, and letting them cool"
+            "expected_behavior": "should give description of how to make them, mentioning mixing sugar with eggs, adding vegetable oil and anise liqueur, sifting the flower in, mixing until a doough is formed, rolling the dough, cutting strips, shaping it into cord, making a ring, baking them, dipping them in the sugar syrup, and letting them cool",
+            "gold_chunk_ids": ["doc_386588e72fcdd9db#steps#0", "doc_386588e72fcdd9db#steps#1", "doc_386588e72fcdd9db#steps#2", "doc_386588e72fcdd9db#steps#3"],
+            "gold_section": ["steps"]
           },
           {
             "role": "user",
             "text": "how many does this recipe make",
-            "expected_answer": "48 pieces"
+            "expected_answer": "48 pieces",
+            "gold_chunk_ids": ["doc_386588e72fcdd9db#info#0"],
+            "gold_section": ["info"]
           },
           {
             "role": "user",
             "text": "Should I store them in the fridge",
-            "expected_answer": "You can store them at room temperature, freezing them is not recommended"
+            "expected_answer": "You can store them at room temperature, freezing them is not recommended",
+            "gold_chunk_ids": ["doc_386588e72fcdd9db#steps#3"],
+            "gold_section": ["steps"]
           },
           {
             "role": "user",
             "text": "how many days can I store them for",
-            "expected_answer": "10 days"
+            "expected_answer": "10 days", 
+            "gold_chunk_ids": ["doc_386588e72fcdd9db#steps#3"],
+            "gold_section": ["steps"]
           }
-        ]
+        ],
+        "gold_doc_id": ["doc_386588e72fcdd9db"]
       },
       {
         "id": 34,
