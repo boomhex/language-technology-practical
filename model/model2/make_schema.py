@@ -242,7 +242,9 @@ def infer_tags(dish_name: str, ingredients: List[Dict[str, str]], instructions: 
     # Very rough vegetarian guess
     if "meat" not in tags and "seafood" not in tags:
         tags.add("vegetarian_candidate")
-
+    # Guard: dessert should not co-exist with savory mains
+    if "dessert" in tags and any(t in tags for t in {"seafood", "meat", "pasta"}):
+        tags.remove("dessert")
     return sorted(tags)
 
 
@@ -272,6 +274,8 @@ def build_document_schema(raw: str, source: str, url: Optional[str] = None) -> D
             "variations": None,
             "techniques": None,
         },
+        "difficulty": info.get("difficulty"),
+        "cost": info.get("cost"),
         "servings": info.get("servings"),
         "prep_time": info.get("prep_time"),
         "cook_time": info.get("cook_time"),
@@ -339,6 +343,10 @@ def make_chunks(doc: Dict[str, Any], max_chars: int = 1200) -> List[Dict[str, An
 
     # Times/servings as a compact factual chunk (very helpful for retrieval)
     facts = []
+    if doc.get("difficulty"):
+        facts.append(f"Difficulty: {doc['difficulty']}")
+    if doc.get("cost"):
+        facts.append(f"Cost: {doc['cost']}")
     if doc.get("servings") is not None:
         facts.append(f"Servings: {doc['servings']}")
     if doc.get("prep_time") is not None:
