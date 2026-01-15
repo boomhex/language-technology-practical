@@ -1,7 +1,7 @@
 {
     "meta": {
-      "purpose": "Error analysis",
-      "notes": "Used to identify retrieval, generation, and confidence errors"
+      "purpose": "Evaluation set",
+      "notes": "Used to evaluate the model"
     },
     "questions": [
       {
@@ -14,7 +14,7 @@
         "id": 2,
         "type": "ingredients",
         "question": "What ingredients are in Cream Cake?",
-        "expected_behavior": "Should mention it is not sure"
+        "expected_answer": ["Fresh liquid cream: ¾cup(200 g)", "Eggs: 3", "Type 00 flour: 1.6cups(200 g)", "Sugar: 0.6cup(120 g)", "Lemon peel: 1", "Baking powder: 3 ½tsp(16 g)", "Salt: 1pinch", "Powdered sugar: to taste"]
       },
       {
         "id": 3,
@@ -104,7 +104,7 @@
         "id": 17,
         "type": "general",
         "question": "Give a suggestion for a Christmas Dish",
-        "expected_behavior": "Should mention either Christmas crepes or Christmas Canapés"
+        "expected_behavior": "Should mention christmas dishes, e.g. Christmas crepes, Christmas Canapés"
       },
       {
         "id": 18,
@@ -135,6 +135,640 @@
         "type": "ingredients",
         "question": "How many grams of butter do I need for Gingerbread Tart",
         "expected_answer": "150 g"
+      },
+      {
+        "id": 23,
+        "type": "General",
+        "question": "What is the cooking time of mushroom meatloaf",
+        "expected_answer": ["1 hour 10 min"]
+      },
+      {
+        "id": 24,
+        "type": "ingredients",
+        "turns": [
+          {
+            "role": "user",
+            "question":  "What kind of mushrooms do I need for mushroom meatloaf",
+            "expected_answer": ["king oyster mushrooms", "champignon mushrooms", "porcini mushrooms"]
+          },
+          {
+            "role": "user",
+            "question": "Can I use any other kind of mushroom as well?",
+            "expected_answer": "For the meatloaf, you can vary the type of mushrooms and beans as you prefer. If you use portobello mushrooms, make sure to brown them well to avoid them being watery."
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "type": "General",
+        "question": "How difficult is it to make Zucchini parmigiana",
+        "expected_answer": "Easy"
+      },
+      {
+        "id": 26,
+        "type": "General",
+        "question": "How high are the costs of ingredients for Vegetarian Lasagna",
+        "expected_answer": "Average"
+      },
+      {
+        "id": 27,
+        "type": "General",
+        "question": "How long can I store Panettone risotto in the refrigerator",
+        "expected_answer": "maximum of one day"
+      },
+      {
+        "id": 28,
+        "type": "General",
+        "question": "How many people does Cima alla genovese serve",
+        "expected_answer": "maximum of one day"
+      },
+      {
+        "id": 29,
+        "type": "General",
+        "question": "What is the preparation time of Pasta with arugula pesto and asparagus",
+        "expected_answer": "20 min"
+      },
+      {
+        "id": 30,
+        "type": "General",
+        "question": "Does nutella tartlets contain nuts",
+        "expected_answer": "yes"
+      },
+      {
+        "id": 31,
+        "type": "Instructions",
+        "question": "How do I make the sauce for the Salmon fillet with green pepper, ginger and lime",
+        "expected_answer": "First, peel the ginger , then pour the sour cream into a saucepan , let it heat for a moment over high heat, and deglaze with the brandy .Add the grated ginger , a pinch of salt , stir to combine the ingredients and turn off the heat"
+      },
+      {
+        "id": 32,
+        "type": "multi-turn",
+        "turns":[
+          {
+            "role": "user",
+            "text": "Is Penne with almond pesto and shrimp easy to make",
+            "expected_answer": "very easy"
+          },
+          {
+            "role": "user",
+            "text": "What ingredients do I need",
+            "expected_answer": ["5-grain Pennette Rigate pasta: 14.1oz(400 g)", "Shrimps: 1lb(450 g)", "Lemon peel: ¼", "Garlic: 2cloves", "Extra virgin olive oil: to taste", "Fine salt: to taste", "Black pepper: to taste", "Peeled almonds: 3oz(85 g)", "Extra virgin olive oil: 4 ½tbsp(60 g)", "Grana Padano PDO cheese: 0.7oz(20 g)- to grate", "Pecorino cheese: 0.7oz(20 g)- to grate", "Lemon peel: ½", "Marjoram: 3sprigs", "Marjoram: to taste"]
+          },
+          {
+            "role": "user",
+            "text": "I don't like pecorino, can I use a different cheese",
+            "expected_answer": "yes, you can replace it with the same amount of Grana or Parmesan"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "type": "multi-turn",
+        "turns":[
+          {
+            "role": "user",
+            "text": "What is the Italian name of Mountain sugar Cookies",
+            "expected_answer": "zuccherini montanari"
+          },
+          {
+            "role": "user",
+            "text": "How do I make them?",
+            "expected_behavior": "should give description of how to make them, mentioning mixing sugar with eggs, adding vegetable oil and anise liqueur, sifting the flower in, mixing until a doough is formed, rolling the dough, cutting strips, shaping it into cord, making a ring, baking them, dipping them in the sugar syrup, and letting them cool"
+          },
+          {
+            "role": "user",
+            "text": "how many does this recipe make",
+            "expected_answer": "48 pieces"
+          },
+          {
+            "role": "user",
+            "text": "Should I store them in the fridge",
+            "expected_answer": "You can store them at room temperature, freezing them is not recommended"
+          },
+          {
+            "role": "user",
+            "text": "how many days can I store them for",
+            "expected_answer": "10 days"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "type": "Ingredients",
+        "question": "How many eggs do I need for Chestnut Flour Cantucci with Almonds and Chocolate",
+        "expected_answer": "2 medium eggs"
+      },
+      {
+        "id": 35,
+        "type": "Ingredients",
+        "question": "What kind of tomatoes do I need for Roasted Tomato Pesto",
+        "expected_answer": "Datterino tomatoes"
+      },
+      {
+        "id": 36,
+        "type": "General",
+        "question": "What is the total time I need to make Ciaudedda",
+        "expected_answer": "75 minutes"
+      },
+      {
+        "id": 37,
+        "type": "Instructions",
+        "question": "What is the last step of making Puccia with burrata and zucchini flowers",
+        "expected_answer": "Add the fried zucchini flowers , season with basil leaves and a bit of pepper to taste. Serve your pucce immediately "
+      },
+      {
+        "id": 38,
+        "type": "General",
+        "question": "Give me 3 dessert suggestions containing fruits",
+        "expected_behavior": "gives 3 dessert options with fruits, e.g. Chocolate and Apricot Cakes, Black Forest Semifreddo, tropical cake"
+      },
+      {
+        "id": 39,
+        "type": "Instructions",
+        "question": "How long does the zebra cake need to bake",
+        "expected_answer": "Bake in a preheated static oven at 350°F for 55-60 minutes"
+      },
+      {
+        "id": 40,
+        "type": "Ingredients",
+        "question": "Do I need a lemon peel or an orange peel for Whole Wheat Sponge Cake",
+        "expected_answer": "Lemon peel"
+      },
+      {
+        "id": 41,
+        "type": "Ingredients",
+        "question": "Do I need yellow or purple cauliflower for Vegetable and Bulgur Soup",
+        "expected_answer": "both yellow and purple"
+      }, 
+      {
+        "id": 42,
+        "type": "multi-turn",
+        "turns":[
+          {
+            "role": "user",
+            "text": "I want to make Wholemeal rolls with pine nuts, but I am allergic to pine nuts, can I use other nuts",
+            "expected_answer": "Yes, it is possible to substitute pine nuts with other nuts, such as walnuts, almonds, or pistachios"
+          },
+          {
+            "role": "user",
+            "text": "I want to make them for my birthday party that starts in 2 hours, do I have enough time",
+            "expected_answer": "No, the prep time is 20 min, cooking time 15 min, plus 3 hours of rising time"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "type": "Ingredients",
+        "question": "Is the Lemon plumcake without butter dairy-free",
+        "expected_answer": "yes"
+      }, 
+      {
+        "id": 44,
+        "type": "Instructions",
+        "question": "how long does kimchi need to ferment for",
+        "expected_answer": "at least 1 week at room temperature or 2 weeks in the fridge"
+      },
+      {
+        "id": 45,
+        "type": "General",
+        "question": "Are the Gluten-Free Pancakes vegan",
+        "expected_answer": "no"
+      },
+      {
+        "id": 46,
+        "type": "General",
+        "question": "Is the Gratinated Fennel in a Pan vegetarian",
+        "expected_answer": "yes"
+      },
+      {
+        "id": 47,
+        "type": "General",
+        "question": "I have tomatoes, basil, mozzarella and spinach lying in my fridge, what can I make",
+        "expected_behavior": "suggestion of recipe containing at least 1 of these ingredients"
+      },
+      {
+        "id": 48,
+        "type": "Instructions",
+        "question": "what is the first step of making Chaffle",
+        "expected_answer": "first grate the provolone cheese with a large-hole grater"
+      },
+      {
+        "id": 49,
+        "type": "Ingredients",
+        "question": "What kind of flour do I need for soft lemon muffins",
+        "expected_answer": "Type 00 flour"
+      },
+      {
+        "id": 50,
+        "type": "Ingredients",
+        "question": "What ingredients do I need for Eggs en Cocotte",
+        "expected_answer": ["eggs", "butter", "fine salt", "black pepper"]
+      },
+      {
+        "id": 51,
+        "type": "Background",
+        "question": "Where is pasta carbonara originally from",
+        "expected_answer": "Most sources trace its origin to the region of Lazio"
+      },
+      {
+        "id": 52,
+        "type": "Background",
+        "question": "What does 'gnocchi' mean",
+        "expected_answer": "The word gnocchi may be derived from the Italian word nocchio, meaning 'a knot in wood', or from nocca, meaning 'knuckle'"
+      },
+      {
+        "id": 53,
+        "type": "Background",
+        "question": "Since when is gnocchi made with potato",
+        "expected_answer": "After potato was introduced to Europe, it was incorporated into gnocchi recipes in the late 19th century"
+      },
+      {
+        "id": 54,
+        "type": "Background",
+        "question": "When was lasagna first made",
+        "expected_answer": "The oldest known written reference to lasagna appears in 1282"
+      },
+      {
+        "id": 55,
+        "type": "Background",
+        "question": "Who invented carpaccio",
+        "expected_answer": "Cipriani"
+      },
+      {
+        "id": 56,
+        "type": "Background",
+        "question": "Which region of Italy is cacio e pepe from?",
+        "expected_answer": "the Lazio region of Italy"
+      },
+      {
+        "id": 57,
+        "type": "Background",
+        "question": "What are the origins of pasta alla vodka",
+        "expected_answer": "The exact origins of penne alla vodka are unclear and, to some extent, the subject of urban legend and folklore"
+      },
+      {
+        "id": 58,
+        "type": "Background",
+        "question": "What toppings does pizza margerita traditionally have",
+        "expected_answer": "basil, tomatoes, and thin slices of mozzarella"
+      }, 
+      {
+        "id": 59,
+        "type": "multi-turn",
+        "turns":[
+          {
+            "role": "user",
+            "text": "I have a nut allergy, can I make Chocolate Salami Cake",
+            "expected_answer": "no, there are hazelnuts in this recipe"
+          },
+          {
+            "role": "user",
+            "text": "Can I leave the hazelnuts out",
+            "expected_answer": "yes, you can omit them or replace them with cereals to maintain the crunchiness"
+          },
+          {
+            "role": "user",
+            "text": "how difficult is it to make",
+            "expected_answer": "Easy"
+          },
+          {
+            "role": "user",
+            "text": "How high are the costs of ingredients",
+            "expected_answer": "low"
+          },
+          {
+            "role": "user",
+            "text": "how large of a springform pan do I need",
+            "expected_answer": "9-inch springform pan"
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "type": "Ingredients",
+        "question": "I would like to make Pasta with pesto and cherry tomatoes but I do not have basil. What can I use instead",
+        "expected_answer": "You can substitute basil with arugula"
+      },
+      {
+        "id": 61,
+        "type": "General",
+        "question": "What tools do I need to make lemon pesto",
+        "expected_answer": "A peeler and a mixer"
+      },
+      {
+        "id": 62,
+        "type": "Instructions",
+        "question": "How to make Seafood Panzanella",
+        "expected_behavior": "Should mention steps on how to make them, including cleaning the squid, slicing the mantles into rings, cleaning the shrimp, cooking the squid and shrimp in a pan, cleaning the mussels, preparing the vegetables, cutting the bread into cubes, assembling the dish, and seasoning"
+      },
+      {
+        "id": 63,
+        "type": "General",
+        "question": "how many people does Savory Pie with Potatoes and Bacon serve",
+        "expected_answer": "4 servings"
+      }, 
+      {
+        "id": 64,
+        "type": "Ingredients",
+        "question": "What jam should I use for jam tart",
+        "expected_answer": "your choice (apricot, cherry, strawberry, etc.)"
+      }, 
+      {
+        "id": 65,
+        "type": "Ingredients",
+        "question": "Do I need basil or mint for Beetroot Culurgiones with Potatoes and Blue Cheese Sauce",
+        "expected_answer": "mint"
+      }, 
+      {
+        "id": 66,
+        "type": "Instructions",
+        "question": "Should I leave the skin on the pumpkin for pumpkin in the pan",
+        "expected_answer": "It is recommended to leave the skin on, so the pumpkin does not fall apart during cooking"
+      },
+      {
+        "id": 67,
+        "type": "Ingredients",
+        "question": "How many ingredients do I need for Red lentil tofu",
+        "expected_answer": "3 ingredients (red lentils, water, and fine salt)"
+      },
+      {
+        "id": 68,
+        "type": "Ingredients",
+        "question": "What herbs do I need for crispy baked chickpeas",
+        "expected_answer": "thyme, rosemary, and oregano"
+      },
+      {
+        "id": 69,
+        "type": "Ingredients",
+        "question": "How many grams of butter do I need for Fried Doughnuts",
+        "expected_answer": "30 grams"
+      },
+      {
+        "id": 70,
+        "type": "General",
+        "question": "Give a suggestion for a dish that uses rice oil",
+        "expected_behavior": "suggests a dish using rice oil (e.g. Wholemeal biscuits without butter, Butterless Croissants, Cake terai, fekkas"
+      },
+      {
+        "id": 71,
+        "type": "Ingredients",
+        "question": "Should the coffee for the Zeppole with mascarpone cream and coffee be hot or cold",
+        "expected_answer": "cold"
+      }, 
+      {
+        "id": 72,
+        "type": "multi-turn",
+        "turns": [
+          {
+            "role": "user",
+            "text": "What ingredients do I need for cherry sorbet",
+            "expected_answer": ["Cherries: 2lbs(900 g)- sweet", "Lemon juice: 1", "Sugar: 0.67cup(160 g)", "Water: 1 ½cup(360 g)"]
+          },
+          {
+            "role": "user",
+            "text": "Is this recipe vegan",
+            "expected_answer": "yes"
+          },
+          {
+            "role": "user",
+            "text": "Do I need an ice cream maker",
+            "expected_answer": "yes"
+          },
+          {
+            "role": "user",
+            "text": "How many people can I serve with this recipe",
+            "expected_answer": "6 servings"
+          },
+          {
+            "role": "user",
+            "text": "I have some left over, is it possible to store the ice cream",
+            "expected_answer": "yes, the cherry sorbet can be stored in the freezer for up to a month"
+          }
+        ]
+      },
+      {
+        "id": 73,
+        "type": "Ingredients",
+        "question": "Can I use a different cheese than mozzarella for Anchovy Parmigiana",
+        "expected_answer": "buffalo mozzarella can be replaced with caciocavallo or another melting cheese"
+      },
+      {
+        "id": 74,
+        "type": "Ingredients",
+        "question": "Is 2 medium eggs enough to make Eggplants a pullastiello",
+        "expected_answer": "yes"
+      }, 
+      {
+        "id": 75,
+        "type": "General",
+        "question": "What kind of knife should I use to open the oysters for Oysters with champagne and spring onion",
+        "expected_answer": "a special thin-bladed knife "
+      }, 
+      {
+        "id": 76,
+        "type": "Instructions",
+        "question": "At what temperature should I preheat the oven for stuffed pasta shells",
+        "expected_answer": "415° F (220° C)"
+      }, 
+      {
+        "id": 77,
+        "type": "General",
+        "question": "What variations of lasagna do you recommend",
+        "expected_behavior": "gives at least 1 variation of lasagna (e.g. lasagna pockets, seafood lasagna, pumpkin and speck lasagna, vegetarian lasagna, lasagna with swiss chard, lasagna with lentil ragù, crepe lasagna with vegetables, lasagna with asparagus and sausage, etc."
+      }, 
+      {
+        "id": 78,
+        "type": "General",
+        "question": "Do I need an oven to make Peach Skillet Cake",
+        "expected_answer": "No, the peach skillet cake is cooked like an omelet, at a very low flame and with a lid"
+      }, 
+      {
+        "id": 79,
+        "type": "Instructions",
+        "question": "How can I achieve the perfect crumble for the vegetable crumble",
+        "expected_answer": "To achieve a perfect crumble, pay attention to the temperature, which should not be too high, otherwise the dough will burn on the outside while remaining raw inside"
+      }, 
+      {
+        "id": 80,
+        "type": "Ingredients",
+        "question": "Should I use white or bleck pepper for Potato Gnocchi Without Flour",
+        "expected_answer": "both"
+      },
+      {
+        "id": 81,
+        "type": "General",
+        "question": "How big should I chop the mushrooms for Stuffed Conchiglioni with Mushrooms, Ham, and Béchamel",
+        "expected_answer": "into 1/3 inch cubes"
+      },
+      {
+        "id": 82,
+        "type": "General",
+        "question": "Is there fish in Green ravioli stuffed with cod",
+        "expected_answer": "yes, cod"
+      },
+      {
+        "id": 83,
+        "type": "multi-turn",
+        "turns": [
+          {
+            "role": "user",
+            "text": "Do you have a recipe for vegan handmade tagliatelle",
+            "expected_behavior": "yes, should mention eggless handmade tagliatelle and give instructions on how to make it"
+          },
+          {
+            "role": "user",
+            "text": "I do not have enough semolina at home, can I use a mix of all-purpose flour and semolina",
+            "expected_answer": "yes, but you will need to slightly reduce the amount of water, adjusting based on the consistency of the mixture."
+          },
+          {
+            "role": "user",
+            "text": "How long should the pasta boil for",
+            "expected_answer": "drain them as soon as they rise to the surface"
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "type": "General",
+        "question": "Give me 2 recipes of tiramisu that do not use coffee",
+        "expected_behavior": "gives at least 2 recipes without coffe (e.g. apricot tiramisu, Tiramisu with Pan di Stelle® cookies, Black Forest Tiramisu, Strawberry tiramisu with limoncello cream, pineapple tiramisu, lemon tiramisu, Strawberry tiramisu without eggs, Colomba tiramisu, orange tiramisu, Pandoro tiramisù with wild berries, Strawberry tiramisù, Wild berry tiramisù"
+      }, 
+      {
+        "id": 85,
+        "type": "Ingredients",
+        "question": "Do I need sweetened cocoa powder for Easy Cocoa Bundt Cake",
+        "expected_answer": "no, unsweetened cocoa powder"
+      },
+      {
+        "id": 86,
+        "type": "Ingredients",
+        "question": "How many prawns do I need for crispy prawns",
+        "expected_answer": "12"
+      },
+      {
+        "id": 87,
+        "type": "Ingredients",
+        "question": "Do I need 1 or 2 teaspoons of brown sugar for Thick piadina romagnola",
+        "expected_answer": "12"
+      },
+      {
+        "id": 88,
+        "type": "Instructions",
+        "question": "What should I do first when preparing airfryer calamari",
+        "expected_answer": "first clean the calamari. Pull the tentacles away and keep them aside. Empty the inside of the mantle, extract the cartilage and peel the squid .Take back the tentacles, cut the part of the eyes and remove the beak that is in the center. Continue in this way until all the squids are cleaned"
+      },
+      {
+        "id": 89,
+        "type": "General",
+        "question": "Is it expensive to make Venetian style cod",
+        "expected_answer": "yes"
+      },
+      {
+        "id": 90,
+        "type": "Instructions",
+        "question": "Briefly explain how to make Sbrisolona",
+        "expected_behavior": "short explanation including the main steps: create a mound using all the types of flour, put butter, salt, eggs and sugar in middle and start kneading, while kneading add remaining ingredients, press the dough down on a baking sheet and let rest for 4 hours in freezer, then crumble the dough using a grater (cooling rack), spread the crumbs across an aluminum mold (no pressing), cook for 45 min in oven (170 °C), let cool, remove mold and serve)"
+      },
+      {
+        "id": 91,
+        "type": "General",
+        "question": "Is it expensive to make Venetian style cod",
+        "expected_answer": "yes"
+      },
+      {
+        "id": 92,
+        "type": "General",
+        "question": "Give a suggestion of a dish that is very easy to make, low cost and serves 8 people",
+        "expected_behavior": "Gives a suggestion that satisfies all conditions (partial points if only 2/3) (e.g. 7 Jar Cake with Cocoa, Cake with mascarpone in the batter, Hummus without tahini)"
+      },
+      {
+        "id": 93,
+        "type": "General",
+        "question": "Give 3 suggestions of desserts that do not require an oven to make it (and I do not like tiramisu)",
+        "expected_behavior": "Gives 3 suggestions of desserts that are made without an oven and is not a variation of tiramisu (e.g. Persian Saffron Rice Pudding, Saffron Rice Pudding, Classic vanilla pudding)"
+      },
+      {
+        "id": 94,
+        "type": "General",
+        "question": "Do you know a cocktail recipe that uses whiskey",
+        "expected_behavior": "Gives a suggestion of a cocktail that uses whiskey (e.g. whiskey sour)"
+      }, 
+      {
+        "id": 95,
+        "type": "multi-turn",
+        "turns": [
+          {
+            "role": "user",
+            "text": "Does eggnog use alcohol",
+            "expected_answer": "yes, brandy"
+          }, 
+          {
+            "role": "user",
+            "text": "I don't like brandy, can I use a different liqueur",
+            "expected_answer": "brandy can be substituted with bourbon or cognac"
+          },
+          {
+            "role": "user",
+            "text": "are the eggs raw in eggnog", 
+            "expected_answer": "This version of eggnog is cooked, similar to a custard, so it is much safer than the raw version"
+          },
+          {
+            "role": "user",
+            "text": "what is the total time needed to make it",
+            "expected_answer": "35 min (20 + 15 min)"
+          }, 
+          {
+            "role": "user",
+            "text": "I will have a lot of bourbon left, do you know any drinks that use bourbon",
+            "expected_behavior": "Give suggestion of drink with bourbon, e.g. whiskey sour, kentucky mule (variation of moscow mule)"
+          }
+        ]
+      },
+      {
+        "id": 96,
+        "type": "General",
+        "question": "How to make spinach soup",
+        "expected_behavior": "mention it is unsure/does not know a recipe for spinach soup"
+      }, 
+      {
+        "id": 97,
+        "type": "General",
+        "question": "How to make eggnog without alcohol",
+        "expected_behavior": "mention it is does not know a recipe of eggnog without alcohol, but you could adjust the amount of alcohol to make a less alcoholic version"
+      }, 
+      {
+        "id": 98,
+        "type": "General",
+        "question": "How to make eggless carbonara",
+        "expected_behavior": "should mention the steps mentioned in Vegetarian Carbonara"
+      },
+      {
+        "id": 99,
+        "type": "Instructions",
+        "question": "How long should I bake it",
+        "expected_behavior": "Should ask a clarification question if the recipe has not been specified."
+      },
+      {
+        "id": 99,
+        "type": "Instructions",
+        "question": "How long should I bake it",
+        "expected_behavior": "Should ask a clarification question if the recipe has not been specified."
+      },
+      {
+        "id": 100,
+        "type": "multi-turn",
+        "turns":[
+          {
+            "role": "user",
+            "text": "How many shrimp do I need for Flatbread with shrimp, zucchini flowers, and salad",
+            "expected_answer": "16"
+          },
+          {
+            "role": "user",
+            "text": "Is that in total or per person",
+            "expected_answer": "in total"
+          }
+        ]
       }
     ]
   }
