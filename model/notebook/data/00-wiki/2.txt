@@ -1,0 +1,17 @@
+name:
+gnocchi
+text:
+The word gnocchi may be derived from the Italian word nocchio, meaning 'a knot
+in wood', or from nocca, meaning 'knuckle'. It has been a traditional 
+dish since Roman times. It was introduced by the Roman legions during the 
+expansion of the empire into the countries of the European continent. 
+One ancient Roman recipe consists of a semolina porridge-like dough mixed with 
+eggs; similar modern dishes include the baked gnocchi alla romana and Sardinian 
+malloreddus, which do not contain eggs.
+
+After potato was introduced to Europe, it was incorporated into gnocchi 
+recipes in the late 19th century, as fees for milling wheat became too 
+expensive for small landowners in central and northern Italy, encouraging 
+the use of alternatives to flour when feasible. Potato gnocchi are 
+particularly popular in Lombardy, Abruzzo, Friuli-Venezia Giulia, Veneto,
+ nd Lazio.

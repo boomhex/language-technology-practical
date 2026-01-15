@@ -1,0 +1,24 @@
+name:
+Whiskey Sour
+ingredients:
+Bourbon whiskey: 3oz(90 ml)
+Lemon juice: 3tbsp(50 ml)
+Sugar syrup: 8tsp(40 ml)
+Egg whites: 2tsp(10 ml)- pasteurized
+Ice: to taste
+Oranges: 2slices
+Maraschino cherries: 2
+
+info:
+Difficulty: Very easy
+Prep time: 3 min
+Serving: 2
+Cost: High
+
+instructions:
+To prepare the whiskey sour, first pour the ice into the shaker along with the bourbon whiskey and the sugar syrup .
+Strain the lemon juice and add it to the other ingredients . If desired, you can also add a few drops of pasteurized egg white . Secure the lid and shake the shaker firmly .
+Strain the cocktail through the strainer and fill the glasses to the brim, then garnish with an orange slice and a maraschino cherry . Your whiskey sour is ready to be enjoyed!
+The whiskey sour should be consumed immediately, it cannot be prepared in advance.
+The use of pasteurized egg white is intended to create the typical foam on top, which characterizes its appearance. It's an optional ingredient that you can omit without affecting the cocktail's flavor.
+

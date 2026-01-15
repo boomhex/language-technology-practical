@@ -1,0 +1,30 @@
+name:
+Fried eggs
+ingredients:
+Eggs: 4- fresh at room temperature
+Extra virgin olive oil: to taste
+Fine salt: to taste
+Black pepper: to taste
+
+info:
+Difficulty: Very easy
+Prep time: 5 min
+Cook time: 5 min
+Makes: 4 pieces
+Cost: Very low
+
+instructions:
+To prepare fried eggs, we recommend using a non-stick skillet. Pour oil to cover the entire bottom . Heat it, then break an egg into a bowl and pour it in . Cook over medium-high heat, occasionally tilting the pan to scoop oil with a spoon and drizzle over the surface .
+Continue this way until a white film forms on the surface . In about 2-3 minutes, the fried egg will be ready . Serve as desired with salt and pepper .
+It is not recommended to store fried eggs in any form.
+Enhance your fried eggs by adding some melty cheese to grate at the end of cooking or some tempting crumbled cooked bacon.
+When purchasing, pay attention to the label and the codes on egg cartons.
+Code 0 : indicates organic eggs from free-range hens.
+Code 1 : indicates free-range non-organic farming.
+Code 2 : indicates barn farming.
+Code 3 : indicates cage-housed hens.
+It's also important to know the freshness level of the eggs:
+"Category A extra" : identifies very fresh unrefrigerated eggs to be used within 7 days from packaging or 9 days from laying.
+"Category A" : identifies fresh unrefrigerated eggs that can be packaged and marketed no later than 21 days from laying.
+"Category B" : identifies eggs intended for processing industries and not for retail or large distribution.
+
