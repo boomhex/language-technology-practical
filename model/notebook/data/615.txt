@@ -1,0 +1,19 @@
+name:
+Banana Chips
+ingredients:
+Bananas: 3
+Lemons: 1
+
+info:
+Difficulty: Very easy
+Prep time: 15 min
+Cook time: 1 h 10 min
+Serving: 4
+Cost: Very low
+
+instructions:
+To prepare the banana chips, first peel the bananas and slice them thinly , making sure the slices are no thicker than 1/8 inch .
+Place the banana slices on a baking sheet lined with parchment paper , making sure they do not overlap. Squeeze the lemon and extract its juice. Brush the banana slices with the lemon juice . Preheat the oven to 250°F in convection mode and bake for 45 minutes. Remove the baking sheet and flip each banana chip carefully to avoid breaking them. Continue baking for another 25 minutes or until they are crispy and golden. Turn off the oven and let them cool inside with the door open. The banana chips are ready to be enjoyed .
+Banana chips can be stored for 2 days in a food bag. Freezing is not recommended.
+After baking, you can sprinkle them with sugar or salt according to your preferences.
+
