@@ -822,37 +822,53 @@
         "id": 77,
         "type": "General",
         "question": "What variations of lasagna do you recommend",
-        "expected_behavior": "gives at least 1 variation of lasagna (e.g. lasagna pockets, seafood lasagna, pumpkin and speck lasagna, vegetarian lasagna, lasagna with swiss chard, lasagna with lentil ragù, crepe lasagna with vegetables, lasagna with asparagus and sausage, etc."
+        "expected_behavior": "gives at least 1 variation of lasagna (e.g. lasagna pockets, seafood lasagna, pumpkin and speck lasagna, vegetarian lasagna, lasagna with swiss chard, lasagna with lentil ragù, crepe lasagna with vegetables, lasagna with asparagus and sausage, etc.",
+        "gold_doc_id": []
       }, 
       {
         "id": 78,
         "type": "General",
         "question": "Do I need an oven to make Peach Skillet Cake",
-        "expected_answer": "No, the peach skillet cake is cooked like an omelet, at a very low flame and with a lid"
+        "expected_answer": "No, the peach skillet cake is cooked like an omelet, at a very low flame and with a lid",
+        "gold_doc_id": ["doc_d9895d0032cbe4ff"],
+        "gold_chunk_ids": ["doc_d9895d0032cbe4ff#steps#1"],
+        "gold_section": ["steps"]
       }, 
       {
         "id": 79,
         "type": "Instructions",
         "question": "How can I achieve the perfect crumble for the vegetable crumble",
-        "expected_answer": "To achieve a perfect crumble, pay attention to the temperature, which should not be too high, otherwise the dough will burn on the outside while remaining raw inside"
+        "expected_answer": "To achieve a perfect crumble, pay attention to the temperature, which should not be too high, otherwise the dough will burn on the outside while remaining raw inside",
+        "gold_doc_id": ["doc_9eb6a92081a68bf6"],
+        "gold_chunk_ids": ["doc_9eb6a92081a68bf6#steps#2"],
+        "gold_section": ["steps"]
       }, 
       {
         "id": 80,
         "type": "Ingredients",
         "question": "Should I use white or bleck pepper for Potato Gnocchi Without Flour",
-        "expected_answer": "both"
+        "expected_answer": "both",
+        "gold_doc_id": ["doc_5012028a945231f0"],
+        "gold_chunk_ids": ["doc_5012028a945231f0#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 81,
         "type": "General",
         "question": "How big should I chop the mushrooms for Stuffed Conchiglioni with Mushrooms, Ham, and Béchamel",
-        "expected_answer": "into 1/3 inch cubes"
+        "expected_answer": "into 1/3 inch cubes",
+        "gold_doc_id": ["doc_06d3284c77c192e6"],
+        "gold_chunk_ids": ["doc_06d3284c77c192e6#steps#0"],
+        "gold_section": ["steps"]
       },
       {
         "id": 82,
         "type": "General",
         "question": "Is there fish in Green ravioli stuffed with cod",
-        "expected_answer": "yes, cod"
+        "expected_answer": "yes, cod",
+        "gold_doc_id": ["doc_638c88ae84d11f13"],
+        "gold_chunk_ids": ["doc_638c88ae84d11f13#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 83,
@@ -861,85 +877,117 @@
           {
             "role": "user",
             "text": "Do you have a recipe for vegan handmade tagliatelle",
-            "expected_behavior": "yes, should mention eggless handmade tagliatelle and give instructions on how to make it"
+            "expected_behavior": "yes, should mention eggless handmade tagliatelle and give instructions on how to make it",
+            "gold_chunk_ids": ["doc_3e372afc62ed1e92#steps#0", "doc_3e372afc62ed1e92#steps#1", "doc_3e372afc62ed1e92#steps#2"],
+            "gold_section": ["steps"]
           },
           {
             "role": "user",
             "text": "I do not have enough semolina at home, can I use a mix of all-purpose flour and semolina",
-            "expected_answer": "yes, but you will need to slightly reduce the amount of water, adjusting based on the consistency of the mixture."
+            "expected_answer": "yes, but you will need to slightly reduce the amount of water, adjusting based on the consistency of the mixture.",
+            "gold_chunk_ids": ["doc_638c88ae84d11f13#steps#2"],
+            "gold_section": ["steps"]
           },
           {
             "role": "user",
             "text": "How long should the pasta boil for",
-            "expected_answer": "drain them as soon as they rise to the surface"
+            "expected_answer": "drain them as soon as they rise to the surface",
+            "gold_chunk_ids": ["doc_638c88ae84d11f13#steps#2"],
+            "gold_section": ["steps"]
           }
-        ]
+        ],
+        "gold_doc_id": ["doc_3e372afc62ed1e92"]
       },
       {
         "id": 84,
         "type": "General",
         "question": "Give me 2 recipes of tiramisu that do not use coffee",
-        "expected_behavior": "gives at least 2 recipes without coffe (e.g. apricot tiramisu, Tiramisu with Pan di Stelle® cookies, Black Forest Tiramisu, Strawberry tiramisu with limoncello cream, pineapple tiramisu, lemon tiramisu, Strawberry tiramisu without eggs, Colomba tiramisu, orange tiramisu, Pandoro tiramisù with wild berries, Strawberry tiramisù, Wild berry tiramisù"
+        "expected_behavior": "gives at least 2 recipes without coffe (e.g. apricot tiramisu, Tiramisu with Pan di Stelle® cookies, Black Forest Tiramisu, Strawberry tiramisu with limoncello cream, pineapple tiramisu, lemon tiramisu, Strawberry tiramisu without eggs, Colomba tiramisu, orange tiramisu, Pandoro tiramisù with wild berries, Strawberry tiramisù, Wild berry tiramisù",
+        "gold_doc_id": []
       }, 
       {
         "id": 85,
         "type": "Ingredients",
         "question": "Do I need sweetened cocoa powder for Easy Cocoa Bundt Cake",
-        "expected_answer": "no, unsweetened cocoa powder"
+        "expected_answer": "no, unsweetened cocoa powder",
+        "gold_doc_id": ["doc_a7cf1dd57ba1eb8b"],
+        "gold_chunk_ids": ["doc_a7cf1dd57ba1eb8b#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 86,
         "type": "Ingredients",
         "question": "How many prawns do I need for crispy prawns",
-        "expected_answer": "12"
+        "expected_answer": "12",
+        "gold_doc_id": ["doc_e88c9511016442dc"],
+        "gold_chunk_ids": ["doc_e88c9511016442dc#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 87,
         "type": "Ingredients",
         "question": "Do I need 1 or 2 teaspoons of brown sugar for Thick piadina romagnola",
-        "expected_answer": "12"
+        "expected_answer": "1 teaspoon",
+        "gold_doc_id": ["doc_b06a7c9a8a4dcad4"],
+        "gold_chunk_ids": ["doc_b06a7c9a8a4dcad4#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 88,
         "type": "Instructions",
-        "question": "What should I do first when preparing airfryer calamari",
-        "expected_answer": "first clean the calamari. Pull the tentacles away and keep them aside. Empty the inside of the mantle, extract the cartilage and peel the squid .Take back the tentacles, cut the part of the eyes and remove the beak that is in the center. Continue in this way until all the squids are cleaned"
+        "question": "What should I do first when preparing air fryer calamari",
+        "expected_answer": "first clean the calamari. Pull the tentacles away and keep them aside. Empty the inside of the mantle, extract the cartilage and peel the squid .Take back the tentacles, cut the part of the eyes and remove the beak that is in the center. Continue in this way until all the squids are cleaned",
+        "gold_doc_id": ["doc_875b78fd5dee593b"],
+        "gold_chunk_ids": ["doc_875b78fd5dee593b#steps#0"],
+        "gold_section": ["steps"]
       },
       {
         "id": 89,
         "type": "General",
         "question": "Is it expensive to make Venetian style cod",
-        "expected_answer": "yes"
+        "expected_answer": "yes",
+        "gold_doc_id": ["doc_fad69d14ac963dc7"],
+        "gold_chunk_ids": ["doc_fad69d14ac963dc7#info#0"],
+        "gold_section": ["info"]
       },
       {
         "id": 90,
         "type": "Instructions",
-        "question": "Briefly explain how to make Sbrisolona",
-        "expected_behavior": "short explanation including the main steps: create a mound using all the types of flour, put butter, salt, eggs and sugar in middle and start kneading, while kneading add remaining ingredients, press the dough down on a baking sheet and let rest for 4 hours in freezer, then crumble the dough using a grater (cooling rack), spread the crumbs across an aluminum mold (no pressing), cook for 45 min in oven (170 °C), let cool, remove mold and serve)"
+        "question": "Briefly explain how to make Sbrisolona (almond crumble)",
+        "expected_behavior": "short explanation including the main steps: create a mound using all the types of flour, put butter, salt, eggs and sugar in middle and start kneading, while kneading add remaining ingredients, press the dough down on a baking sheet and let rest for 4 hours in freezer, then crumble the dough using a grater (cooling rack), spread the crumbs across an aluminum mold (no pressing), cook for 45 min in oven (170 °C), let cool, remove mold and serve)",
+        "gold_doc_id": ["doc_432a7531e2ddc273"],
+        "gold_chunk_ids": ["doc_432a7531e2ddc273#steps#0", "doc_432a7531e2ddc273#steps#1", "doc_432a7531e2ddc273#steps#2"],
+        "gold_section": ["steps"]
       },
       {
         "id": 91,
         "type": "General",
-        "question": "Is it expensive to make Venetian style cod",
-        "expected_answer": "yes"
+        "question": "Is it difficult to make Green tea and chocolate cake",
+        "expected_answer": "very difficult",
+        "gold_doc_id": ["doc_1d8d7c5db0559d3a"],
+        "gold_chunk_ids": ["doc_1d8d7c5db0559d3a#info#0"],
+        "gold_section": ["info"]
       },
       {
         "id": 92,
         "type": "General",
         "question": "Give a suggestion of a dish that is very easy to make, low cost and serves 8 people",
-        "expected_behavior": "Gives a suggestion that satisfies all conditions (partial points if only 2/3) (e.g. 7 Jar Cake with Cocoa, Cake with mascarpone in the batter, Hummus without tahini)"
+        "expected_behavior": "Gives a suggestion that satisfies all conditions (partial points if only 2/3) (e.g. 7 Jar Cake with Cocoa, Cake with mascarpone in the batter, Hummus without tahini)",
+        "gold_doc_id": []
       },
       {
         "id": 93,
         "type": "General",
-        "question": "Give 3 suggestions of desserts that do not require an oven to make it (and I do not like tiramisu)",
-        "expected_behavior": "Gives 3 suggestions of desserts that are made without an oven and is not a variation of tiramisu (e.g. Persian Saffron Rice Pudding, Saffron Rice Pudding, Classic vanilla pudding)"
+        "question": "Give 3 suggestions of desserts that do not require an oven or air fryer to make it (and I do not like tiramisu and chocolate)",
+        "expected_behavior": "Gives 3 suggestions of desserts that are made without an oven/air fryer, requires no chocolate, and is not a variation of tiramisu (e.g. Persian Saffron Rice Pudding, Saffron Rice Pudding, Classic vanilla pudding)",
+        "gold_doc_id": []
       },
       {
         "id": 94,
         "type": "General",
         "question": "Do you know a cocktail recipe that uses whiskey",
-        "expected_behavior": "Gives a suggestion of a cocktail that uses whiskey (e.g. whiskey sour)"
+        "expected_behavior": "Gives a suggestion of a cocktail that uses whiskey (e.g. whiskey sour)",
+        "gold_doc_id": ["doc_0965f2f74845cc0e", "doc_0d808627b471a40f", "doc_8471537cf7fb5f55", "doc_9ac11d6171e5d97f", "doc_9ec31366b5694c54"]
       }, 
       {
         "id": 95,
@@ -948,29 +996,39 @@
           {
             "role": "user",
             "text": "Does eggnog use alcohol",
-            "expected_answer": "yes, brandy"
+            "expected_answer": "yes, brandy",
+            "gold_chunk_ids": ["doc_8471537cf7fb5f55#ingredients#0"],
+            "gold_section": ["ingredients"]
           }, 
           {
             "role": "user",
             "text": "I don't like brandy, can I use a different liqueur",
-            "expected_answer": "brandy can be substituted with bourbon or cognac"
+            "expected_answer": "brandy can be substituted with bourbon or cognac",
+            "gold_chunk_ids": ["doc_8471537cf7fb5f55#steps#1"],
+            "gold_section": ["steps"]
           },
           {
             "role": "user",
             "text": "are the eggs raw in eggnog", 
-            "expected_answer": "This version of eggnog is cooked, similar to a custard, so it is much safer than the raw version"
+            "expected_answer": "This version of eggnog is cooked, similar to a custard, so it is much safer than the raw version",
+            "gold_chunk_ids": ["doc_8471537cf7fb5f55#steps#1"],
+            "gold_section": ["steps"]
           },
           {
             "role": "user",
             "text": "what is the total time needed to make it",
-            "expected_answer": "35 min (20 + 15 min)"
+            "expected_answer": "35 min (20 + 15 min)",
+            "gold_chunk_ids": ["doc_8471537cf7fb5f55#info#0"],
+            "gold_section": ["info"]
           }, 
           {
             "role": "user",
             "text": "I will have a lot of bourbon left, do you know any drinks that use bourbon",
-            "expected_behavior": "Give suggestion of drink with bourbon, e.g. whiskey sour, kentucky mule (variation of moscow mule)"
+            "expected_behavior": "Give suggestion of drink with bourbon, e.g. whiskey sour, kentucky mule (variation of moscow mule)",
+            "gold_chunk_ids": ["doc_0d808627b471a40f", "doc_9ec31366b5694c54"]
           }
-        ]
+        ],
+        "gold_doc_id": ["doc_8471537cf7fb5f55"]
       },
       {
         "id": 96,
@@ -982,19 +1040,18 @@
         "id": 97,
         "type": "General",
         "question": "How to make eggnog without alcohol",
-        "expected_behavior": "mention it is does not know a recipe of eggnog without alcohol, but you could adjust the amount of alcohol to make a less alcoholic version"
+        "expected_behavior": "mention it is does not know a recipe of eggnog without alcohol, but you could adjust the amount of alcohol to make a less alcoholic version",
+        "gold_chunk_ids": ["doc_8471537cf7fb5f55#steps#1"],
+        "gold_section": ["steps"]
       }, 
       {
         "id": 98,
         "type": "General",
         "question": "How to make eggless carbonara",
-        "expected_behavior": "should mention the steps mentioned in Vegetarian Carbonara"
-      },
-      {
-        "id": 99,
-        "type": "Instructions",
-        "question": "How long should I bake it",
-        "expected_behavior": "Should ask a clarification question if the recipe has not been specified."
+        "expected_behavior": "should mention the steps mentioned in Vegetarian Carbonara",
+        "gold_doc_id": ["doc_b794ea8f4e4e850f"],
+        "gold_chunk_ids": ["doc_b794ea8f4e4e850f#ingredients#0"],
+        "gold_section": ["ingredients"]
       },
       {
         "id": 99,
@@ -1009,14 +1066,19 @@
           {
             "role": "user",
             "text": "How many shrimp do I need for Flatbread with shrimp, zucchini flowers, and salad",
-            "expected_answer": "16"
+            "expected_answer": "16",
+            "gold_chunk_ids": ["doc_b794ea8f4e4e850f#ingredients#0"],
+            "gold_section": ["ingredients"]
           },
           {
             "role": "user",
             "text": "Is that in total or per person",
-            "expected_answer": "in total"
+            "expected_answer": "in total",
+            "gold_chunk_ids": ["doc_b794ea8f4e4e850f#ingredients#0"],
+            "gold_section": ["ingredients"]
           }
-        ]
+        ],
+        "gold_doc_id": ["doc_0293a03f3b89bfbe"]
       }
     ]
   }
