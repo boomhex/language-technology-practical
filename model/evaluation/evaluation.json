@@ -162,14 +162,16 @@
         "type": "general",
         "question": "Which recipes use seafood?",
         "expected_behavior": "Should mention some recipes with seafood (e.g. Codfish Salad, Pistachio Shrimp Skewers); grounded in context.", 
-        "gold_doc_id": []
+        "gold_doc_id": [],
+        "gold_doc_id_file": "gold_sets/seafood_doc_ids.json"
       },
       {
         "id": 19,
         "type": "general",
         "question": "Which recipes contain eggs?",
         "expected_behavior": "Mention only recipes whose ingredients include eggs",
-        "gold_doc_id": []
+        "gold_doc_id": [],
+        "gold_doc_id_file": "gold_sets/egg_doc_ids.json"
       },
       {
         "id": 20,
@@ -400,7 +402,8 @@
         "type": "General",
         "question": "Give me 3 dessert suggestions containing fruits",
         "expected_behavior": "gives 3 dessert options with fruits, e.g. Chocolate and Apricot Cakes, Black Forest Semifreddo, tropical cake",
-        "gold_doc_id": []
+        "gold_doc_id": [],
+        "gold_doc_id_file": "gold_sets/dessert_fruit_doc_ids_fragile_tart.json"
       },
       {
         "id": 39,
@@ -491,7 +494,8 @@
         "type": "General",
         "question": "I have tomatoes, basil, mozzarella and spinach lying in my fridge, what can I make",
         "expected_behavior": "suggestion of recipe containing at least 3 these ingredients",
-        "gold_doc_id": []
+        "gold_doc_id": [],
+        "gold_doc_id_file": "gold_sets/tomato_spinach_mozzarella_basil_any3_doc_ids.json"
       },
       {
         "id": 48,
@@ -823,7 +827,8 @@
         "type": "General",
         "question": "What variations of lasagna do you recommend",
         "expected_behavior": "gives at least 1 variation of lasagna (e.g. lasagna pockets, seafood lasagna, pumpkin and speck lasagna, vegetarian lasagna, lasagna with swiss chard, lasagna with lentil ragù, crepe lasagna with vegetables, lasagna with asparagus and sausage, etc.",
-        "gold_doc_id": []
+        "gold_doc_id": [],
+        "gold_doc_id_file": "gold_sets/lasagna_doc_ids.json"
       }, 
       {
         "id": 78,
@@ -903,7 +908,8 @@
         "type": "General",
         "question": "Give me 2 recipes of tiramisu that do not use coffee",
         "expected_behavior": "gives at least 2 recipes without coffe (e.g. apricot tiramisu, Tiramisu with Pan di Stelle® cookies, Black Forest Tiramisu, Strawberry tiramisu with limoncello cream, pineapple tiramisu, lemon tiramisu, Strawberry tiramisu without eggs, Colomba tiramisu, orange tiramisu, Pandoro tiramisù with wild berries, Strawberry tiramisù, Wild berry tiramisù",
-        "gold_doc_id": []
+        "gold_doc_id": [],
+        "gold_doc_id_file": "gold_sets/tiramisu_no_coffee_doc_ids.json"
       }, 
       {
         "id": 85,
@@ -973,14 +979,16 @@
         "type": "General",
         "question": "Give a suggestion of a dish that is very easy to make, low cost and serves 8 people",
         "expected_behavior": "Gives a suggestion that satisfies all conditions (partial points if only 2/3) (e.g. 7 Jar Cake with Cocoa, Cake with mascarpone in the batter, Hummus without tahini)",
-        "gold_doc_id": []
+        "gold_doc_id": [],
+        "gold_doc_id_file": "gold_sets/very_easy_low_cost_serves_8_doc_ids.json"
       },
       {
         "id": 93,
         "type": "General",
         "question": "Give 3 suggestions of desserts that do not require an oven or air fryer to make it (and I do not like tiramisu and chocolate)",
         "expected_behavior": "Gives 3 suggestions of desserts that are made without an oven/air fryer, requires no chocolate, and is not a variation of tiramisu (e.g. Persian Saffron Rice Pudding, Saffron Rice Pudding, Classic vanilla pudding)",
-        "gold_doc_id": []
+        "gold_doc_id": [],
+        "gold_doc_id_file": "gold_sets/dessert_no_oven_no_airfryer_doc_ids.json"
       },
       {
         "id": 94,
