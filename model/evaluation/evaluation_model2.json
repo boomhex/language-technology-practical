@@ -213,14 +213,14 @@
         "turns": [
           {
             "role": "user",
-            "question":  "What kind of mushrooms do I need for mushroom meatloaf",
+            "text":  "What kind of mushrooms do I need for mushroom meatloaf",
             "expected_answer": ["king oyster mushrooms", "champignon mushrooms", "porcini mushrooms"], 
             "gold_chunk_ids": ["doc_e12bc27c39167b5d#ingredients#0"],
             "gold_section": ["ingredients"]
           },
           {
             "role": "user",
-            "question": "Can I use any other kind of mushroom as well?",
+            "text": "Can I use any other kind of mushroom as well?",
             "expected_answer": "For the meatloaf, you can vary the type of mushrooms and beans as you prefer. If you use portobello mushrooms, make sure to brown them well to avoid them being watery.",
             "gold_chunk_ids": ["doc_a5dbac13d702aab5#steps#2"],
             "gold_section": ["steps"]
@@ -230,7 +230,7 @@
       },
       {
         "id": 25,
-        "type": "General",
+        "type": "general",
         "question": "How difficult is it to make Zucchini parmigiana",
         "expected_answer": "Easy",
         "gold_doc_id": ["doc_fcef9a3c4cff3f08"],
@@ -239,7 +239,7 @@
       },
       {
         "id": 26,
-        "type": "General",
+        "type": "general",
         "question": "How high are the costs of ingredients for Vegetarian Lasagna",
         "expected_answer": "Average",
         "gold_doc_id": ["doc_b6886f2db4eb2b6e"],
@@ -248,7 +248,7 @@
       },
       {
         "id": 27,
-        "type": "General",
+        "type": "general",
         "question": "How long can I store Panettone risotto in the refrigerator",
         "expected_answer": "maximum of one day",
         "gold_doc_id": ["doc_22742fe75056a8c5"],
@@ -257,7 +257,7 @@
       },
       {
         "id": 28,
-        "type": "General",
+        "type": "general",
         "question": "How many people does Cima alla genovese serve",
         "expected_answer": "8",
         "gold_doc_id": ["doc_beb45df75dc04a91"],
@@ -266,7 +266,7 @@
       },
       {
         "id": 29,
-        "type": "General",
+        "type": "general",
         "question": "What is the preparation time of Pasta with arugula pesto and asparagus",
         "expected_answer": "20 min",
         "gold_doc_id": ["doc_e17deda74bd052ca"],
@@ -275,7 +275,7 @@
       },
       {
         "id": 30,
-        "type": "General",
+        "type": "general",
         "question": "Does nutella tartlets contain nuts",
         "expected_answer": "yes",
         "gold_doc_id": ["doc_e258569dce5a0016"],
@@ -284,7 +284,7 @@
       },
       {
         "id": 31,
-        "type": "Instructions",
+        "type": "instructions",
         "question": "How do I make the sauce for the Salmon fillet with green pepper, ginger and lime",
         "expected_answer": "First, peel the ginger , then pour the sour cream into a saucepan , let it heat for a moment over high heat, and deglaze with the brandy .Add the grated ginger , a pinch of salt , stir to combine the ingredients and turn off the heat",
         "gold_doc_id": ["doc_92dfa1f36bdd342c"],
@@ -363,7 +363,7 @@
       },
       {
         "id": 34,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "How many eggs do I need for Chestnut Flour Cantucci with Almonds and Chocolate",
         "expected_answer": "2 medium eggs",
         "gold_doc_id": ["doc_b3e59eebf17cd0bb"],
@@ -372,7 +372,7 @@
       },
       {
         "id": 35,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "What kind of tomatoes do I need for Roasted Tomato Pesto",
         "expected_answer": "Datterino tomatoes",
         "gold_doc_id": ["doc_34a8b6c0feb3c2d2"],
@@ -381,7 +381,7 @@
       },
       {
         "id": 36,
-        "type": "General",
+        "type": "general",
         "question": "What is the total time I need to make Ciaudedda",
         "expected_answer": "75 minutes",
         "gold_doc_id": ["doc_ee4b09c39fed1ff1"],
@@ -390,7 +390,7 @@
       },
       {
         "id": 37,
-        "type": "Instructions",
+        "type": "instructions",
         "question": "What is the last step of making Puccia with burrata and zucchini flowers",
         "expected_answer": "Add the fried zucchini flowers , season with basil leaves and a bit of pepper to taste. Serve your pucce immediately ",
         "gold_doc_id": ["doc_9610d6ebf280ede5"],
@@ -399,7 +399,7 @@
       },
       {
         "id": 38,
-        "type": "General",
+        "type": "general",
         "question": "Give me 3 dessert suggestions containing fruits",
         "expected_behavior": "gives 3 dessert options with fruits, e.g. Chocolate and Apricot Cakes, Black Forest Semifreddo, tropical cake",
         "gold_doc_id": [],
@@ -407,7 +407,7 @@
       },
       {
         "id": 39,
-        "type": "Instructions",
+        "type": "instructions",
         "question": "How long does the zebra cake need to bake",
         "expected_answer": "Bake in a preheated static oven at 350°F for 55-60 minutes",
         "gold_doc_id": ["doc_d17ff8617f9c97c3"],
@@ -416,7 +416,7 @@
       },
       {
         "id": 40,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "Do I need a lemon peel or an orange peel for Whole Wheat Sponge Cake",
         "expected_answer": "Lemon peel",
         "gold_doc_id": ["doc_80b3c14771c55959"],
@@ -425,7 +425,7 @@
       },
       {
         "id": 41,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "Do I need yellow or purple cauliflower for Vegetable and Bulgur Soup",
         "expected_answer": "both yellow and purple",
         "gold_doc_id": ["doc_3cd6cbe521da5852"],
@@ -455,7 +455,7 @@
       },
       {
         "id": 43,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "Is the Lemon plumcake without butter dairy-free",
         "expected_answer": "yes",
         "gold_doc_id": ["doc_c5ea9a2cc756e256"],
@@ -464,7 +464,7 @@
       }, 
       {
         "id": 44,
-        "type": "Instructions",
+        "type": "instructions",
         "question": "how long does kimchi need to ferment for",
         "expected_answer": "at least 1 week at room temperature or 2 weeks in the fridge",
         "gold_doc_id": ["doc_b2cd950abcda4a8f"],
@@ -473,7 +473,7 @@
       },
       {
         "id": 45,
-        "type": "General",
+        "type": "general",
         "question": "Are the Gluten-Free Pancakes vegan",
         "expected_answer": "no",
         "gold_doc_id": ["doc_5d7745512b9ada0d"],
@@ -482,7 +482,7 @@
       },
       {
         "id": 46,
-        "type": "General",
+        "type": "general",
         "question": "Is the Gratinated Fennel in a Pan vegetarian",
         "expected_answer": "yes",
         "gold_doc_id": ["doc_8b6de71153d1df23"],
@@ -491,7 +491,7 @@
       },
       {
         "id": 47,
-        "type": "General",
+        "type": "general",
         "question": "I have tomatoes, basil, mozzarella and spinach lying in my fridge, what can I make",
         "expected_behavior": "suggestion of recipe containing at least 3 these ingredients",
         "gold_doc_id": [],
@@ -499,7 +499,7 @@
       },
       {
         "id": 48,
-        "type": "Instructions",
+        "type": "instructions",
         "question": "what is the first step of making Chaffle",
         "expected_answer": "first grate the provolone cheese with a large-hole grater",
         "gold_doc_id": ["doc_b55fd32a0e7f1908"],
@@ -508,7 +508,7 @@
       },
       {
         "id": 49,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "What kind of flour do I need for soft lemon muffins",
         "expected_answer": "Type 00 flour",
         "gold_doc_id": ["doc_8a81dbc8a2d48952"],
@@ -517,7 +517,7 @@
       },
       {
         "id": 50,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "What ingredients do I need for Eggs en Cocotte",
         "expected_answer": ["eggs", "butter", "fine salt", "black pepper"],
         "gold_doc_id": ["doc_ab634f2a6d60bb4e"],
@@ -624,7 +624,7 @@
       },
       {
         "id": 60,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "I would like to make Pasta with pesto and cherry tomatoes but I do not have basil. What can I use instead",
         "expected_answer": "You can substitute basil with arugula",
         "gold_doc_id": ["doc_f65a72db74059a1b"],
@@ -633,7 +633,7 @@
       },
       {
         "id": 61,
-        "type": "General",
+        "type": "general",
         "question": "What tools do I need to make lemon pesto",
         "expected_answer": "A peeler and a mixer",
         "gold_doc_id": ["doc_06f0edd2def4c58f"],
@@ -642,7 +642,7 @@
       },
       {
         "id": 62,
-        "type": "Instructions",
+        "type": "instructions",
         "question": "How to make Seafood Panzanella",
         "expected_behavior": "Should mention steps on how to make them, including cleaning the squid, slicing the mantles into rings, cleaning the shrimp, cooking the squid and shrimp in a pan, cleaning the mussels, preparing the vegetables, cutting the bread into cubes, assembling the dish, and seasoning",
         "gold_doc_id": ["doc_c9b1361544023f72"],
@@ -651,7 +651,7 @@
       },
       {
         "id": 63,
-        "type": "General",
+        "type": "general",
         "question": "how many people does Savory Pie with Potatoes and Bacon serve",
         "expected_answer": "4 servings",
         "gold_doc_id": ["doc_a44be626388ae382"],
@@ -660,7 +660,7 @@
       }, 
       {
         "id": 64,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "What jam should I use for jam tart",
         "expected_answer": "your choice (apricot, cherry, strawberry, etc.)",
         "gold_doc_id": ["doc_6d088995dc7a1dd5"],
@@ -669,7 +669,7 @@
       }, 
       {
         "id": 65,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "Do I need basil or mint for Beetroot Culurgiones with Potatoes and Blue Cheese Sauce",
         "expected_answer": "mint",
         "gold_doc_id": ["doc_825c20bc0458e937"],
@@ -678,7 +678,7 @@
       }, 
       {
         "id": 66,
-        "type": "Instructions",
+        "type": "instructions",
         "question": "Should I leave the skin on the pumpkin for pumpkin in the pan",
         "expected_answer": "It is recommended to leave the skin on, so the pumpkin does not fall apart during cooking",
         "gold_doc_id": ["doc_0b6af1a72e4913f2"],
@@ -687,7 +687,7 @@
       },
       {
         "id": 67,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "How many ingredients do I need for Red lentil tofu",
         "expected_answer": "3 ingredients (red lentils, water, and fine salt)",
         "gold_doc_id": ["doc_378522bffbea9754"],
@@ -696,7 +696,7 @@
       },
       {
         "id": 68,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "What herbs do I need for crispy baked chickpeas",
         "expected_answer": "thyme, rosemary, and oregano",
         "gold_doc_id": ["doc_19db65fd3dc0bdd3"],
@@ -705,7 +705,7 @@
       },
       {
         "id": 69,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "How many grams of butter do I need for Fried Doughnuts",
         "expected_answer": "30 grams",
         "gold_doc_id": ["doc_e426bc7181908ca5"],
@@ -714,14 +714,14 @@
       },
       {
         "id": 70,
-        "type": "General",
+        "type": "general",
         "question": "Give a suggestion for a dish that uses rice oil",
         "expected_behavior": "suggests a dish using rice oil (e.g. Wholemeal biscuits without butter, Butterless Croissants, Cake terai, fekkas",
         "gold_doc_id": ["doc_341ef4f51598f96f", "doc_4bdfb677eaa22ca8", "doc_8470b61601adca17", "doc_cc43d40f4fdbedbb"]
       },
       {
         "id": 71,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "Should the coffee for the Zeppole with mascarpone cream and coffee be hot or cold",
         "expected_answer": "cold",
         "gold_doc_id": ["doc_5059fba3838df211"],
@@ -772,7 +772,7 @@
       },
       {
         "id": 73,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "Can I use a different cheese than mozzarella for Anchovy Parmigiana",
         "expected_answer": "buffalo mozzarella can be replaced with caciocavallo or another melting cheese",
         "gold_doc_id": ["doc_77ea8bac85a08752"],
@@ -781,7 +781,7 @@
       },
       {
         "id": 74,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "Is 2 medium eggs enough to make Eggplants a pullastiello",
         "expected_answer": "yes",
         "gold_doc_id": ["doc_63ebbeeb6ae577b8"],
@@ -790,7 +790,7 @@
       }, 
       {
         "id": 75,
-        "type": "General",
+        "type": "general",
         "question": "What kind of knife should I use to open the oysters for Oysters with champagne and spring onion",
         "expected_answer": "a special thin-bladed knife",
         "gold_doc_id": ["doc_2564519cc2538129"],
@@ -799,7 +799,7 @@
       }, 
       {
         "id": 76,
-        "type": "Instructions",
+        "type": "instructions",
         "question": "At what temperature should I preheat the oven for stuffed pasta shells",
         "expected_answer": "415° F (220° C)",
         "gold_doc_id": ["doc_0f2aec6fc3005631"],
@@ -808,7 +808,7 @@
       }, 
       {
         "id": 77,
-        "type": "General",
+        "type": "general",
         "question": "What variations of lasagna do you recommend",
         "expected_behavior": "gives at least 1 variation of lasagna (e.g. lasagna pockets, seafood lasagna, pumpkin and speck lasagna, vegetarian lasagna, lasagna with swiss chard, lasagna with lentil ragù, crepe lasagna with vegetables, lasagna with asparagus and sausage, etc.",
         "gold_doc_id": [],
@@ -816,7 +816,7 @@
       }, 
       {
         "id": 78,
-        "type": "General",
+        "type": "general",
         "question": "Do I need an oven to make Peach Skillet Cake",
         "expected_answer": "No, the peach skillet cake is cooked like an omelet, at a very low flame and with a lid",
         "gold_doc_id": ["doc_d9895d0032cbe4ff"],
@@ -825,7 +825,7 @@
       }, 
       {
         "id": 79,
-        "type": "Instructions",
+        "type": "instructions",
         "question": "How can I achieve the perfect crumble for the vegetable crumble",
         "expected_answer": "To achieve a perfect crumble, pay attention to the temperature, which should not be too high, otherwise the dough will burn on the outside while remaining raw inside",
         "gold_doc_id": ["doc_9eb6a92081a68bf6"],
@@ -834,7 +834,7 @@
       }, 
       {
         "id": 80,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "Should I use white or bleck pepper for Potato Gnocchi Without Flour",
         "expected_answer": "both",
         "gold_doc_id": ["doc_5012028a945231f0"],
@@ -843,16 +843,16 @@
       },
       {
         "id": 81,
-        "type": "General",
+        "type": "general",
         "question": "How big should I chop the mushrooms for Stuffed Conchiglioni with Mushrooms, Ham, and Béchamel",
         "expected_answer": "into 1/3 inch cubes",
         "gold_doc_id": ["doc_06d3284c77c192e6"],
-        "gold_chunk_ids": ["doc_06d3284c77c192e6#steps#0"],
+        "gold_chunk_ids": ["doc_06d3284c77c192e6#steps#1"],
         "gold_section": ["steps"]
       },
       {
         "id": 82,
-        "type": "General",
+        "type": "general",
         "question": "Is there fish in Green ravioli stuffed with cod",
         "expected_answer": "yes, cod",
         "gold_doc_id": ["doc_638c88ae84d11f13"],
@@ -889,7 +889,7 @@
       },
       {
         "id": 84,
-        "type": "General",
+        "type": "general",
         "question": "Give me 2 recipes of tiramisu that do not use coffee",
         "expected_behavior": "gives at least 2 recipes without coffe (e.g. apricot tiramisu, Tiramisu with Pan di Stelle® cookies, Black Forest Tiramisu, Strawberry tiramisu with limoncello cream, pineapple tiramisu, lemon tiramisu, Strawberry tiramisu without eggs, Colomba tiramisu, orange tiramisu, Pandoro tiramisù with wild berries, Strawberry tiramisù, Wild berry tiramisù",
         "gold_doc_id": [],
@@ -897,7 +897,7 @@
       }, 
       {
         "id": 85,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "Do I need sweetened cocoa powder for Easy Cocoa Bundt Cake",
         "expected_answer": "no, unsweetened cocoa powder",
         "gold_doc_id": ["doc_a7cf1dd57ba1eb8b"],
@@ -906,7 +906,7 @@
       },
       {
         "id": 86,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "How many prawns do I need for crispy prawns",
         "expected_answer": "12",
         "gold_doc_id": ["doc_e88c9511016442dc"],
@@ -915,7 +915,7 @@
       },
       {
         "id": 87,
-        "type": "Ingredients",
+        "type": "ingredients",
         "question": "Do I need 1 or 2 teaspoons of brown sugar for Thick piadina romagnola",
         "expected_answer": "1 teaspoon",
         "gold_doc_id": ["doc_b06a7c9a8a4dcad4"],
@@ -924,7 +924,7 @@
       },
       {
         "id": 88,
-        "type": "Instructions",
+        "type": "instructions",
         "question": "What should I do first when preparing air fryer calamari",
         "expected_answer": "first clean the calamari. Pull the tentacles away and keep them aside. Empty the inside of the mantle, extract the cartilage and peel the squid .Take back the tentacles, cut the part of the eyes and remove the beak that is in the center. Continue in this way until all the squids are cleaned",
         "gold_doc_id": ["doc_875b78fd5dee593b"],
@@ -933,7 +933,7 @@
       },
       {
         "id": 89,
-        "type": "General",
+        "type": "general",
         "question": "Is it expensive to make Venetian style cod",
         "expected_answer": "yes",
         "gold_doc_id": ["doc_fad69d14ac963dc7"],
@@ -942,7 +942,7 @@
       },
       {
         "id": 90,
-        "type": "Instructions",
+        "type": "instructions",
         "question": "Briefly explain how to make Sbrisolona (almond crumble)",
         "expected_behavior": "short explanation including the main steps: create a mound using all the types of flour, put butter, salt, eggs and sugar in middle and start kneading, while kneading add remaining ingredients, press the dough down on a baking sheet and let rest for 4 hours in freezer, then crumble the dough using a grater (cooling rack), spread the crumbs across an aluminum mold (no pressing), cook for 45 min in oven (170 °C), let cool, remove mold and serve)",
         "gold_doc_id": ["doc_432a7531e2ddc273"],
@@ -951,7 +951,7 @@
       },
       {
         "id": 91,
-        "type": "General",
+        "type": "general",
         "question": "Is it difficult to make Green tea and chocolate cake",
         "expected_answer": "very difficult",
         "gold_doc_id": ["doc_1d8d7c5db0559d3a"],
@@ -960,7 +960,7 @@
       },
       {
         "id": 92,
-        "type": "General",
+        "type": "general",
         "question": "Give a suggestion of a dish that is very easy to make, low cost and serves 8 people",
         "expected_behavior": "Gives a suggestion that satisfies all conditions (partial points if only 2/3) (e.g. 7 Jar Cake with Cocoa, Cake with mascarpone in the batter, Hummus without tahini)",
         "gold_doc_id": [],
@@ -968,7 +968,7 @@
       },
       {
         "id": 93,
-        "type": "General",
+        "type": "general",
         "question": "Give 3 suggestions of desserts that do not require an oven or air fryer to make it (and I do not like tiramisu and chocolate)",
         "expected_behavior": "Gives 3 suggestions of desserts that are made without an oven/air fryer, requires no chocolate, and is not a variation of tiramisu (e.g. Persian Saffron Rice Pudding, Saffron Rice Pudding, Classic vanilla pudding)",
         "gold_doc_id": [],
@@ -976,7 +976,7 @@
       },
       {
         "id": 94,
-        "type": "General",
+        "type": "general",
         "question": "Do you know a cocktail recipe that uses whiskey",
         "expected_behavior": "Gives a suggestion of a cocktail that uses whiskey (e.g. whiskey sour)",
         "gold_doc_id": ["doc_0965f2f74845cc0e", "doc_0d808627b471a40f", "doc_8471537cf7fb5f55", "doc_9ac11d6171e5d97f", "doc_9ec31366b5694c54"]
@@ -1024,13 +1024,13 @@
       },
       {
         "id": 96,
-        "type": "General",
+        "type": "general",
         "question": "How to make spinach soup",
         "expected_behavior": "mention it is unsure/does not know a recipe for spinach soup"
       }, 
       {
         "id": 97,
-        "type": "General",
+        "type": "general",
         "question": "How to make eggnog without alcohol",
         "expected_behavior": "mention it is does not know a recipe of eggnog without alcohol, but you could adjust the amount of alcohol to make a less alcoholic version",
         "gold_chunk_ids": ["doc_8471537cf7fb5f55#steps#1"],
@@ -1038,7 +1038,7 @@
       }, 
       {
         "id": 98,
-        "type": "General",
+        "type": "general",
         "question": "How to make eggless carbonara",
         "expected_behavior": "should mention the steps mentioned in Vegetarian Carbonara",
         "gold_doc_id": ["doc_b794ea8f4e4e850f"],
@@ -1047,7 +1047,7 @@
       },
       {
         "id": 99,
-        "type": "Instructions",
+        "type": "instructions",
         "question": "How long should I bake it",
         "expected_behavior": "Should ask a clarification question if the recipe has not been specified."
       },
