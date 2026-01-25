@@ -1,10 +1,5 @@
-"""Run evaluation for model1 with retrieval + generation metrics.
-
-This script mirrors the evaluation logic from the final notebook:
-- Supports single-turn and multi-turn items
-- Computes retrieval metrics (MRR/Precision/Recall/Hit/nDCG) for doc_ids and chunk_ids
-- Computes generation metrics (heuristic accuracy, token-F1, cosine similarity)
-
+"""
+Run evaluation for model1 with retrieval + generation metrics.
 Output JSON includes a `summary` section plus per-item results.
 """
 

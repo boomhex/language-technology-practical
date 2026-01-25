@@ -1,3 +1,8 @@
+"""
+Error analysis script for week 3 error analysis
+Help identify what elements need more attention 
+"""
+
 import json
 from pathlib import Path
 
@@ -10,7 +15,7 @@ GEN_MODEL_NAME = "google/flan-t5-base"
 ENC_MODEL_NAME = "all-MiniLM-L6-v2"
 DEVICE = "cpu"
 CHUNK_TOKEN_SIZE = 400
-RECIPES = 12          # set to 200 when you’re ready
+RECIPES = 12          # set to 200 when available 
 TOPK = 3
 
 ROOT = Path(__file__).resolve().parents[1]  # the outer "model" dir
